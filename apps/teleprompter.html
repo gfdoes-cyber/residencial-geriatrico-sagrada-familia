@@ -1,0 +1,302 @@
+<title>Teleprompter GFES</title>
+<style>
+:root{
+  --bg:#0A0C10; --panel:#14181F; --line:#262C36; --ink:#F2F4F7; --muted:#8A94A3;
+  --accent:#D9A441; --accent-ink:#0A0C10;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+html,body{height:100%}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:"Seravek","Segoe UI",system-ui,-apple-system,sans-serif; overscroll-behavior:none}
+button{font:inherit; cursor:pointer; border:none; border-radius:8px}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+/* ===== EDITOR ===== */
+#editor{max-width:760px; margin:0 auto; padding:26px 18px 60px; display:flex; flex-direction:column; gap:18px}
+.brand{display:flex; align-items:baseline; justify-content:space-between; gap:10px}
+.brand h1{font-family:Georgia,serif; font-size:1.35rem; margin:0}
+.brand h1 b{color:var(--accent)}
+.brand .tag{color:var(--muted); font-size:.78rem; letter-spacing:.12em; text-transform:uppercase}
+.libwrap{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; display:flex; flex-direction:column; gap:10px}
+.libwrap .k{font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted)}
+.lib{display:flex; gap:8px; flex-wrap:wrap}
+.lib .item{display:inline-flex; align-items:stretch; border:1px solid var(--line); border-radius:8px; overflow:hidden}
+.lib .item button{border-radius:0; background:transparent; color:var(--ink); padding:8px 12px; font-size:.85rem}
+.lib .item button:hover{color:var(--accent)}
+.lib .item .del{color:var(--muted); border-left:1px solid var(--line); padding:8px 10px}
+.lib .item .del:hover{color:#E4674B}
+.saverow{display:flex; gap:8px}
+.saverow input{flex:1; background:var(--bg); border:1px solid var(--line); border-radius:8px; color:var(--ink); padding:10px 12px; font:inherit; font-size:.9rem}
+.saverow button{background:var(--accent); color:var(--accent-ink); font-weight:700; padding:0 18px}
+textarea{width:100%; min-height:38vh; background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:10px; padding:16px; font-size:1.05rem; line-height:1.6; resize:vertical}
+.row{display:flex; gap:12px; flex-wrap:wrap; align-items:stretch}
+.ctrl{flex:1 1 200px; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 16px}
+.ctrl label{display:flex; justify-content:space-between; font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-bottom:8px}
+.ctrl output{color:var(--accent); font-variant-numeric:tabular-nums}
+input[type=range]{width:100%; accent-color:var(--accent)}
+.toggle{display:flex; align-items:center; gap:10px; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; color:var(--ink); font-size:.95rem}
+.toggle input{width:20px; height:20px; accent-color:var(--accent)}
+.swatches{display:flex; align-items:center; gap:10px; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 16px; flex:1 1 200px}
+.swatches .k{font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-right:auto}
+.sw{width:34px; height:34px; border-radius:50%; border:2px solid var(--line); padding:0}
+.sw.on{border-color:var(--accent); box-shadow:0 0 0 2px var(--accent)}
+#start{background:var(--accent); color:var(--accent-ink); font-weight:700; font-size:1.15rem; padding:16px; letter-spacing:.02em}
+#start:active{filter:brightness(.92)}
+.hint{color:var(--muted); font-size:.85rem; text-align:center; margin:0}
+
+/* ===== PROMPTER ===== */
+#prompter{position:fixed; inset:0; background:#000; display:none; flex-direction:column; z-index:10}
+#progress{position:absolute; top:0; left:0; height:3px; background:var(--accent); width:0%; z-index:12}
+#scroller{flex:1; overflow:hidden; position:relative}
+#scroll-inner{padding:45vh 6vw; font-weight:600; text-align:center; line-height:1.5}
+#scroll-inner p{margin:0 0 1.1em; white-space:pre-wrap; text-wrap:balance}
+.mirrored #scroll-inner{transform:scaleX(-1)}
+#guide{position:absolute; top:38%; left:0; right:0; pointer-events:none; z-index:11; display:flex; justify-content:space-between; padding:0 8px}
+#guide::before,#guide::after{content:"◆"; color:var(--accent); font-size:14px; opacity:.85}
+#bar{display:flex; gap:8px; padding:10px max(10px, env(safe-area-inset-left)) max(14px, env(safe-area-inset-bottom)); background:#0009; backdrop-filter:blur(6px); position:absolute; bottom:0; left:0; right:0; z-index:12; transition:opacity .3s}
+#bar.hid{opacity:0; pointer-events:none}
+#bar button{background:#1D232D; color:var(--ink); padding:12px 0; flex:1; font-size:.95rem; min-width:0}
+#bar button.on{background:var(--accent); color:var(--accent-ink); font-weight:700}
+#count{position:absolute; inset:0; display:none; align-items:center; justify-content:center; font-size:8rem; font-weight:700; color:var(--accent); z-index:13; background:#000C; font-variant-numeric:tabular-nums}
+#tapzone{position:absolute; inset:0 0 70px 0; z-index:11; display:flex}
+#tapzone .z{flex:1}
+#tapzone .z:first-child,#tapzone .z:last-child{flex:0 0 22%}
+.flash{position:absolute; top:36%; z-index:12; color:var(--accent); font-size:2rem; opacity:0; transition:opacity .15s; pointer-events:none}
+.flash.l{left:14px} .flash.r{right:14px}
+.flash.show{opacity:.9}
+@media (prefers-reduced-motion: reduce){ #progress,#bar,.flash{transition:none} }
+</style>
+
+<div id="editor">
+  <div class="brand">
+    <h1>Tele<b>prompter</b></h1>
+    <span class="tag">GFES · roteiros</span>
+  </div>
+
+  <div class="libwrap">
+    <span class="k">Meus roteiros</span>
+    <div class="lib" id="lib"></div>
+    <div class="saverow">
+      <input id="sname" placeholder="Nome do roteiro atual…" maxlength="40">
+      <button type="button" id="savebtn">Salvar</button>
+    </div>
+  </div>
+
+  <textarea id="text" placeholder="Cole ou digite seu roteiro aqui… (parágrafos separados por linha em branco viram pontos de salto)" spellcheck="false"></textarea>
+
+  <div class="row">
+    <div class="ctrl">
+      <label>Velocidade <output id="ov">45</output></label>
+      <input type="range" id="speed" min="15" max="140" value="45" step="1" aria-label="Velocidade de rolagem">
+    </div>
+    <div class="ctrl">
+      <label>Tamanho da letra <output id="of">42</output></label>
+      <input type="range" id="fsize" min="24" max="80" value="42" step="1" aria-label="Tamanho da fonte">
+    </div>
+  </div>
+  <div class="row">
+    <div class="swatches" role="group" aria-label="Cor do texto">
+      <span class="k">Cor do texto</span>
+      <button type="button" class="sw on" data-c="#F2F4F7" style="background:#F2F4F7" aria-label="Branco"></button>
+      <button type="button" class="sw" data-c="#FFE14D" style="background:#FFE14D" aria-label="Amarelo"></button>
+      <button type="button" class="sw" data-c="#D9A441" style="background:#D9A441" aria-label="Âmbar"></button>
+    </div>
+    <label class="toggle" style="flex:1"><input type="checkbox" id="mirror"> Modo espelho</label>
+    <label class="toggle" style="flex:1"><input type="checkbox" id="cdown" checked> Contagem 3-2-1</label>
+  </div>
+
+  <button id="start" type="button">▶ &nbsp;Iniciar prompter</button>
+  <p class="hint">No prompter: toque no <b>centro</b> = pausar/continuar · toque nas <b>bordas</b> = parágrafo anterior/seguinte. Tudo fica salvo neste aparelho.</p>
+</div>
+
+<div id="prompter">
+  <div id="progress"></div>
+  <div id="guide"></div>
+  <div class="flash l" id="fl">⏮</div>
+  <div class="flash r" id="fr">⏭</div>
+  <div id="scroller"><div id="scroll-inner"></div></div>
+  <div id="count"></div>
+  <div id="tapzone">
+    <div class="z" data-act="prev" role="button" aria-label="Parágrafo anterior"></div>
+    <div class="z" data-act="toggle" role="button" aria-label="Pausar ou continuar"></div>
+    <div class="z" data-act="next" role="button" aria-label="Próximo parágrafo"></div>
+  </div>
+  <div id="bar">
+    <button id="b-back" type="button">✕ Sair</button>
+    <button id="b-restart" type="button">↺ Início</button>
+    <button id="b-slow" type="button">– Vel.</button>
+    <button id="b-play" type="button" class="on">⏸ Pausar</button>
+    <button id="b-fast" type="button">+ Vel.</button>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var BUILTIN = [
+{name:"📜 Mais maior", locked:true, text:"Mais maior?! Se você já falou isso, fica até o final, porque tem uma pegadinha que quase ninguém conhece.\n\nOlha só: maior já significa mais grande. Ele já é um comparativo. Então dizer mais maior é dizer mais mais grande. Tá sobrando um mais, concorda?\n\nO português tem quatro palavrinhas assim, que já nascem comparativas. Grande vira maior. Pequeno vira menor. Bom vira melhor. E mau vira pior. Por isso, nunca diga mais maior, mais melhor, nem mais pior.\n\nAgora, a pegadinha. Existe uma situação em que mais grande e mais bom estão certíssimos. É quando você compara duas qualidades da mesma pessoa ou da mesma coisa. Por exemplo: esse sofá é mais grande do que confortável. Ele é mais bom do que esperto. Nesse caso, usar maior ou melhor é que seria errado.\n\nResumindo: comparando coisas diferentes, use maior. Comparando duas qualidades da mesma coisa, use mais grande do que.\n\nSalva esse vídeo pra não esquecer. E me conta aqui nos comentários: qual desses você já falou?"},
+{name:"🤝 Contrato de boca", locked:true, text:"Fechou negócio no aperto de mão? Eu tenho uma notícia boa e uma péssima pra você.\n\nA boa: contrato verbal vale, sim. No Brasil, a lei não exige papel pra maioria dos contratos. Compra, venda, serviço, aluguel. O acordo nasce quando as duas partes dizem: fechado.\n\nA péssima: valer é uma coisa. Provar é outra. Se o outro lado negar, o que você mostra pro juiz? Contrato de boca vira a palavra de um contra a do outro. E quem não prova, perde.\n\nEntão grava essas três proteções, do mínimo pro ideal.\n\nUm: conversa por escrito. WhatsApp e e-mail são prova. Confirme por mensagem o que combinou. Conforme falamos, ficou tanto, entrega dia tal.\n\nDois: comprovante de pagamento. Pix com descrição. Nunca dinheiro sem recibo.\n\nTrês: contrato escrito mesmo, nem que seja de uma página. Quem, o quê, quanto, quando, e o que acontece se descumprir. São cinco perguntas. Respondeu as cinco, você tem um contrato.\n\nContrato bom não é o que tem palavra difícil. É o que responde essas cinco perguntas antes do problema aparecer.\n\nSalva esse vídeo e manda pra aquele amigo que fecha tudo no aperto de mão."}
+];
+
+var $ = function(id){ return document.getElementById(id); };
+var txt=$('text'), speed=$('speed'), fsize=$('fsize'), mirror=$('mirror'), cdown=$('cdown'), sname=$('sname');
+var textColor = '#F2F4F7';
+
+/* ===== persistência ===== */
+var store = {};
+try { store = JSON.parse(localStorage.getItem('gfes-tp2') || '{}'); } catch(e){}
+var myScripts = store.lib || [];
+if(store.t !== undefined) txt.value = store.t;
+if(store.s) speed.value = store.s;
+if(store.f) fsize.value = store.f;
+if(store.m) mirror.checked = true;
+if(store.c === false) cdown.checked = false;
+if(store.col) textColor = store.col;
+function save(){
+  try { localStorage.setItem('gfes-tp2', JSON.stringify({t:txt.value, s:speed.value, f:fsize.value, m:mirror.checked, c:cdown.checked, col:textColor, lib:myScripts})); } catch(e){}
+}
+[txt,speed,fsize,mirror,cdown].forEach(function(el){ el.addEventListener('input', save); el.addEventListener('change', save); });
+
+/* ===== cor ===== */
+document.querySelectorAll('.sw').forEach(function(b){
+  if(b.dataset.c === textColor) { document.querySelectorAll('.sw').forEach(function(x){x.classList.remove('on');}); b.classList.add('on'); }
+  b.addEventListener('click', function(){
+    document.querySelectorAll('.sw').forEach(function(x){ x.classList.remove('on'); });
+    b.classList.add('on'); textColor = b.dataset.c; save();
+  });
+});
+
+/* ===== sliders ===== */
+function sync(){ $('ov').textContent = speed.value; $('of').textContent = fsize.value; }
+speed.addEventListener('input', sync); fsize.addEventListener('input', sync); sync();
+
+/* ===== biblioteca ===== */
+function renderLib(){
+  var lib = $('lib'); lib.innerHTML = '';
+  BUILTIN.concat(myScripts).forEach(function(s, i){
+    var item = document.createElement('span'); item.className = 'item';
+    var b = document.createElement('button'); b.type='button'; b.textContent = s.name;
+    b.addEventListener('click', function(){ txt.value = s.text; sname.value = s.locked ? '' : s.name; save(); });
+    item.appendChild(b);
+    if(!s.locked){
+      var d = document.createElement('button'); d.type='button'; d.className='del'; d.textContent='✕';
+      d.setAttribute('aria-label','Excluir ' + s.name);
+      d.addEventListener('click', function(){
+        if(confirm('Excluir o roteiro "' + s.name + '"?')){
+          myScripts.splice(i - BUILTIN.length, 1); save(); renderLib();
+        }
+      });
+      item.appendChild(d);
+    }
+    lib.appendChild(item);
+  });
+}
+$('savebtn').addEventListener('click', function(){
+  var n = sname.value.trim(), t = txt.value.trim();
+  if(!t){ txt.focus(); return; }
+  if(!n){ sname.focus(); sname.placeholder='Dê um nome para salvar…'; return; }
+  var ex = myScripts.find(function(s){ return s.name === n; });
+  if(ex) ex.text = t; else myScripts.push({name:n, text:t});
+  save(); renderLib();
+});
+renderLib();
+
+/* ===== prompter ===== */
+var prompter=$('prompter'), scroller=$('scroller'), inner=$('scroll-inner'),
+    bar=$('bar'), bplay=$('b-play'), progress=$('progress'), count=$('count');
+var pos=0, playing=false, raf=null, last=0, wakeLock=null, hideT=null, paraTops=[];
+
+function pxPerSec(){ return +speed.value * 2.2; }
+function requestWake(){ if('wakeLock' in navigator){ navigator.wakeLock.request('screen').then(function(w){ wakeLock=w; }).catch(function(){}); } }
+function releaseWake(){ if(wakeLock){ wakeLock.release().catch(function(){}); wakeLock=null; } }
+document.addEventListener('visibilitychange', function(){ if(playing && document.visibilityState==='visible') requestWake(); });
+
+function maxPos(){ return inner.offsetHeight - scroller.offsetHeight*0.38; }
+function step(ts){
+  if(!playing) return;
+  if(!last) last = ts;
+  var dt = (ts - last)/1000; last = ts;
+  pos += pxPerSec()*dt;
+  var max = maxPos();
+  if(pos >= max){ pos = max; setPlay(false); }
+  scroller.scrollTop = pos;
+  progress.style.width = Math.min(100, pos/max*100) + '%';
+  raf = requestAnimationFrame(step);
+}
+function setPlay(p){
+  playing = p; last = 0;
+  bplay.textContent = p ? '⏸ Pausar' : '▶ Continuar';
+  bplay.classList.toggle('on', p);
+  if(p){ raf=requestAnimationFrame(step); requestWake(); autoHide(); }
+  else { cancelAnimationFrame(raf); showBar(); }
+}
+function showBar(){ bar.classList.remove('hid'); clearTimeout(hideT); }
+function autoHide(){ clearTimeout(hideT); hideT = setTimeout(function(){ if(playing) bar.classList.add('hid'); }, 2500); }
+
+function flash(el){ el.classList.add('show'); setTimeout(function(){ el.classList.remove('show'); }, 300); }
+function jumpPara(dir){
+  var target = pos + scroller.offsetHeight*0.38;
+  var idx = -1;
+  for(var i=0;i<paraTops.length;i++){ if(paraTops[i] < target - 8) idx = i; }
+  var next = dir > 0 ? idx+1 : idx-1 + (target - (paraTops[idx]||0) > 60 ? 1 : 0);
+  next = Math.max(0, Math.min(paraTops.length-1, next));
+  pos = Math.max(0, paraTops[next] - scroller.offsetHeight*0.38 + 8);
+  scroller.scrollTop = pos;
+  progress.style.width = Math.min(100, pos/maxPos()*100) + '%';
+  flash(dir>0 ? $('fr') : $('fl'));
+}
+
+function openPrompter(){
+  var t = txt.value.trim();
+  if(!t){ txt.focus(); return; }
+  inner.innerHTML = '';
+  t.split(/\n\s*\n/).forEach(function(pTxt){
+    var p = document.createElement('p'); p.textContent = pTxt; inner.appendChild(p);
+  });
+  inner.style.fontSize = fsize.value + 'px';
+  inner.style.color = textColor;
+  prompter.classList.toggle('mirrored', mirror.checked);
+  prompter.style.display = 'flex';
+  document.body.style.overflow='hidden';
+  pos = 0; scroller.scrollTop = 0; progress.style.width='0%';
+  paraTops = Array.prototype.map.call(inner.querySelectorAll('p'), function(p){ return p.offsetTop; });
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(cdown.checked && !reduce){
+    var n = 3; count.style.display='flex'; count.textContent = n;
+    var iv = setInterval(function(){
+      n--;
+      if(n <= 0){ clearInterval(iv); count.style.display='none'; setPlay(true); }
+      else count.textContent = n;
+    }, 1000);
+  } else setPlay(true);
+}
+function closePrompter(){
+  setPlay(false); releaseWake();
+  prompter.style.display='none';
+  document.body.style.overflow='';
+}
+
+$('start').addEventListener('click', openPrompter);
+$('b-back').addEventListener('click', closePrompter);
+$('b-restart').addEventListener('click', function(){ pos=0; scroller.scrollTop=0; progress.style.width='0%'; if(!playing) setPlay(true); });
+$('b-slow').addEventListener('click', function(){ speed.value = Math.max(15, +speed.value-5); sync(); save(); });
+$('b-fast').addEventListener('click', function(){ speed.value = Math.min(140, +speed.value+5); sync(); save(); });
+bplay.addEventListener('click', function(){ setPlay(!playing); });
+document.querySelectorAll('#tapzone .z').forEach(function(z){
+  z.addEventListener('click', function(){
+    var a = z.dataset.act;
+    if(a==='toggle') setPlay(!playing);
+    else if(a==='prev') jumpPara(-1);
+    else jumpPara(1);
+  });
+});
+document.addEventListener('keydown', function(e){
+  if(prompter.style.display !== 'flex') return;
+  if(e.code === 'Space'){ e.preventDefault(); setPlay(!playing); }
+  if(e.code === 'Escape'){ closePrompter(); }
+  if(e.code === 'ArrowUp'){ speed.value = Math.min(140,+speed.value+5); sync(); }
+  if(e.code === 'ArrowDown'){ speed.value = Math.max(15,+speed.value-5); sync(); }
+  if(e.code === 'ArrowLeft'){ jumpPara(-1); }
+  if(e.code === 'ArrowRight'){ jumpPara(1); }
+});
+})();
+</script>
