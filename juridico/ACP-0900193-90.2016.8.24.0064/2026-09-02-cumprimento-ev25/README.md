@@ -13,7 +13,7 @@ Prazo do Ev. 25/27: **04/09/2026, 23h59min59s**.
 | `pecas/02-procuracao-ad-judicia.{md,docx,pdf}` | Procuração da Antunelli ao advogado, com cláusula de ratificação (Doc. 2) |
 | `pecas/03-regularizacao-cadastro-intimacao-exclusiva.{md,docx,pdf}` | Petição separada: baixa das renunciantes, intimação exclusiva, razão social |
 | `fontes/DOSSIE-0900193.md` | Dossiê de fatos com coordenadas (eventos, datas, documentos) usado na auditoria e nas peças |
-| `fontes/laudos/*.json` | Laudos das auditorias e da verificação adversarial (agentes independentes) |
+| `fontes/laudos/*.json` | Laudos das auditorias (preparo/deserção, representação, caminho processual, citações), revisões adversariais por peça e por lente, e minutas alternativas produzidas por agentes independentes |
 
 ## Ordem de protocolo
 

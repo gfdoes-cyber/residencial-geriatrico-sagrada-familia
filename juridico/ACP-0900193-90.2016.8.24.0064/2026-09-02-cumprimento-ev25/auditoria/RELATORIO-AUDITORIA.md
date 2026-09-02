@@ -160,6 +160,7 @@ Ramificações de risco:
 ## 11. Fontes desta auditoria e limites
 
 - E-mails de 02/09/2026 entre o advogado e a Seção de Custas Judiciais do TJSC (dcdp.custas@tjsc.jus.br); notas do escritório (pareceres de 16/08, 27/08, 28/08, 31/08 e 02/09/2026; árvore do 2º grau lida na tela do eproc em 31/08/2026); contrarrazões do MP (Ev. 284); checklist de protocolo da apelação (05/2026); textos da Súmula 51/TJSC, da Resolução CM n. 3/2019 e da Circular CGJ n. 643/2025 confirmados por busca na web.
+- Método: dossiê de fatos com coordenadas; quatro laudos de agentes independentes (preparo/deserção, representação processual, caminho processual, citações legais); nove revisões adversariais das três peças, em três lentes (fatos e citações; estratégia e risco; forma e norma culta), aplicadas em dez versões sucessivas; todos os laudos estão em `fontes/laudos/`.
 - **Não foi possível acessar** o eproc (bloqueio de rede da sessão): não foram lidos hoje os Ev. 18, 23, 25 (íntegra), 31 e 32, nem a guia e o comprovante. Tudo o que depende desses documentos está marcado como "conferir no eproc".
 
 ## Apêndice A — Caminho processual detalhado (laudo do agente de processamento recursal)
