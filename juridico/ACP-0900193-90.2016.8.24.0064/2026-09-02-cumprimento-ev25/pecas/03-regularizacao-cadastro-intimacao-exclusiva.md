@@ -3,6 +3,7 @@
 @@ **Apelação Cível n. 0900193-90.2016.8.24.0064/TJSC**
 @@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda.
 @@ Apelado: Ministério Público do Estado de Santa Catarina
+@@ Relator: Des. Carlos Adilson Silva — Gabinete 03
 @@ Ref.: cadastro de procuradores, intimações e denominação da apelante
 
 ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., já qualificada, apelante nos autos em epígrafe, vem, por seu advogado infra-assinado (OAB/SC 53.040), expor e requerer o que segue.
