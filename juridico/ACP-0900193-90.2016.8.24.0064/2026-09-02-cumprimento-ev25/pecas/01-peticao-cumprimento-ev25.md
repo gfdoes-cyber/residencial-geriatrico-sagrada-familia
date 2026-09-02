@@ -1,7 +1,7 @@
 @@ EXCELENTÍSSIMO SENHOR DESEMBARGADOR RELATOR DA SEGUNDA CÂMARA DE DIREITO PÚBLICO DO TRIBUNAL DE JUSTIÇA DE SANTA CATARINA
 
 @@ **Apelação Cível n. 0900193-90.2016.8.24.0064/TJSC**
-@@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda.
+@@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda. (CNPJ 02.145.891/0001-08)
 @@ Apelante (litisconsorte passivo): Município de São José
 @@ Apelado: Ministério Público do Estado de Santa Catarina
 @@ Relator: Des. Carlos Adilson Silva — Gabinete 03
@@ -18,11 +18,11 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., pessoa jurídica de direito
 
 ## II — Da opção pelo recolhimento do preparo
 
-3. Entre as duas alternativas abertas pelo despacho, a apelante optou pela segunda — o recolhimento do preparo —, o que torna desnecessária a demonstração a que se refere a Súmula 481 do STJ.
+3. Nada impugnando no despacho, a apelante optou, entre as duas alternativas nele abertas, pela segunda — o recolhimento do preparo —, o que torna desnecessária a demonstração a que se refere a Súmula 481 do STJ.
 
-4. A guia de preparo recursal de apelação foi emitida pela Seção de Custas Judiciais da Diretoria de Cadastro e Distribuição Processual deste Tribunal em 02/09/2026 (Evento 31), no valor de R$ 720,00 (setecentos e vinte reais), identificada no sistema sob o n. 51010131 [CONFERIR NO EPROC: número da guia constante do Evento 31 e coincidência com o Doc. 1], calculada pelo próprio sistema do Tribunal com base no Anexo Único da Lei estadual n. 17.654/2018, com os valores atualizados para o exercício de 2026. Tratando-se de autos eletrônicos, não há porte de remessa e retorno (CPC, art. 1.007, § 3º).
+4. A guia de preparo recursal de apelação foi emitida pela Seção de Custas Judiciais da Diretoria de Cadastro e Distribuição Processual deste Tribunal em 02/09/2026 (Evento 31), no valor de R$ 720,00 (setecentos e vinte reais), identificada no sistema sob o n. 51010131 [CONFERIR NO EPROC: número/ID e valor constantes da guia do Evento 31 e da aba "Custas" do 2º grau, e coincidência com o Doc. 1; se divergirem do ID lido na tela do 1º grau, substituir pelo número da guia], calculada pelo próprio sistema do Tribunal com base no Anexo Único da Lei estadual n. 17.654/2018, com os valores atualizados para o exercício de 2026. Tratando-se de autos eletrônicos, não há porte de remessa e de retorno a recolher (CPC, art. 1.007, § 3º).
 
-5. O pagamento foi efetuado em 02/09/2026, pelo meio disponibilizado no Evento 32, e está comprovado no Doc. 1, que reúne a guia, o comprovante de pagamento e o extrato da guia. [CONFERIR NO EPROC ANTES DE PROTOCOLAR: meio de pagamento (cartão ou boleto), pagamento integral e à vista, data efetiva do pagamento e situação "paga/baixada" da guia na aba "Custas" do 2º grau; se a guia ainda constar "aguardando compensação", suprimir a expressão "e o extrato da guia" e manter guia e comprovante]
+5. O pagamento foi efetuado em 02/09/2026, pelo meio disponibilizado no Evento 32, e está comprovado no Doc. 1, que reúne a guia, o comprovante de pagamento e o extrato da guia. [MANTER SÓ SE O PAGAMENTO FOI POR BOLETO: O vencimento do boleto não interfere na contagem do prazo processual (Resolução CM n. 3/2019 do TJSC, art. 1º, § 4º); o pagamento efetivou-se em 02/09/2026, dentro do prazo do Evento 27.] [CONFERIR NO EPROC ANTES DE PROTOCOLAR: meio de pagamento (cartão ou boleto), pagamento integral e à vista, data efetiva do pagamento e situação "paga/baixada" da guia na aba "Custas" do 2º grau; se a guia ainda constar "aguardando compensação", suprimir a expressão "e o extrato da guia" e manter guia e comprovante, ajustando no mesmo sentido a alínea "a" dos pedidos e a descrição do Doc. 1]
 
 6. O recolhimento é tempestivo e singelo. Formulado o requerimento de gratuidade nas razões recursais (Evento 280 dos autos de origem; certidão do Evento 23 deste recurso), a apelante estava dispensada de comprovar o preparo no ato da interposição (CPC, art. 99, § 7º), e o despacho do Evento 25, na forma do § 2º do mesmo artigo, facultou-lhe, em alternativa à demonstração dos pressupostos do benefício, o recolhimento em prazo certo — alternativa que a apelante exerceu. Não incide, portanto, o § 4º do art. 1.007 do CPC: a hipótese de quem requereu a gratuidade no ato da interposição é regida pela norma especial do art. 99, § 7º, que prevê recolhimento singelo no prazo fixado pelo relator, e não pela regra geral do recolhimento em dobro, reservada a quem simplesmente deixou de comprovar o preparo. Recolhido o preparo no prazo assinado por Vossa Excelência, está afastada a deserção (CPC, art. 1.007, caput).
 
@@ -30,7 +30,7 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., pessoa jurídica de direito
 
 ## III — Da desistência do requerimento de gratuidade
 
-8. O recolhimento do preparo substituiu, por opção exercida no prazo assinado por Vossa Excelência, o requerimento de gratuidade formulado nas razões recursais. Por isso, a apelante desiste expressamente do requerimento incidental de gratuidade da justiça formulado nas razões recursais (Evento 280 dos autos de origem, conforme certidão do Evento 23 deste recurso) e requer que seja declarado prejudicado (CPC, art. 200), sem qualquer reflexo sobre o conhecimento da apelação, cujo preparo está integralmente recolhido.
+8. O recolhimento do preparo substituiu, por opção exercida no prazo assinado por Vossa Excelência, o requerimento de gratuidade formulado nas razões recursais. Por isso, a apelante desiste expressamente do requerimento incidental de gratuidade da justiça formulado nas razões recursais (Evento 280 dos autos de origem, conforme certidão do Evento 23 deste recurso) e requer que seja declarado prejudicado (CPC, art. 200). Não o renova, não o mantém nem o reitera. A desistência não tem qualquer reflexo sobre o conhecimento da apelação, cujo preparo está integralmente recolhido.
 
 9. Pela mesma razão, fica sem objeto apenas o item "b" dos memoriais do Evento 17, que partia da anotação cadastral de gratuidade "deferida", posteriormente retificada (Eventos 22 e 23). Ficam mantidos, no mais, o recurso de apelação e os demais requerimentos dos memoriais.
 
@@ -73,7 +73,7 @@ e) o prosseguimento do recurso, com a inclusão em pauta e a intimação da paut
 
 @@ Nestes termos, pede deferimento.
 
-@@ São José/SC, 2 de setembro de 2026.
+@@ São José/SC, 2 de setembro de 2026. [CONFERIR: data do protocolo efetivo — se for 03/09/2026, ajustar também a data da procuração (Doc. 2) e a da petição de cadastro, que se reporta a "nesta data"]
 
 @@ **Gabriel Fabrízio do Espírito Santo**
 @@ OAB/SC 53.040

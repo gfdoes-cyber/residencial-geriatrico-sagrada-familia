@@ -18,7 +18,7 @@ Em reforço, e para que não paire dúvida quanto à cadeia de representação, 
 
 ## Declarações
 
-A OUTORGANTE declara que seu administrador, investido da representação ativa e passiva, judicial e extrajudicial, da sociedade (Sétima Alteração Contratual, Cláusula Quinta), tem poderes para constituir mandatários nos limites dessa atribuição (Código Civil, arts. 1.018 e 1.053, caput) e que a coincidência entre a pessoa natural do administrador que a representa neste instrumento e a do OUTORGADO é de seu pleno conhecimento e por ela expressamente autorizada (Código Civil, art. 117), por reputá-la de seu exclusivo interesse, sendo a própria sociedade — e não o administrador — a parte nos processos referidos. O OUTORGADO aceita o mandato.
+A OUTORGANTE declara que seu administrador, investido da representação ativa e passiva, judicial e extrajudicial, da sociedade (Sétima Alteração do Contrato Social, Cláusula Quinta), tem poderes para constituir mandatários nos limites dessa atribuição (Código Civil, arts. 1.018 e 1.053, caput) e que a coincidência entre a pessoa natural do administrador que a representa neste instrumento e a do OUTORGADO é de seu pleno conhecimento e por ela expressamente autorizada (Código Civil, art. 117), por reputá-la de seu exclusivo interesse, sendo a própria sociedade — e não o administrador — a parte nos processos referidos. O OUTORGADO aceita o mandato.
 
 @@ São José/SC, 2 de setembro de 2026.
 
