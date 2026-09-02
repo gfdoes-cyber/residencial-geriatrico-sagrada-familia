@@ -7,7 +7,8 @@
 - Guia (Ev. 31) e comprovante em PDF, legíveis, com: número da guia, valor (**R$ 720,00**), data/hora do pagamento (02/09/2026), meio (cartão ou boleto) e identificação do processo. Se o pagamento foi por boleto, guardar também o comprovante do banco com autenticação.
 - Procuração (Doc. 2) assinada **pela Antunelli**: de preferência e-CNPJ da sociedade (ICP-Brasil); senão, assinatura de punho do administrador digitalizada **mais** a assinatura ICP-Brasil do e-CPF do administrador sobre o PDF. Assinar também a linha do outorgado (aceite). O login do eproc autentica o advogado, não a outorgante — não serve sozinho. Nunca retrodatar.
 - Procuração de reforço de 08/05/2026 (assinada com carimbo, nunca juntada): se estiver localizada, autêntica e com nome, OAB e endereço completo do advogado, juntar como Doc. 2-A e acrescentar à peça 01, no Cap. V, a frase: "Junta-se também o instrumento de 08/05/2026 (Doc. 2-A), anterior à interposição do recurso."
-- Sétima Alteração do Contrato Social (Doc. 3) — PDF completo, com o registro na JUCESC (08/06/2021).
+- Sétima Alteração do Contrato Social (Doc. 3) — PDF completo, com o registro na JUCESC (08/06/2021). Conferir a redação literal da Cláusula Quinta: se ela mencionar expressamente a constituição de procuradores, pode-se restabelecer a referência direta na procuração; se for silente, a redação atual (poder de constituir mandatários "nos limites dessa atribuição", CC art. 1.018) já cobre.
+- Grafia do nome: contrato social e CPF grafam "Fabrizio"; a OAB, "Fabrízio". A procuração registra as duas e informa a identidade; conferir a grafia do RG.
 - Print da tela "Custas" tarjada de 02/09/2026 e os dois e-mails com a Seção de Custas (Doc. 4) em um único PDF.
 - Peça principal em PDF, revisada, com a data certa (a data do protocolo) e a afirmação de pagamento coerente com o comprovante.
 

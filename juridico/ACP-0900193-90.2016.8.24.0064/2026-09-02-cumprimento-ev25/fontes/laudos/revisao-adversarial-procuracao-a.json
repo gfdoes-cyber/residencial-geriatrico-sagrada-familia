@@ -1,0 +1,47 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "alta",
+   "trecho": "A OUTORGANTE ratifica, para todos os fins de direito (Código Civil, art. 662, parágrafo único; CPC, art. 104, § 1º), todos os atos processuais praticados em seu nome pelo OUTORGADO",
+   "problema": "Citação distorcida. O art. 104, § 1º, do CPC não trata de ratificação: dispõe apenas que, nas hipóteses do caput (atuação sem procuração para evitar preclusão, decadência, prescrição ou ato urgente), o advogado deve exibir a procuração em 15 dias, prorrogáveis por igual período. O dispositivo que cuida do ato ratificado/não ratificado é o § 2º do art. 104 ('O ato não ratificado será considerado ineficaz relativamente àquele em cujo nome foi praticado'). Além de errada, a remissão ao § 1º sugere que os atos foram praticados sob o regime de urgência do caput com prazo de exibição há muito escoado — admissão desnecessária e desfavorável. O laudo de representação (result-ada3772f) recomendou expressamente 'art. 104, §2º, do CPC' como base da ratificação. Textos conferidos por pesquisa (legjur/modeloinicial).",
+   "correcao": "A OUTORGANTE ratifica expressamente, para todos os fins de direito (Código Civil, art. 662, parágrafo único; CPC, art. 104, § 2º), todos os atos, processuais e extraprocessuais, praticados em seu nome pelo OUTORGADO"
+  },
+  {
+   "severidade": "media",
+   "trecho": "as diligências de 02/09/2026 perante a Seção de Custas Judiciais e o recolhimento do preparo (Eventos 31 e 32);",
+   "problema": "Coordenada imprecisa e ambígua. Segundo o dossiê (seção 4), o Ev. 31 é a guia de preparo gerada pela DCDP e o Ev. 32 é o link para pagamento; o recolhimento em si não está documentado em nenhum evento (a auditoria não viu guia, comprovante nem situação da guia — seção 10). A remissão '(Eventos 31 e 32)' após 'recolhimento do preparo' afirma o que os eventos não contêm. Ademais, o instrumento não indica o caderno (a ACP de 1º grau também possui Eventos 31 e 32), ao contrário do que faz para o 'Evento 17 da Apelação Cível'.",
+   "correcao": "as diligências de 02/09/2026 perante a Seção de Custas Judiciais do Tribunal de Justiça de Santa Catarina, a emissão da guia de preparo recursal (Eventos 31 e 32 da Apelação Cível) e o seu recolhimento, realizado na mesma data [CONFERIR NO EPROC: comprovante de pagamento e situação da guia ID 51010131 como paga/baixada];"
+  },
+  {
+   "severidade": "media",
+   "trecho": "A OUTORGANTE declara que seu administrador tem poderes para constituir mandatários (Código Civil, art. 1.018; Sétima Alteração Contratual, Cláusula Quinta)",
+   "problema": "Fato sem origem no dossiê. O dossiê (seções 1 e 7) atesta que a Cláusula Quinta confere ao administrador isolado a 'representação ativa e passiva, judicial e extrajudicial'; não confirma que a cláusula mencione poder de 'constituir mandatários/procuradores'. O próprio laudo de representação (achado 4) marcou '[CONFERIR NO CONTRATO SOCIAL: se há menção expressa a constituir procuradores]'. Atribuir à Cláusula Quinta um conteúdo não verificado, em instrumento que será juntado ao lado do próprio contrato social (Doc. 3), expõe divergência imediata ao leitor. A afirmação deve apoiar-se no que a cláusula comprovadamente diz e no art. 1.018 do CC (que faculta ao administrador constituir mandatários nos limites de seus poderes).",
+   "correcao": "A OUTORGANTE declara que seu administrador, investido da representação ativa e passiva, judicial e extrajudicial, da sociedade (Sétima Alteração Contratual, Cláusula Quinta), tem poderes para constituir mandatários nos limites dessa atribuição (Código Civil, art. 1.018) [CONFERIR NO CONTRATO SOCIAL: redação literal da Cláusula Quinta; se houver menção expressa a 'constituir procuradores', restabelecer a referência direta]"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "com sede na Rua Vergilino Domingos da Silva, n. 1.003 (n. 1.100 no registro da JUCESC), Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170",
+   "problema": "Inversão da coordenada registral. O dossiê (seção 1) informa que a JUCESC e o alvará grafam n. 1.100 e que o n. 1.003 é a sede operacional. A sede estatutária — a que constará do Doc. 3 (Sétima Alteração) — é a do registro. Declarar 'sede' no n. 1.003 cria divergência aparente com o contrato social juntado; o laudo de representação (achado 4) sugeriu 'sede na n. 1.100 (registro JUCESC), estabelecimento na n. 1.003'.",
+   "correcao": "com sede na Rua Vergilino Domingos da Silva, n. 1.100, conforme registro na JUCESC, e estabelecimento no n. 1.003 da mesma via, Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "no Pedido de Efeito Suspensivo à Apelação n. 5049926-11.2026.8.24.0000",
+   "problema": "Denominação da classe processual sem origem no dossiê, que se refere ao feito apenas como 'Incidente 5049926-11.2026.8.24.0000 (pedido de efeito suspensivo)'. A classe exata autuada no TJSC não foi conferida. A expressão repete-se nos capítulos 'Poderes' e 'Ratificação' (três ocorrências).",
+   "correcao": "no incidente n. 5049926-11.2026.8.24.0000 (pedido de atribuição de efeito suspensivo à apelação) [CONFERIR NO EPROC: classe processual autuada] — replicar nas demais ocorrências"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "todos os atos processuais praticados em seu nome pelo OUTORGADO nos autos [...] em especial: [...] as diligências de 02/09/2026 perante a Seção de Custas Judiciais",
+   "problema": "Incoerência interna: a cláusula ratifica apenas 'atos processuais', mas enumera como ratificadas as diligências administrativas junto à Seção de Custas (e-mails de 02/09/2026, dossiê seção 5), que são extraprocessuais. O laudo de representação (achado 3) recomendou 'atos processuais e extraprocessuais'.",
+   "correcao": "todos os atos, processuais e extraprocessuais, praticados em seu nome e no seu interesse pelo OUTORGADO nos autos"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "OUTORGADO: GABRIEL FABRÍZIO DO ESPÍRITO SANTO, brasileiro, advogado inscrito na Ordem dos Advogados do Brasil, Seção de Santa Catarina, sob o n. 53.040",
+   "problema": "O mesmo indivíduo é grafado 'FABRIZIO' (sem acento) como administrador e 'FABRÍZIO' (com acento) como advogado, sem qualquer nota de identidade. O dossiê registra ambas as grafias (contrato social x cadastro OAB), mas o instrumento, cujo ponto sensível é justamente a coincidência de pessoas, não deve deixar a leitura de que se trata de pessoas distintas ou de erro material.",
+   "correcao": "OUTORGADO: GABRIEL FABRÍZIO DO ESPÍRITO SANTO (grafado 'Gabriel Fabrizio do Espírito Santo' no contrato social e nos documentos civis), brasileiro, divorciado, advogado inscrito na Ordem dos Advogados do Brasil, Seção de Santa Catarina, sob o n. 53.040, CPF 544.074.601-30"
+  }
+ ]
+}

@@ -28,7 +28,7 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., pessoa jurídica de direito
 
 ## III — Da desistência do requerimento de gratuidade
 
-8. O recolhimento do preparo substituiu, por opção exercida no prazo aberto pelo relator, o requerimento de gratuidade formulado nas razões recursais. Por isso, a apelante desiste expressamente do requerimento incidental de gratuidade da justiça formulado nas razões recursais (Evento 280 dos autos de origem, conforme certidão do Evento 23 deste recurso) e requer que seja declarado prejudicado, sem qualquer reflexo sobre o conhecimento da apelação, cujo preparo está integralmente recolhido.
+8. O recolhimento do preparo substituiu, por opção exercida no prazo aberto pelo relator, o requerimento de gratuidade formulado nas razões recursais. Por isso, a apelante desiste expressamente do requerimento incidental de gratuidade da justiça formulado nas razões recursais (Evento 280 dos autos de origem, conforme certidão do Evento 23 deste recurso) e requer que seja declarado prejudicado (CPC, art. 200), sem qualquer reflexo sobre o conhecimento da apelação, cujo preparo está integralmente recolhido.
 
 9. Pela mesma razão, fica sem objeto apenas o item "b" dos memoriais do Evento 17, que partia da anotação cadastral de gratuidade "deferida", posteriormente retificada (Eventos 22 e 23). Ficam mantidos, no mais, o recurso de apelação e os demais requerimentos dos memoriais.
 
@@ -44,7 +44,7 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., pessoa jurídica de direito
 
 13. A apelante é sociedade limitada unipessoal. Seu sócio único e administrador, com poderes de representação judicial ativa e passiva (Cláusula Quinta), é o advogado que subscreve esta petição, conforme a Sétima Alteração do Contrato Social arquivada na JUCESC em 08/06/2021, já constante dos autos de origem (Evento 257, CONTRSOCIAL9). A vontade da apelante de recorrer e de defender-se nestes autos nunca foi duvidosa.
 
-14. Em reforço, e para que não paire dúvida quanto à representação da apelante, junta-se procuração atualizada (Doc. 2), outorgada pela sociedade por seu administrador, na forma do art. 75, VIII, do CPC, com poderes gerais e especiais para o foro (CPC, art. 105) e com cláusula pela qual a apelante ratifica expressamente todos os atos praticados em seu nome pelo subscritor nestes autos, nos autos de origem e no incidente n. 5049926-11.2026.8.24.0000 (Código Civil, art. 662, parágrafo único), acompanhada do ato constitutivo vigente (Doc. 3).
+14. Em reforço, e para que não paire dúvida quanto à representação da apelante, junta-se procuração atualizada (Doc. 2), outorgada pela sociedade por seu administrador, na forma do art. 75, VIII, do CPC, com poderes gerais e especiais para o foro (CPC, art. 105) e com cláusula pela qual a apelante ratifica expressamente todos os atos praticados em seu nome pelo subscritor nestes autos, nos autos de origem e no incidente n. 5049926-11.2026.8.24.0000 (pedido de efeito suspensivo) — Código Civil, art. 662, parágrafo único —, acompanhada do ato constitutivo vigente (Doc. 3).
 
 ## VI — Pedidos
 
