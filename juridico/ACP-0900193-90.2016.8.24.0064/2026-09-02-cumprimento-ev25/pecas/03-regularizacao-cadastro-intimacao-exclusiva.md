@@ -46,7 +46,7 @@ c) a retificação do cadastro da apelante para a denominação social "Antunell
 
 @@ Nestes termos, pede deferimento.
 
-@@ São José/SC, 03 de setembro de 2026. [CONFERIR: data do protocolo efetivo desta peça, igual ou posterior à da petição principal]
+@@ São José/SC, 2 de setembro de 2026. [CONFERIR: data do protocolo efetivo — igual ou posterior à da petição de cumprimento do Evento 25]
 
 @@ **Gabriel Fabrízio do Espírito Santo**
 @@ OAB/SC 53.040
