@@ -10,7 +10,8 @@
 - Sétima Alteração do Contrato Social (Doc. 3) — PDF completo, com o registro na JUCESC (08/06/2021). Conferir a redação literal da Cláusula Quinta: se ela mencionar expressamente a constituição de procuradores, pode-se restabelecer a referência direta na procuração; se for silente, a redação atual (poder de constituir mandatários "nos limites dessa atribuição", CC art. 1.018) já cobre.
 - Grafia do nome: contrato social e CPF grafam "Fabrizio"; a OAB, "Fabrízio". A procuração registra as duas e informa a identidade; conferir a grafia do RG.
 - Print da tela "Custas" tarjada de 02/09/2026 e os dois e-mails com a Seção de Custas (Doc. 4) em um único PDF.
-- Peça principal em PDF, revisada, com a data certa (a data do protocolo) e a afirmação de pagamento coerente com o comprovante.
+- Peça principal em PDF, revisada, com a data certa (a data do protocolo) e a afirmação de pagamento coerente com o comprovante. As três peças e a procuração estão datadas de 02/09/2026 e a peça 03 diz que a principal foi "protocolada nesta data": se o protocolo ficar para 03/09, redatar as três em conjunto (buscar "2 de setembro de 2026" nos .md e regenerar).
+- Remover das peças, antes de assinar, todas as marcações entre colchetes [CONFERIR ...] depois de feita cada conferência.
 
 ## B. No eproc 2º grau (eproc2g.tjsc.jus.br), processo 0900193-90.2016.8.24.0064
 

@@ -154,7 +154,7 @@ Ramificações de risco:
 2. Conferir a aba Custas (guia paga/baixada) e montar o Doc. 1.
 3. Assinar a procuração pela Antunelli (e-CNPJ ou punho digitalizado).
 4. Rodar o gate local de citações (Planalto em disco) — os sites oficiais estavam bloqueados para esta sessão.
-5. Ajustar a data das peças para a data do protocolo, se não for 02/09.
+5. Ajustar a data das três peças para a data do protocolo, se não for 02/09 (a peça 03 se reporta à principal como "protocolada nesta data"), e remover as marcações [CONFERIR ...] após cada conferência.
 6. Decidir sobre sustentação oral / sustentação de argumentos / objeção ao virtual.
 
 ## 11. Fontes desta auditoria e limites
