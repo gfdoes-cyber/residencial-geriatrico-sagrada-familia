@@ -26,7 +26,7 @@
    - CONTRATO SOCIAL (ou DOCUMENTO) — Doc. 3;
    - OUTROS — Doc. 4: print da tela tarjada + e-mails.
 6. Confirmar; **salvar o número do evento** gerado e o comprovante de protocolo (PDF).
-7. Em seguida (mesmo dia ou depois, sem prazo, sempre DEPOIS da peça 01): protocolar a **petição de regularização do cadastro de procuradores e intimação exclusiva** (peça 03), tipo "PETIÇÃO", referindo os documentos já juntados.
+7. Em seguida (mesmo dia ou depois, sem prazo, sempre DEPOIS da peça 01): protocolar a **petição de regularização do cadastro de procuradores e intimação exclusiva** (peça 03), tipo "PETIÇÃO", anexando de novo a procuração (Doc. 1) e o contrato social (Doc. 2) e preenchendo o número do evento da peça 01. Conferir antes se Alessandra Cristina Laurindo Arruda (OAB/SC 39.854) ainda consta habilitada; se sim, incluí-la no pedido "a".
 8. Capturar e arquivar as telas de intimações/comunicações do eproc (1º e 2º graus) desde 01/08/2023 — servem para uso futuro no lugar de uma certidão, que não convém pedir agora.
 
 ## C. Depois do protocolo

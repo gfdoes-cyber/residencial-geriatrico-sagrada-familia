@@ -12,31 +12,29 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., já qualificada, apelante n
 
 ## I — Do objeto desta petição
 
-1. Esta petição não tem prazo e não se confunde com a manifestação de cumprimento do despacho do Evento 25, protocolada nesta data. Trata de matéria de ordenação do processo (CPC, art. 932, I): a atualização do cadastro de procuradores da apelante, a forma das intimações que lhe são dirigidas e a grafia de sua denominação na autuação. A procuração atual da apelante e a Sétima Alteração do Contrato Social já foram juntadas com aquela manifestação (Docs. 2 e 3; Evento [CONFERIR NO EPROC: número do evento da petição principal] destes autos), aos quais a apelante se reporta.
+1. Esta petição não tem prazo e não se confunde com a manifestação de cumprimento do despacho do Evento 25, protocolada nesta data (Evento [CONFERIR NO EPROC: número do evento gerado] destes autos). Trata de matéria de ordenação do processo (CPC, art. 932, I): a atualização do cadastro de procuradores da apelante, a forma das intimações que lhe são dirigidas e a grafia de sua denominação na autuação. Para pronta anotação pelo cadastro, instruem-na a procuração outorgada pela apelante ao subscritor (Doc. 1) e a Sétima Alteração do Contrato Social (Doc. 2), os mesmos instrumentos juntados àquela manifestação (Docs. 2 e 3).
 
 ## II — Os fatos
 
-2. Constam do cadastro de procuradores da apelante, nestes autos e nos autos de origem, além do subscritor, as advogadas Caroline Vaz (OAB/SC 54.142) e Lígia Luis (OAB/SC 53.624).
+2. Constam do cadastro de procuradores da apelante, nestes autos e nos autos de origem, além do subscritor, as advogadas Caroline Vaz (OAB/SC 54.142) e Lígia Luis (OAB/SC 53.624). [CONFERIR NO EPROC: se Alessandra Cristina Laurindo Arruda, OAB/SC 39.854 (Evento 21 dos autos de origem), ainda consta habilitada; em caso positivo, incluí-la no pedido "a"]
 
 3. Ambas comunicaram a renúncia ao mandato à mandante em 11/07/2023 (notificação extrajudicial) e em 31/07/2023 (mensagem eletrônica), noticiaram-na nos autos em 01/08/2023 (Evento 211 dos autos de origem) e reiteraram o pedido de desabilitação em 22/01/2025 (Evento 256). Os pedidos não foram apreciados, e as renunciantes permanecem habilitadas nos dois graus.
 
-4. A apelante já requereu, por duas vezes, nos autos de origem, que as publicações fossem feitas exclusivamente em nome do subscritor (Evento 40, de 04/09/2018, e Eventos 65/71, de 2019), sem que o requerimento tenha sido anotado. [CONFERIR NO EPROC: evento exato do requerimento de 2019]
+4. A apelante está representada pelo subscritor, seu sócio único e administrador (Sétima Alteração do Contrato Social, JUCESC, 08/06/2021), conforme procuração e ato constitutivo constantes dos autos (Docs. 1 e 2 desta petição; Docs. 2 e 3 da petição de cumprimento do Evento 25).
 
-5. Desde a renúncia, a apelante atua por meio do subscritor: manifestação do Evento 257 dos autos de origem (22/01/2025), subscrita por ele na dupla condição de sócio administrador e advogado, com o contrato social; apelação do Evento 280 (11/05/2026); memoriais do Evento 17 deste recurso (14/08/2026); e, nesta data, a petição de cumprimento do Evento 25, com a procuração atual (Doc. 2 daquela petição).
-
-6. O cadastro deste grau grafa a apelante como "EIRELI". A forma societária é "Ltda." desde a Sétima Alteração Contratual (JUCESC, 08/06/2021), como consta do ato constitutivo juntado e do próprio despacho do Evento 25 [CONFERIR NO EPROC: grafia "Ltda." no texto do Evento 25].
+5. O cadastro deste grau grafa a apelante como "EIRELI". A forma societária é "Ltda." desde a Sétima Alteração do Contrato Social, arquivada na JUCESC em 08/06/2021 (NIRE 42.2.0661273-1), como consta do ato constitutivo juntado e do próprio despacho do Evento 25 [CONFERIR NO EPROC: grafia "Ltda." no texto do Evento 25].
 
 ## III — O direito
 
-7. A hipótese é de renúncia (CPC, art. 112), não de revogação (CPC, art. 111). A renúncia comunicada ao mandante produz efeitos por si; o renunciante continua a representar o mandante apenas nos dez dias seguintes, se necessário para lhe evitar prejuízo (art. 112, § 1º). Exaurido há muito esse prazo, as renunciantes não representam a apelante, e a manutenção de seus nomes no cadastro só gera o risco de intimações dirigidas a quem não é mais procurador. A baixa não deixa a apelante sem procurador: o subscritor está habilitado nos dois graus, subscreveu todos os atos da apelante desde o Evento 257 e tem procuração atual nos autos, juntada nesta data.
+6. A hipótese é de renúncia ao mandato (CPC, art. 112), comunicada à mandante e comprovada nos autos (Eventos 211 e 256 dos autos de origem). A renúncia comunicada produz efeitos por si; o renunciante continua a representar o mandante apenas nos dez dias seguintes, e somente se necessário para lhe evitar prejuízo (art. 112, § 1º). Exaurido há muito esse interregno, as renunciantes não representam a apelante, e a manutenção de seus nomes no cadastro só gera o risco de intimações dirigidas a quem não é mais procurador. A baixa não deixa a apelante sem procurador: o subscritor está habilitado nos dois graus e a representa por procuração constante dos autos (Doc. 1), acompanhada do ato constitutivo que comprova os poderes de quem a outorgou (CPC, art. 75, VIII; Doc. 2).
 
-8. O art. 272, § 2º, do CPC exige, sob pena de nulidade, que da publicação constem os nomes das partes e de seus advogados, com o número de inscrição na OAB; o § 4º impõe que a grafia do nome do advogado corresponda à da procuração ou do registro na OAB; e o § 5º dispõe que, constando dos autos pedido expresso para que as comunicações sejam feitas em nome dos advogados indicados, o seu desatendimento implica nulidade. Renova-se, por isso, perante o relator, o requerimento já formulado nos autos de origem, indicando-se o nome, a inscrição e o endereço para as intimações (CPC, art. 106, I): Gabriel Fabrízio do Espírito Santo, OAB/SC 53.040, Rua Angelita Figueiredo, n. 1.596, Sala 1004, Torre B, Bairro Areias, São José/SC, CEP 88.113-710, e-mail gfdoes@gmail.com.
+7. O art. 272, § 2º, do CPC exige, sob pena de nulidade, que da publicação constem os nomes das partes e de seus advogados, com o número de inscrição na OAB; o § 4º impõe que a grafia do nome do advogado corresponda à da procuração ou do registro na OAB; e o § 5º dispõe que, constando dos autos pedido expresso para que as comunicações sejam feitas em nome dos advogados indicados, o seu desatendimento implica nulidade. Requer-se, por isso, com base nesses dispositivos, que todas as comunicações dos atos processuais dirigidas à apelante, inclusive a intimação de pauta, sejam feitas exclusivamente em nome de seu procurador constituído, com os dados que constam da procuração (CPC, art. 105, § 2º): Gabriel Fabrízio do Espírito Santo, OAB/SC 53.040, Rua Angelita Figueiredo, n. 1.596, Sala 1004, Torre B, Bairro Areias, São José/SC, CEP 88.113-710, endereço eletrônico gfdoes@gmail.com.
 
-9. Cabe ao relator dirigir e ordenar o processo (CPC, art. 932, I). Como os registros do 1º e do 2º grau são distintos, requer-se a comunicação ao juízo de origem, para que a baixa e as anotações se reproduzam nos autos da ação civil pública.
+8. Cabe ao relator dirigir e ordenar o processo (CPC, art. 932, I). Como os registros do 1º e do 2º grau são distintos, requer-se a comunicação ao juízo de origem, para que a baixa e as anotações se reproduzam nos autos da ação civil pública.
 
 ## IV — Pedidos
 
-10. Ante o exposto, a apelante requer:
+9. Ante o exposto, a apelante requer:
 
 a) a desabilitação das advogadas Caroline Vaz (OAB/SC 54.142) e Lígia Luis (OAB/SC 53.624) do cadastro de procuradores da apelante neste grau, com comunicação à Vara da Fazenda Pública da Comarca de São José para a mesma providência nos autos de origem (CPC, art. 112);
 
@@ -44,7 +42,7 @@ b) a anotação para que todas as intimações e publicações dirigidas à apel
 
 c) a retificação do cadastro da apelante para a razão social "Antunelli e Antunelli Instituição de Idosos Ltda.", CNPJ 02.145.891/0001-08.
 
-11. A procuração e o ato constitutivo da apelante constam dos Docs. 2 e 3 da petição de cumprimento do despacho do Evento 25, protocolada nesta data, aos quais se reporta; se necessário, serão reapresentados.
+10. Instruem esta petição: Doc. 1 — procuração *ad judicia et extra* outorgada pela apelante ao subscritor; Doc. 2 — Sétima Alteração do Contrato Social (JUCESC, 08/06/2021, Termo de Autenticação n. 218.834.454). O subscritor declara autênticas as reproduções digitalizadas que a acompanham (Lei n. 11.419/2006, art. 11, § 1º; CPC, art. 425, VI).
 
 @@ Nestes termos, pede deferimento.
 

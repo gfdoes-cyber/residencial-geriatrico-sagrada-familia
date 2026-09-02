@@ -110,7 +110,7 @@ Vai em petição separada (sem prazo), protocolada logo depois da principal, par
 |---|---|---|---|
 | 1 | Petição de cumprimento do Ev. 25 — preparo recolhido, desistência da gratuidade, regularização da representação | Doc. 1 guia + comprovante; Doc. 2 procuração; Doc. 3 Sétima Alteração; Doc. 4 print + e-mails | 04/09/2026 |
 | 2 | Procuração ad judicia et extra com cláusula de ratificação (anexo da peça 1) | — | assinar antes do protocolo |
-| 3 | Petição de regularização do cadastro de procuradores, intimação exclusiva e retificação da razão social | refere os Docs. 2 e 3 | sem prazo (mesmo dia, de preferência) |
+| 3 | Petição de regularização do cadastro de procuradores, intimação exclusiva e retificação da razão social | Doc. 1 procuração e Doc. 2 contrato social (cópias) | sem prazo (mesmo dia, logo depois da peça 1) |
 
 ## 8. O caminho que o processo vai percorrer
 
@@ -235,4 +235,4 @@ Ramificações de risco:
 - Declaração de autenticidade das reproduções digitalizadas (Lei n. 11.419/2006, art. 11, § 1º; CPC, art. 425, VI).
 - Capítulo da representação: fato descritivo (sócio único e administrador é o subscritor; Sétima Alteração já nos autos, Ev. 257) antes da juntada "em reforço"; sem citar revogação, renúncia, CPC 76/104 ou Súmula 115.
 - Procuração: aceite do outorgado, duas linhas de assinatura, poderes de recolher custas e de requerer intimação exclusiva, menção a STJ e STF, ratificação nominativa incluindo as diligências de 02/09 e a própria petição.
-- Peça 03: retirado o pedido de certidão das comunicações às renunciantes (preclusão provável e exposição desnecessária do intervalo sem procurador); mantidos baixa, intimação exclusiva (inclusive pauta) e razão social.
+- Peça 03: retirado o pedido de certidão das comunicações às renunciantes (preclusão provável e exposição desnecessária do intervalo sem procurador); retirados também a menção aos requerimentos de 2018/2019 (feitos sob mandato depois revogado), o contraste com a revogação (CPC 111), a cronologia dos atos do subscritor e a remissão ao art. 106, I (rege a causa própria); a petição passa a ser instruída com cópias da procuração e do contrato social, para anotação imediata pelo cadastro. Mantidos baixa, intimação exclusiva (inclusive pauta) e razão social.
