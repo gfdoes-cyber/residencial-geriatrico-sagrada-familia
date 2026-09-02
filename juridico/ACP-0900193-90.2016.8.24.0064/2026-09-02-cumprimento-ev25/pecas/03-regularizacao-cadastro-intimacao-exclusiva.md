@@ -2,6 +2,7 @@
 
 @@ **Apelação Cível n. 0900193-90.2016.8.24.0064/TJSC**
 @@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda.
+@@ Apelante (litisconsorte passivo): Município de São José
 @@ Apelado: Ministério Público do Estado de Santa Catarina
 @@ Relator: Des. Carlos Adilson Silva — Gabinete 03
 @@ Origem: Ação Civil Pública n. 0900193-90.2016.8.24.0064 — Vara da Fazenda Pública da Comarca de São José
@@ -11,19 +12,19 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., já qualificada, apelante n
 
 ## I — Do objeto desta petição
 
-1. Esta petição não tem prazo e não se confunde com a manifestação de cumprimento do despacho do Evento 25, protocolada nesta data. Trata de matéria de ordenação do processo (CPC, art. 932, I): a atualização do cadastro de procuradores da apelante, a forma das intimações que lhe são dirigidas e a grafia de sua denominação na autuação. A procuração atual da apelante e a Sétima Alteração do Contrato Social já foram juntadas com aquela manifestação (Docs. 2 e 3), aos quais a apelante se reporta.
+1. Esta petição não tem prazo e não se confunde com a manifestação de cumprimento do despacho do Evento 25, protocolada nesta data. Trata de matéria de ordenação do processo (CPC, art. 932, I): a atualização do cadastro de procuradores da apelante, a forma das intimações que lhe são dirigidas e a grafia de sua denominação na autuação. A procuração atual da apelante e a Sétima Alteração do Contrato Social já foram juntadas com aquela manifestação (Docs. 2 e 3; Evento [CONFERIR NO EPROC: número do evento da petição principal] destes autos), aos quais a apelante se reporta.
 
 ## II — Os fatos
 
 2. Constam do cadastro de procuradores da apelante, nestes autos e nos autos de origem, além do subscritor, as advogadas Caroline Vaz (OAB/SC 54.142) e Lígia Luis (OAB/SC 53.624).
 
-3. Ambas renunciaram ao mandato em 01/08/2023 (Evento 211 dos autos de origem), com prova da comunicação à mandante (notificação de 11/07/2023 e mensagem eletrônica de 31/07/2023), e reiteraram o pedido de desabilitação em 22/01/2025 (Evento 256). Os pedidos não foram apreciados, e as renunciantes permanecem habilitadas nos dois graus.
+3. Ambas comunicaram a renúncia ao mandato à mandante em 11/07/2023 (notificação extrajudicial) e em 31/07/2023 (mensagem eletrônica), noticiaram-na nos autos em 01/08/2023 (Evento 211 dos autos de origem) e reiteraram o pedido de desabilitação em 22/01/2025 (Evento 256). Os pedidos não foram apreciados, e as renunciantes permanecem habilitadas nos dois graus.
 
-4. A apelante já requereu, por duas vezes, que as publicações fossem feitas exclusivamente em nome do subscritor (Evento 40, de 04/09/2018, e Eventos 65/71, de 2019, dos autos de origem), e há registros de publicações em nome de inscrição diversa da sua ("OAB 14870/MS"). [CONFERIR NO EPROC: evento exato do requerimento de 2019 e eventos e datas das publicações com a inscrição errada]
+4. A apelante já requereu, por duas vezes, nos autos de origem, que as publicações fossem feitas exclusivamente em nome do subscritor (Evento 40, de 04/09/2018, e Eventos 65/71, de 2019), sem que o requerimento tenha sido anotado. [CONFERIR NO EPROC: evento exato do requerimento de 2019]
 
 5. Desde a renúncia, a apelante atua por meio do subscritor: manifestação do Evento 257 dos autos de origem (22/01/2025), subscrita por ele na dupla condição de sócio administrador e advogado, com o contrato social; apelação do Evento 280 (11/05/2026); memoriais do Evento 17 deste recurso (14/08/2026); e, nesta data, a petição de cumprimento do Evento 25, com a procuração atual (Doc. 2 daquela petição).
 
-6. O cadastro deste grau grafa a apelante como "EIRELI". A forma societária é "Ltda." desde a Sétima Alteração Contratual (JUCESC, 08/06/2021), como consta do ato constitutivo juntado e do próprio despacho do Evento 25.
+6. O cadastro deste grau grafa a apelante como "EIRELI". A forma societária é "Ltda." desde a Sétima Alteração Contratual (JUCESC, 08/06/2021), como consta do ato constitutivo juntado e do próprio despacho do Evento 25 [CONFERIR NO EPROC: grafia "Ltda." no texto do Evento 25].
 
 ## III — O direito
 
@@ -51,3 +52,4 @@ c) a retificação do cadastro da apelante para a razão social "Antunelli e Ant
 
 @@ **Gabriel Fabrízio do Espírito Santo**
 @@ OAB/SC 53.040
+@@ Rua Angelita Figueiredo, n. 1.596, Sala 1004, Torre B, Bairro Areias, São José/SC, CEP 88.113-710 — gfdoes@gmail.com — (48) 98421-6664

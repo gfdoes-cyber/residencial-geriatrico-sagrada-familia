@@ -77,3 +77,4 @@ e) o prosseguimento do recurso, com a inclusão em pauta e a intimação da paut
 
 @@ **Gabriel Fabrízio do Espírito Santo**
 @@ OAB/SC 53.040
+@@ Rua Angelita Figueiredo, n. 1.596, Sala 1004, Torre B, Bairro Areias, São José/SC, CEP 88.113-710 — gfdoes@gmail.com — (48) 98421-6664
