@@ -62,8 +62,12 @@
 
 ## 3. Lacunas reais — o curso ensina, a casa não tem posição escrita ou ferramenta
 
-Cada item traz **proposta** e **quem decide**. Nenhum foi implementado aqui: são mudanças de
-canônica ou de gerador (andar 40), não desta análise.
+> ✅ **Decidido em 02/09/2026 (ordem do Gabriel: "adote os 14 itens").** As propostas abaixo
+> foram adotadas como escritas — 3.3 e 3.4 na forma de recusa registrada — e implementadas em
+> `instalar/` (regra: `adendo-2026-09-02-adocao-dos-14-itens.md`). Pendente só o traço
+> tracejado do `recorte` (Swift, compila no Mac).
+
+Cada item traz **proposta** e **quem decide**.
 
 | # | O que o curso faz | Estado na casa | Proposta | Decide |
 |---|---|---|---|---|
@@ -83,6 +87,9 @@ canônica ou de gerador (andar 40), não desta análise.
 | 3.14 | **Fundamento no CPC 425, VI e § 1º** para o print (reprodução digitalizada juntada por advogado = mesma prova que o original; original preservado até o prazo da rescisória) | a casa só cita a Lei 11.419, art. 11, §§ 1º e 3º | Citar os dois: o CPC repete a regra e é lei posterior e geral do processo | banca (é acréscimo, não mudança) |
 
 ## 4. Contradições internas do acervo — arquivos que ainda ensinam medida revogada
+
+> ✅ **Corrigidos em 02/09/2026** — versões completas em `instalar/skills/...` e
+> `instalar/vault/Advocacia/`, cada correção datada no próprio texto.
 
 O JSON revoga: entrelinha 1,5 · citação a 4 cm · margem direita 2 cm · "só negrito" · Georgia ·
 órfãs/viúvas 3/3. Estes arquivos ainda trazem uma ou mais dessas medidas **sem aviso de
@@ -109,7 +116,7 @@ vocativo e qualificação; `padrao-formatacao-peca`, 5.4, fala em **3 linhas (54
 
 | # | Ponto | Estado | Proposta |
 |---|---|---|---|
-| 5.1 | **Ocupação mínima da página**: JSON `paginacao.ocupacao_minima_pct = 70` (vão de até 30 %) × regra 1-B e `validar_diagramacao.py`: **vão ≤ 20 %** | dois limiares para o mesmo defeito | Fixar **20 %** no JSON (é o gate que roda) ou explicar no JSON que 70 % é o piso do `validar_paginacao` e 80 % o do `validar_diagramacao`. Um número só é melhor |
+| 5.1 ✅ | **Ocupação mínima da página**: JSON `paginacao.ocupacao_minima_pct = 70` (vão de até 30 %) × regra 1-B e `validar_diagramacao.py`: **vão ≤ 20 %** | dois limiares para o mesmo defeito | Fixar **20 %** no JSON (é o gate que roda) ou explicar no JSON que 70 % é o piso do `validar_paginacao` e 80 % o do `validar_diagramacao`. Um número só é melhor |
 | 5.2 | **RISTJ, art. 343-A** (resumo obrigatório no STJ) | citado como fundamento da SÍNTESE desde 20/08; a própria nota de 20/08 marca `[VERIFICAR — RISTJ oficial retornou 404]`; a regra geral de 27/08 já o cita sem ressalva | Antes de citar **em peça dirigida ao STJ**, abrir o PDF do RISTJ no portal do STJ e conferir número, redação e a Emenda Regimental 53. Para os demais juízos a SÍNTESE se sustenta no CPC 188 e na Recomendação CNJ 144/2023 sem precisar do 343-A |
 | 5.3 | **"Só negrito" × "negrito e itálico"** dentro do próprio curso: a aula 2 (vídeo) diz "negrito e só ele"; o PDF da aula 1 diz "negrito, itálico… de forma estratégica" | a casa seguiu o PDF (27/08) | Manter. Registrar em `masterclass-transcrita…`, III.12, que a escolha foi consciente entre as duas falas do autor |
 | 5.4 | **EOAB, art. 34, XIV** (deturpar o teor de documento) como fundamento do "dado falso ao lado do print" | não lido na íntegra nesta sessão (só o índice do art. 34) | `[VERIFICAR]` antes de citar |

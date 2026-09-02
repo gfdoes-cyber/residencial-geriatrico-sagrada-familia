@@ -8,6 +8,17 @@
 > se passou batido alguma coisa e quero aproveitar cada caractere"*. Reforço na mesma
 > conversa: *"são dois cursos, masterclass e printscreen, eles têm que ser absorvidos"*.
 
+## 0. Estado em 02/09/2026, à tarde — ordem cumprida: "adote os 14 itens e corrija os arquivos revogados"
+
+Os 14 itens do arquivo `02`, item 3, foram **adotados** (12 implementados; capitular e etiqueta
+lateral recusados com motivo, como proposto) e as **nove entradas com medida revogada** do
+item 4 foram **corrigidas**. Tudo está em `instalar/`: geradores e validadores com o adendo
+(testados em Chromium com fixture sintética e páginas olhadas), `tipografia-vigente.json`
+vigente desde 02/09, a regra canônica `adendo-2026-09-02-adocao-dos-14-itens.md`, os onze
+arquivos corrigidos e a nota de sessão do vault. **Como o padrão da casa é anotar no Obsidian e
+o vault mora no Mac** (o Drive é espelho, não se edita), o registro entra no vault pelo
+`instalar/instalar.sh`, que copia com backup datado e não apaga nada.
+
 ## 1. O que está nesta pasta
 
 | Arquivo | O que é | Para que serve |
@@ -16,6 +27,7 @@
 | `02-auditoria-de-lacunas.md` | Confronto de cada regra do curso com a régua vigente; lacunas reais; contradições internas do acervo; decisões que só o Gabriel pode tomar | Lista de trabalho |
 | `03-esbocos-por-peca.md` | Os esboços tipográficos de 16 peças/documentos do escritório, bloco a bloco, com o elemento do curso adotado e o dispositivo legal de cada bloco | Usar ao redigir |
 | `04-ligacao-legal.md` | A matriz regra de forma ↔ norma, com o texto dos artigos conferido na cópia do CPC que a casa baixou do Planalto | Fundamentar a forma quando alguém a questionar |
+| `instalar/` | Adendo canônico de 02/09, geradores e validadores corrigidos, os 11 arquivos revogados corrigidos, nota do vault, fixtures e `instalar.sh` | Instalar no Mac (vault + skills) com backup datado |
 
 ## 2. Honestidade sobre a fonte (regra 22)
 
