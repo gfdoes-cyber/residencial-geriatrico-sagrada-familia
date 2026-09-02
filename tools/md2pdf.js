@@ -16,7 +16,11 @@ while (i < lines.length) {
   if (!line.trim()) { flush(); i++; continue; }
   if (line.trim() === '\\pagebreak' || line.trim() === '<<<QUEBRA>>>') { flush(); html.push('<div class="pb"></div>'); i++; continue; }
   if (/^---+$/.test(line.trim())) { flush(); html.push('<hr>'); i++; continue; }
-  if (line.startsWith('@@ ')) { flush(); html.push(`<p class="c">${inline(line.slice(3))}</p>`); i++; continue; }
+  if (line.startsWith('@@ ')) {
+    flush(); const grp = [];
+    while (i < lines.length && (lines[i].startsWith('@@ ') || (lines[i].trim() === '' && i + 1 < lines.length && lines[i + 1].startsWith('@@ ')))) { if (lines[i].startsWith('@@ ')) grp.push(`<p class="c">${inline(lines[i].slice(3))}</p>`); i++; }
+    html.push(`<div class="keep">${grp.join('')}</div>`); continue;
+  }
   if (line.startsWith('# ')) { flush(); html.push(`<h1>${inline(line.slice(2))}</h1>`); i++; continue; }
   if (line.startsWith('## ')) { flush(); html.push(`<h2>${inline(line.slice(3))}</h2>`); i++; continue; }
   if (line.startsWith('### ')) { flush(); html.push(`<h3>${inline(line.slice(4))}</h3>`); i++; continue; }
@@ -45,6 +49,7 @@ table { border-collapse: collapse; width: 100%; font-size: 10pt; line-height: 1.
 th, td { border: 1px solid #999; padding: 3pt 5pt; vertical-align: top; text-align: left; } th { background: #ededed; }
 hr { border: 0; border-top: 1px solid #000; margin: 8pt 0; }
 .pb { page-break-after: always; break-after: page; }
+.keep { page-break-inside: avoid; break-inside: avoid; }
 `;
 const doc = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${css}</style></head><body>${html.join('\n')}</body></html>`;
 if (outHtml) fs.writeFileSync(outHtml, doc);

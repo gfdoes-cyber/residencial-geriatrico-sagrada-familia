@@ -1,0 +1,378 @@
+{
+ "citacoes": [
+  {
+   "dispositivo": "CPC, art. 5º",
+   "texto": "\"Aquele que de qualquer forma participa do processo deve comportar-se de acordo com a boa-fé.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Fundamento do relato transparente sobre o erro de cadastro da gratuidade e do contato com a DCDP (Doc. 4); sustenta a postura de quem, intimado (Ev. 25), optou pelo recolhimento e comunica isso ao relator sem reservas.",
+   "alerta": "Nenhum. Usar com parcimônia: princípio, não regra de decisão."
+  },
+  {
+   "dispositivo": "CPC, art. 6º",
+   "texto": "\"Todos os sujeitos do processo devem cooperar entre si para que se obtenha, em tempo razoável, decisão de mérito justa e efetiva.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Apoio ao pedido de que o relator reconheça o preparo, declare prejudicado o pedido de gratuidade e prossiga ao julgamento (já há contrarrazões Ev. 284, parecer Ev. 15 e memoriais Ev. 17); também para o pedido de desabilitação das renunciantes e intimação exclusiva (peça separada).",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 75, VIII",
+   "texto": "\"São representados em juízo, ativa e passivamente: [...] VIII - a pessoa jurídica, por quem os respectivos atos constitutivos designarem ou, não havendo essa designação, por seus diretores.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Justifica a juntada da Sétima Alteração do Contrato Social (Doc. 3, JUCESC 08/06/2021, Cláusula Quinta: administrador isolado com representação judicial ativa e passiva) para demonstrar que a outorgante da nova procuração (Doc. 2) está regularmente presentada por Gabriel Fabrizio do Espírito Santo.",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 76, caput e §2º, I",
+   "texto": "Caput: \"Verificada a incapacidade processual ou a irregularidade da representação da parte, o juiz suspenderá o processo e designará prazo razoável para que seja sanado o vício.\" §2º: \"Descumprida a determinação em fase recursal perante tribunal de justiça, tribunal regional federal ou tribunal superior, o relator: I - não conhecerá do recurso, se a providência couber ao recorrente\".",
+   "confianca": "alta",
+   "uso_na_peca": "Uso INTERNO (memorando de risco): é a sanção que se pretende afastar preventivamente com a procuração nova e ratificadora. Na peça, no máximo em nota, para dizer que a regularização espontânea torna desnecessária qualquer providência do art. 76.",
+   "alerta": "Não transcrever o §2º, I, na peça: enunciar a sanção do não conhecimento equivale a confessar o vício. A regra é redigir \"em reforço e para que não paire dúvida\"."
+  },
+  {
+   "dispositivo": "CPC, art. 98, caput",
+   "texto": "\"A pessoa natural ou jurídica, brasileira ou estrangeira, com insuficiência de recursos para pagar as custas, as despesas processuais e os honorários advocatícios tem direito à gratuidade da justiça, na forma da lei.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Apenas para identificar o benefício de que a apelante DESISTE expressamente (pedido formulado nas razões, Ev. 280/281). Não renovar o pedido (Súmula 51/TJSC).",
+   "alerta": "Não usar como fundamento de qualquer pedido: o preparo foi recolhido em 02/09/2026 (Ev. 31/32) e a estratégia é a desistência expressa da gratuidade."
+  },
+  {
+   "dispositivo": "CPC, art. 99, §2º",
+   "texto": "\"O juiz somente poderá indeferir o pedido se houver nos autos elementos que evidenciem a falta dos pressupostos legais para a concessão de gratuidade, devendo, antes de indeferir o pedido, determinar à parte a comprovação do preenchimento dos referidos pressupostos.\"",
+   "confianca": "alta",
+   "uso_na_peca": "É o fundamento do despacho do Ev. 25 (26/08/2026). Citar para mostrar que a apelante cumpre a alternativa aberta pelo relator (comprovar OU recolher) no prazo assinado (31/08 a 04/09/2026, Ev. 27).",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 99, §3º",
+   "texto": "\"Presume-se verdadeira a alegação de insuficiência deduzida exclusivamente por pessoa natural.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Somente em memorando interno: explica por que a pessoa jurídica NÃO goza da presunção e teria de provar a impossibilidade (Súmula 481/STJ) — razão da decisão estratégica de recolher.",
+   "alerta": "NÃO citar na peça em favor da apelante: a presunção é exclusiva da pessoa natural; a apelante é Ltda."
+  },
+  {
+   "dispositivo": "CPC, art. 99, §7º",
+   "texto": "\"Requerida a concessão de gratuidade da justiça em recurso, o recorrente estará dispensado de comprovar o recolhimento do preparo, incumbindo ao relator, neste caso, apreciar o requerimento e, se indeferi-lo, fixar prazo para realização do recolhimento.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Peça central do capítulo do preparo: como houve requerimento de gratuidade no recurso (Ev. 280/281, certificado no Ev. 23), a apelante estava dispensada de comprovar o preparo na interposição; o relator fixou prazo (Ev. 25) e o recolhimento SIMPLES dentro dele afasta a deserção e o §4º do art. 1.007.",
+   "alerta": "Nenhum. Este é o dispositivo que neutraliza a tese do recolhimento em dobro."
+  },
+  {
+   "dispositivo": "CPC, art. 101, §2º",
+   "texto": "\"Confirmada a denegação ou a revogação da gratuidade, o relator ou o órgão colegiado determinará ao recorrente o recolhimento das custas processuais, no prazo de 5 (cinco) dias, sob pena de não conhecimento do recurso.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Apoio sistemático (analogia) para mostrar que, no regime do CPC, a consequência da negativa de gratuidade em grau recursal é sempre prazo de 5 dias para recolhimento SIMPLES, nunca em dobro.",
+   "alerta": "O dispositivo pressupõe denegação/revogação da gratuidade decidida em 1º grau e recorrida; aqui não houve decisão alguma (Ev. 23/25). Citar apenas como reforço sistemático, com a ressalva \"por analogia\"."
+  },
+  {
+   "dispositivo": "CPC, art. 103, caput e parágrafo único",
+   "texto": "Caput: \"A parte será representada em juízo por advogado regularmente inscrito na Ordem dos Advogados do Brasil.\" Parágrafo único: \"É lícito à parte postular em causa própria quando tiver habilitação legal.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Caput: base da representação da Ltda. por advogado (Gabriel, OAB/SC 53.040). Parágrafo único: NÃO usar em favor da tese de \"causa própria\".",
+   "alerta": "A parte é a pessoa jurídica, não o advogado; o sócio-advogado não postula em causa própria em nome da sociedade — precisa de procuração outorgada pela PJ (Doc. 2). Não invocar o parágrafo único para dispensar a procuração."
+  },
+  {
+   "dispositivo": "CPC, art. 104, caput e §§1º-2º",
+   "texto": "Caput: \"O advogado não será admitido a postular em juízo sem procuração, salvo para evitar preclusão, decadência ou prescrição, ou para praticar ato considerado urgente.\" §1º: \"Nas hipóteses previstas no caput, o advogado deverá, independentemente de caução, exibir a procuração no prazo de 15 (quinze) dias, prorrogável por igual período por despacho do juiz.\" §2º: \"O ato não ratificado será considerado ineficaz relativamente àquele em cujo nome foi praticado, respondendo o advogado pelas despesas e por perdas e danos.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Uso INTERNO: fixa que o vício é de INEFICÁCIA sanável por ratificação, não de inexistência. Na peça, citar apenas de forma indireta ao ratificar: \"a outorgante ratifica, para todos os efeitos (CPC, art. 104, §2º; CC, art. 662, parágrafo único), os atos praticados pelo procurador\".",
+   "alerta": "Não escrever na peça que a apelação foi interposta \"sem procuração\" nem que o ato é/era \"ineficaz\": a cláusula de ratificação deve ser redigida como reforço, sem confissão."
+  },
+  {
+   "dispositivo": "CPC, art. 105, caput e §§1º, 2º e 4º",
+   "texto": "Caput: \"A procuração geral para o foro, outorgada por instrumento público ou particular assinado pela parte, habilita o advogado a praticar todos os atos do processo, exceto receber citação, confessar, reconhecer a procedência do pedido, transigir, desistir, renunciar ao direito sobre o qual se funda a ação, receber, dar quitação, firmar compromisso e assinar declaração de hipossuficiência econômica, que devem constar de cláusula específica.\" §1º: \"A procuração pode ser assinada digitalmente, na forma da lei.\" §2º: \"A procuração deverá conter o nome do advogado, seu número de inscrição na Ordem dos Advogados do Brasil e endereço completo.\" §4º: \"Salvo disposição expressa em sentido contrário constante do próprio instrumento, a procuração outorgada na fase de conhecimento é eficaz para todas as fases do processo, inclusive para o cumprimento de sentença.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Checklist do Doc. 2: (i) assinatura PELA PARTE — e-CNPJ da Antunelli ou punho digitalizado do administrador, não o login do advogado no eproc (§1º c/c caput); (ii) nome, OAB/SC 53.040 e endereço completo do escritório (§2º); (iii) poderes especiais expressos, inclusive para DESISTIR do pedido de gratuidade e para declarar hipossuficiência, se quiser prevenir objeção (caput); (iv) eficácia para o cumprimento de sentença (§4º).",
+   "alerta": "O caput exige cláusula específica para \"desistir\" e para \"assinar declaração de hipossuficiência\". A desistência do pedido de gratuidade é ato processual do advogado sobre requerimento incidental, não desistência da ação, mas, por cautela, incluir poder expresso para \"desistir de requerimentos incidentais, inclusive de gratuidade da justiça\" na procuração nova."
+  },
+  {
+   "dispositivo": "CPC, art. 111, caput e parágrafo único",
+   "texto": "Caput: \"A parte que revogar o mandato outorgado a seu advogado constituirá, no mesmo ato, outro que assuma o patrocínio da causa.\" Parágrafo único: \"Não sendo constituído novo procurador no prazo de 15 (quinze) dias, observar-se-á o disposto no art. 76.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Somente para DISTINGUIR: a hipótese das advogadas Caroline Vaz e Lígia Luis é renúncia (art. 112), não revogação (art. 111). Também documenta que a revogação do mandato de Gabriel no Ev. 93 (07/02/2020) veio acompanhada de nova constituição, logo foi válida.",
+   "alerta": "Não fundamentar a desabilitação das renunciantes no art. 111: o dispositivo trata de revogação pela parte, não de renúncia pelo advogado."
+  },
+  {
+   "dispositivo": "CPC, art. 112, caput e §§1º-2º",
+   "texto": "Caput: \"O advogado poderá renunciar ao mandato a qualquer tempo, provando, na forma prevista neste Código, que comunicou a renúncia ao mandante, a fim de que este nomeie sucessor.\" §1º: \"Durante os 10 (dez) dias seguintes, o advogado continuará a representar o mandante, desde que necessário para lhe evitar prejuízo.\" §2º: \"Dispensa-se a comunicação referida no caput quando a procuração tiver sido outorgada a vários advogados e a parte continuar representada por outro, apesar da renúncia.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Peça separada de desabilitação: renúncia comunicada (notificação 11/07/2023, e-mail 31/07/2023) e protocolada (Ev. 211, 01/08/2023; reiterada Ev. 256, 22/01/2025), consumada há mais de três anos; o prazo do §1º há muito expirou; pedido de baixa das renunciantes no cadastro dos dois graus e comunicação ao juízo de origem.",
+   "alerta": "Nenhum. Evitar qualquer arguição de nulidade das intimações dirigidas às renunciantes nesta peça (ressalva do art. 272, §8º)."
+  },
+  {
+   "dispositivo": "CPC, art. 219, caput e parágrafo único",
+   "texto": "Caput: \"Na contagem de prazo em dias, estabelecido por lei ou pelo juiz, computar-se-ão somente os dias úteis.\" Parágrafo único: \"O disposto neste artigo aplica-se somente aos prazos processuais.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Demonstração da tempestividade do cumprimento do Ev. 25: prazo de 5 dias úteis, de 31/08 a 04/09/2026 (Ev. 27).",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 224, §§2º-3º",
+   "texto": "§2º: \"Considera-se como data de publicação o primeiro dia útil seguinte ao da disponibilização da informação no Diário da Justiça eletrônico.\" §3º: \"A contagem do prazo terá início no primeiro dia útil que seguir ao da publicação.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Cadeia de datas: disponibilização no DJEN 27/08 (Ev. 28), publicação 28/08 (Ev. 29), início 31/08, termo final 04/09/2026 (Ev. 27).",
+   "alerta": "O texto fala em \"Diário da Justiça eletrônico\"; a publicação ocorreu no DJEN. A contagem é a mesma e o próprio eproc computou 04/09/2026; não há divergência a explorar."
+  },
+  {
+   "dispositivo": "CPC, art. 272, §§2º, 5º e 8º",
+   "texto": "§2º: \"Sob pena de nulidade, é indispensável que da publicação constem os nomes das partes e de seus advogados, com o respectivo número de inscrição na Ordem dos Advogados do Brasil, ou, se assim requerido, da sociedade de advogados.\" §5º: \"Constando dos autos pedido expresso para que as comunicações dos atos processuais sejam feitas em nome dos advogados indicados, o seu desatendimento implicará nulidade.\" §8º: \"A parte arguirá a nulidade da intimação em capítulo preliminar do próprio ato que lhe caiba praticar, o qual será tido por tempestivo se o vício for reconhecido.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Peça separada: requerer que todas as publicações e intimações saiam EXCLUSIVAMENTE em nome de Gabriel Fabrizio do Espírito Santo, OAB/SC 53.040 (§§2º e 5º), renovando os pedidos dos Ev. 40 e 65 do 1º grau; requerer certidão das comunicações dirigidas às renunciantes desde 01/08/2023, com ressalva expressa de que nenhuma nulidade é arguida agora (§8º).",
+   "alerta": "Não pedir publicação em nome da \"Espírito Santo – Sociedade Individual de Advocacia\" (§2º, parte final): registro na OAB/SC não confirmado — não mencionar."
+  },
+  {
+   "dispositivo": "CPC, art. 932, I e parágrafo único",
+   "texto": "Inciso I: \"dirigir e ordenar o processo no tribunal, inclusive em relação à produção de prova, bem como, quando for o caso, homologar autocomposição das partes\". Parágrafo único: \"Antes de considerar inadmissível o recurso, o relator concederá o prazo de 5 (cinco) dias ao recorrente para que seja sanado vício ou complementada a documentação exigível.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Inciso I: competência do relator para receber o preparo, declarar prejudicada a gratuidade, determinar a retificação do cadastro (EIRELI → Ltda., endereço) e a desabilitação das renunciantes. Parágrafo único: uso interno (se o relator entender irregular algo, deve abrir 5 dias — ramificação de risco 9.a/9.c).",
+   "alerta": "Não invocar o parágrafo único como pedido: pedir prazo para sanar vício é confessar vício. Ele serve de rede de segurança, não de fundamento."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, caput",
+   "texto": "\"No ato de interposição do recurso, o recorrente comprovará, quando exigido pela legislação pertinente, o respectivo preparo, inclusive porte de remessa e de retorno, sob pena de deserção.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Enquadramento: a regra do caput foi afastada, no caso, pelo art. 99, §7º (gratuidade requerida no recurso); o preparo é agora comprovado no prazo fixado pelo relator (Ev. 25/27).",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §1º",
+   "texto": "\"São dispensados de preparo, inclusive porte de remessa e de retorno, os recursos interpostos pelo Ministério Público, pela União, pelo Distrito Federal, pelos Estados, pelos Municípios, e respectivas autarquias, e pelos que gozam de isenção legal.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Apenas para constatar que a apelante NÃO se enquadra em nenhuma hipótese de dispensa (não é ente público nem goza de isenção legal — teses mortas: Lei 17.654 art. 7º, I; EPI art. 51; LACP art. 18).",
+   "alerta": "Não sustentar \"isenção legal\" da apelante: nenhuma das normas cogitadas a favorece (v. citações a evitar)."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §2º",
+   "texto": "\"A insuficiência no valor do preparo, inclusive porte de remessa e de retorno, implicará deserção se o recorrente, intimado na pessoa de seu advogado, não vier a supri-lo no prazo de 5 (cinco) dias.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Uso interno (ramificação 9.a): se o relator reputar insuficiente o valor (R$ 720,00, guia Ev. 31), deve intimar para complementar em 5 dias. Na peça, apenas afirmar que o valor recolhido é o gerado pela própria Seção de Custas (Ev. 31) para o item de preparo de apelação.",
+   "alerta": "Não combinar com o §5º: a vedação de complementação só alcança o recolhimento em dobro do §4º, que não é o caso."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §3º",
+   "texto": "\"É dispensado o recolhimento do porte de remessa e de retorno no processo em autos eletrônicos.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Registrar que, em autos eletrônicos, o preparo se esgota na Taxa de Serviços Judiciais recursal (guia Ev. 31); não há porte a recolher.",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §4º",
+   "texto": "\"O recorrente que não comprovar, no ato de interposição do recurso, o recolhimento do preparo, inclusive porte de remessa e de retorno, será intimado, na pessoa de seu advogado, para realizar o recolhimento em dobro, sob pena de deserção.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Citar apenas para AFASTAR: o §4º pressupõe quem nada recolheu E nada requereu; aqui houve requerimento de gratuidade no recurso (art. 99, §7º), certificado no Ev. 23, e o relator fixou prazo para recolhimento simples (Ev. 25). Anteparo contra eventual tese de dobro.",
+   "alerta": "Não formular pedido com base no §4º nem oferecer recolhimento em dobro. Mencionar só defensivamente, em um parágrafo."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §5º",
+   "texto": "\"É vedada a complementação se houver insuficiência parcial do preparo, inclusive porte de remessa e de retorno, no recolhimento realizado na forma do § 4º.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Não usar na peça. Uso interno: confirma que a vedação de complementar só existe no cenário do dobro (§4º), inaplicável.",
+   "alerta": "Evitar. Sua menção só atrai a discussão do dobro."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §6º",
+   "texto": "\"Provando o recorrente justo impedimento, o relator relevará a pena de deserção, por decisão irrecorrível, fixando-lhe prazo de 5 (cinco) dias para efetuar o preparo.\"",
+   "confianca": "alta",
+   "uso_na_peca": "REGISTRO (sem pedido): narrar o impedimento sistêmico — gratuidade certificada \"Deferida\" em dois graus (Ev. 293/1º grau; Ev. 3-4/2º grau), retificação só em 21/08 (Ev. 22/23), guia tarjada em 02/09 (Doc. 4) e emissão pela DCDP após contato (Ev. 31/32). Serve de anteparo se alguém sustentar deserção ou intempestividade.",
+   "alerta": "O §6º pressupõe pena de deserção a ser RELEVADA; aqui não há deserção, pois o recolhimento ocorreu no prazo do Ev. 25. Redigir como \"ad cautelam, registra-se\", nunca como pedido de relevação — pedir relevação sugere que houve deserção."
+  },
+  {
+   "dispositivo": "CPC, art. 1.007, §7º",
+   "texto": "\"O equívoco no preenchimento da guia de custas não implicará a aplicação da pena de deserção, cabendo ao relator, na hipótese de dúvida quanto ao recolhimento, intimar o recorrente para sanar o vício no prazo de 5 (cinco) dias.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Uso interno (ramificação 9.a): se houver dúvida sobre a guia (gerada pela própria DCDP, Ev. 31), o relator deve intimar para sanar, não decretar deserção. Na peça, no máximo em nota, junto ao §6º.",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 1.012, caput",
+   "texto": "\"A apelação terá efeito suspensivo.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Somente em contexto: recordar que o efeito suspensivo ope legis já foi reconhecido no incidente 5049926-11.2026.8.24.0000 (Ev. 8, 09/06/2026; trânsito 04/08/2026) e nas contrarrazões do MP (Ev. 284). Não é objeto desta peça.",
+   "alerta": "Não repetir pedido de efeito suspensivo: matéria decidida e transitada."
+  },
+  {
+   "dispositivo": "CPC, art. 1.003, §5º",
+   "texto": "\"Excetuados os embargos de declaração, o prazo para interpor os recursos e para responder-lhes é de 15 (quinze) dias.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Não entra nesta peça; roteiro pós-acórdão (REsp/RE em 15 dias úteis; agravo interno idem, RITJSC art. 293).",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CPC, art. 1.023, caput",
+   "texto": "\"Os embargos serão opostos, no prazo de 5 (cinco) dias, em petição dirigida ao juiz, com indicação do erro, obscuridade, contradição ou omissão, e não se sujeitam a preparo.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Não entra nesta peça; roteiro pós-acórdão (ED em 5 dias úteis, sem preparo, interrupção pelo art. 1.026).",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CC, art. 117, caput",
+   "texto": "\"Salvo se o permitir a lei ou o representado, é anulável o negócio jurídico que o representante, no seu interesse ou por conta de outrem, celebrar consigo mesmo.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Uso INTERNO: afastar a objeção de autocontratação na outorga da procuração pela Ltda. (representada pelo administrador Gabriel) ao advogado Gabriel: há permissão do representado (Cláusula Quinta do contrato social + CC 1.018) e a procuração judicial não é negócio celebrado \"no interesse\" do representante, mas no da sociedade ré.",
+   "alerta": "NÃO citar na peça. Trazer o art. 117 à luz convida o relator a examinar a autocontratação. Se questionado (ramificação 9.c), responder então com este raciocínio."
+  },
+  {
+   "dispositivo": "CC, art. 653",
+   "texto": "\"Opera-se o mandato quando alguém recebe de outrem poderes para, em seu nome, praticar atos ou administrar interesses. A procuração é o instrumento do mandato.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Nota conceitual na cláusula da procuração (Doc. 2). Dispensável na petição.",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "CC, art. 654, caput e §1º",
+   "texto": "Caput: \"Todas as pessoas capazes são aptas para dar procuração mediante instrumento particular, que valerá desde que tenha a assinatura do outorgante.\" §1º: \"O instrumento particular deve conter a indicação do lugar onde foi passado, a qualificação do outorgante e do outorgado, a data e o objetivo da outorga com a designação e a extensão dos poderes conferidos.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Checklist formal do Doc. 2: assinatura DA OUTORGANTE (e-CNPJ da Antunelli ou punho do administrador); lugar (São José/SC), data, qualificação completa da outorgante (CNPJ 02.145.891/0001-08, NIRE, sede) e do outorgado (OAB/SC 53.040, endereço), objeto (ACP 0900193-90.2016.8.24.0064 e recursos) e extensão dos poderes.",
+   "alerta": "O caput exige assinatura do outorgante: o certificado/login do advogado no eproc autentica o outorgado, não a outorgante."
+  },
+  {
+   "dispositivo": "CC, art. 659",
+   "texto": "\"A aceitação do mandato pode ser tácita, e resulta do começo de execução.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Uso interno: a procuração é ato unilateral da outorgante; a aceitação pelo advogado resulta do exercício (protocolo da peça). Dispensa assinatura do outorgado no instrumento.",
+   "alerta": "Nenhum. Não é necessário citar na peça."
+  },
+  {
+   "dispositivo": "CC, art. 662, caput e parágrafo único",
+   "texto": "Caput: \"Os atos praticados por quem não tenha mandato, ou o tenha sem poderes suficientes, são ineficazes em relação àquele em cujo nome foram praticados, salvo se este os ratificar.\" Parágrafo único: \"A ratificação há de ser expressa, ou resultar de ato inequívoco, e retroagirá à data do ato.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Fundamento da cláusula de ratificação EXPRESSA, no Doc. 2, de todos os atos praticados pelo outorgado nos autos desde 07/02/2020 (inclusive Ev. 257, Ev. 280, incidente 5049926-11 e Ev. 17), com efeito retroativo à data de cada ato. Na peça, citar só o parágrafo único.",
+   "alerta": "Não transcrever o caput na peça (fala em \"ineficazes\" e \"sem poderes\"): usar apenas o parágrafo único, redigido como reforço."
+  },
+  {
+   "dispositivo": "CC, art. 1.018",
+   "texto": "\"Ao administrador é vedado fazer-se substituir no exercício de suas funções, sendo-lhe facultado, nos limites de seus poderes, constituir mandatários da sociedade, especificados no instrumento os atos e operações que poderão praticar.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Fundamento do poder do administrador isolado para constituir advogado (mandatário judicial) em nome da Ltda.; aplicável à limitada por remissão supletiva às normas da sociedade simples (CC art. 1.053, caput) [CONFERIR TEXTO do art. 1.053].",
+   "alerta": "A parte final exige que o instrumento especifique os atos: a procuração deve enumerar os poderes (cláusula ad judicia et extra, poderes especiais do art. 105 do CPC, ratificação). Não usar procuração genérica."
+  },
+  {
+   "dispositivo": "Lei 7.347/1985, art. 18",
+   "texto": "\"Nas ações de que trata esta lei, não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas, nem condenação da associação autora, salvo comprovada má-fé, em honorários de advogado, custas e despesas processuais.\"",
+   "confianca": "alta",
+   "uso_na_peca": "NÃO usar. Tese morta: a dispensa de adiantamento é do autor coletivo, não do réu (STJ: AgInt no AREsp 2.590.583/RS, 2ª T., j. 27/05/2026; AgInt no AREsp 3.058.374/BA, 1ª T., j. 11/05/2026; AgInt no AREsp 1.432.391/PR, 1ª T., 2019 — precedentes do dossiê).",
+   "alerta": "Citar em favor da apelante-ré contraria jurisprudência consolidada do STJ e do TJSC listada no dossiê."
+  },
+  {
+   "dispositivo": "Lei 10.741/2003, art. 51",
+   "texto": "Paráfrase fiel: as instituições filantrópicas ou sem fins lucrativos prestadoras de serviço à pessoa idosa têm direito à assistência judiciária gratuita [CONFERIR TEXTO: redação atual pós-Lei 14.423/2022 usa \"pessoas idosas\"].",
+   "confianca": "media",
+   "uso_na_peca": "NÃO usar. A apelante é sociedade empresária com fins lucrativos (Ltda.).",
+   "alerta": "Dispositivo restrito a entidades filantrópicas/sem fins lucrativos; invocá-lo seria contraditório com a natureza empresarial da Antunelli e com o balancete de maio/2026 com resultado positivo."
+  },
+  {
+   "dispositivo": "Lei 10.741/2003, art. 88, caput e parágrafo único",
+   "texto": "Caput: \"Nas ações de que trata este Capítulo, não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas.\" Parágrafo único: \"Não se imporá sucumbência ao Ministério Público.\"",
+   "confianca": "alta",
+   "uso_na_peca": "NÃO usar em favor da ré. Mesma lógica do art. 18 da LACP: beneficia o autor da ação coletiva; o réu condenado paga (Lei 17.654/2018, art. 6º, p.ú.).",
+   "alerta": "Tese morta (dossiê, item 8.6)."
+  },
+  {
+   "dispositivo": "Lei estadual (SC) 17.654/2018, art. 6º, parágrafo único",
+   "texto": "Paráfrase fiel: nas ações populares, ações civis públicas e ações de defesa de direitos coletivos e difusos, a Taxa de Serviços Judiciais e as demais despesas processuais são pagas pelo réu, se condenado, ou pelo autor, se comprovada má-fé [CONFERIR TEXTO e numeração do parágrafo na ALESC].",
+   "confianca": "media",
+   "uso_na_peca": "Uso interno: explica por que a ré condenada não tem isenção da TSJ em ACP e por que a sentença (\"sem custas\", art. 7º, I) não a socorre quanto ao preparo recursal. Na peça, não é necessário citar.",
+   "alerta": "Não confundir com a dispensa de adiantamento do autor coletivo; o dispositivo onera o réu condenado."
+  },
+  {
+   "dispositivo": "Lei estadual (SC) 17.654/2018, art. 7º, I",
+   "texto": "Paráfrase fiel: são isentos do pagamento da Taxa de Serviços Judiciais a União, os Estados, os Municípios, o Distrito Federal e as respectivas autarquias e fundações (inciso I); o Ministério Público e a Defensoria Pública (inciso II); a isenção não dispensa as pessoas jurídicas do inciso I de reembolsar a taxa e despesas pagas pela parte vencedora [CONFERIR TEXTO literal].",
+   "confianca": "media",
+   "uso_na_peca": "NÃO usar em favor da apelante. Serve apenas para compreender o capítulo da sentença (Ev. 271) que dispensou custas com base nesse inciso — dispensa que se refere aos entes públicos (Município litisconsorte), não à ré.",
+   "alerta": "Invocar o art. 7º, I, para a Antunelli é tese morta (dossiê 8.6). A menção \"sem custas\" da sentença não equivale a gratuidade nem a isenção de preparo recursal."
+  },
+  {
+   "dispositivo": "Lei estadual (SC) 17.654/2018, Anexo Único (item do preparo de apelação)",
+   "texto": "Paráfrase: a Taxa de Serviços Judiciais incide sobre o preparo de recursos de apelação segundo valor fixo da tabela do Anexo Único, atualizado anualmente por ato da CGJ [CONFERIR: número do item da tabela, valor vigente em 2026 e Circular CGJ n. 643/2025].",
+   "confianca": "baixa",
+   "uso_na_peca": "Na peça, NÃO citar item nem valor da tabela: dizer apenas que foi recolhido o valor integral da guia de preparo recursal gerada pela Seção de Custas Judiciais (Ev. 31), R$ 720,00 [CONFERIR NO EPROC: valor exato da guia Ev. 31 e comprovante].",
+   "alerta": "O dossiê não viu a guia nem o comprovante. Item, valor e circular não foram conferidos na fonte; ancorar no documento do Ev. 31, não na tabela."
+  },
+  {
+   "dispositivo": "Resolução CM n. 3/2019 (TJSC), art. 1º, §4º",
+   "texto": "Trecho citado pela DCDP (e-mail de 02/09/2026): \"A data de vencimento do boleto não influenciará na contagem dos prazos processuais\" — o dispositivo prossegue referindo os prazos de recolhimento dos arts. 2º e 3º da própria resolução [CONFERIR TEXTO da parte final].",
+   "confianca": "media",
+   "uso_na_peca": "Registro de que o pagamento foi feito em 02/09/2026, dentro do prazo do Ev. 25, independentemente do vencimento do boleto; se o pagamento foi por boleto, juntar comprovante de compensação [CONFERIR NO EPROC: meio de pagamento e situação da guia — Paga/Baixada].",
+   "alerta": "O §4º é norma administrativa do TJSC: cita-se como reforço do que a própria Seção de Custas informou (Doc. 4), não como fundamento autônomo de tempestividade — esta decorre do art. 1.007 c/c Ev. 25/27."
+  },
+  {
+   "dispositivo": "Súmula 481/STJ",
+   "texto": "\"Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Fundamento do despacho do Ev. 25 (ao lado do art. 99, §2º). Na peça, apenas para dizer que, ciente do ônus probatório, a apelante optou pela via mais segura e recolheu o preparo, desistindo do pedido de gratuidade.",
+   "alerta": "Nenhum."
+  },
+  {
+   "dispositivo": "Súmula 51/TJSC",
+   "texto": "\"O pedido de justiça gratuita seguido do pagamento do preparo pelo recorrente é considerado ato incompatível com o interesse de recorrer, impossibilitando o conhecimento do recurso no ponto.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Razão para a DESISTÊNCIA EXPRESSA do pedido de gratuidade formulado nas razões (Ev. 280/281) e para nunca renová-lo; pedir que o relator declare o pedido prejudicado e conheça integralmente do recurso.",
+   "alerta": "A súmula prejudica o recurso \"no ponto\" da gratuidade, não no todo; ainda assim, a peça deve deixar claro que o único ponto atingido é o pedido de gratuidade, do qual se desiste, para evitar leitura ampliativa."
+  },
+  {
+   "dispositivo": "Súmula 115/STJ",
+   "texto": "\"Na instância especial é inexistente recurso interposto por advogado sem procuração nos autos.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Uso INTERNO: justifica fechar a cadeia de representação AGORA (Doc. 2 + Doc. 3), antes de eventual REsp, quando o vício não seria mais sanável pela ratificação.",
+   "alerta": "NÃO citar na peça: mencionar a súmula da inexistência ao juntar a procuração equivale a admitir a falta de procuração."
+  },
+  {
+   "dispositivo": "Súmula 187/STJ",
+   "texto": "\"É deserto o recurso interposto para o Superior Tribunal de Justiça, quando o recorrente não recolhe, na origem, a importância das despesas de remessa e retorno dos autos.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Não usar. Trata de porte de remessa e retorno para o STJ, dispensado em autos eletrônicos (CPC, art. 1.007, §3º). Sem utilidade nesta peça nem no futuro REsp eletrônico.",
+   "alerta": "Inaplicável a autos eletrônicos; citar denotaria desatualização."
+  },
+  {
+   "dispositivo": "Tema 1296/STJ (recursos repetitivos)",
+   "texto": "Tese firmada: \"A prévia intimação pessoal do devedor para o cumprimento de obrigação de fazer ou de não fazer especificada na decisão judicial constitui pressuposto para a incidência da multa coercitiva, nos termos da Súmula n. 410/STJ, cujo teor permanece hígido após a entrada em vigor do CPC de 2015.\"",
+   "confianca": "alta",
+   "uso_na_peca": "Não entra nesta peça (é mérito/execução das astreintes). Reservar para memoriais complementares, ED e cumprimento de sentença.",
+   "alerta": "Não misturar com a petição de preparo/representação: a peça deve ser estritamente de admissibilidade."
+  },
+  {
+   "dispositivo": "RITJSC, arts. 142-K a 142-Q (ER 49/2025)",
+   "texto": "Paráfrase (conferida pela banca em 16/08/2026 no Regimento consolidado): julgamento totalmente virtual a critério do relator (142-K, §1º); pauta publicada com 5 dias úteis (142-L, §1º); objeção ao virtual até 2 dias úteis antes, sem motivação, transferindo o feito para sessão presencial na qual cabe sustentação oral (142-M, §§1º-2º); não se admitem objeções e pedidos de sustentação após o prazo (142-M, §4º); votação em até 6 dias úteis (142-N, §1º); sustentação de argumentos por áudio/vídeo até 2 dias úteis antes (142-Q) [CONFERIR TEXTO: numeração dos parágrafos].",
+   "confianca": "media",
+   "uso_na_peca": "Não entra nesta peça. Roteiro pós-protocolo: os memoriais (Ev. 17) já pediram intimação da pauta; decidir oportunamente entre objeção ao virtual e sustentação de argumentos.",
+   "alerta": "Em sessão totalmente virtual não há inscrição para sustentação oral; a objeção sozinha não garante a tribuna, apenas transfere o julgamento."
+  },
+  {
+   "dispositivo": "RITJSC, art. 176, caput",
+   "texto": "Paráfrase (conferida pela banca em 16/08/2026): a inscrição para sustentação oral, nas sessões presenciais físicas e nas sessões presenciais por videoconferência, faz-se pelo sistema até 2 dias úteis antes da sessão [CONFERIR TEXTO].",
+   "confianca": "media",
+   "uso_na_peca": "Não entra nesta peça. Roteiro de pauta.",
+   "alerta": "A redação atual excluiu as sessões virtuais; não requerer sustentação oral com base no art. 176 em sessão virtual."
+  },
+  {
+   "dispositivo": "RITJSC, art. 293, parágrafo único",
+   "texto": "Paráfrase: o agravo interno contra decisão do relator é processado nos mesmos autos, na forma dos arts. 1.021 e seguintes do CPC, e não se sujeita a preparo [CONFERIR TEXTO].",
+   "confianca": "media",
+   "uso_na_peca": "Não entra nesta peça. Roteiro: se o relator decidir monocraticamente (CPC 932, IV/V), agravo interno em 15 dias úteis, sem preparo.",
+   "alerta": "Nenhum."
+  }
+ ],
+ "citacoes_a_evitar": [
+  "CPC, art. 1.012, §1º, V, como base para pedir/obter efeito suspensivo: a sentença não confirmou, concedeu nem revogou tutela provisória (nunca apreciada); o efeito suspensivo é ope legis (caput) e a matéria foi decidida no incidente 5049926-11.2026.8.24.0000 (Ev. 8, trânsito 04/08/2026). Repetir o pedido é inútil e contradiz decisão transitada.",
+  "Lei 8.906/1994 (EOAB), art. 36, para 'advocacia em causa própria': o art. 36 trata da sanção de censura, nada dispõe sobre causa própria. A norma de causa própria é o CPC art. 103, parágrafo único (antigo CPC/73 art. 36), e é inaplicável: a parte é a pessoa jurídica, que não postula em causa própria — precisa de procuração (Doc. 2). Igualmente evitar EOAB arts. 28 e 30 (incompatibilidades/impedimentos), que não incidem.",
+  "Lei estadual (SC) 17.654/2018, art. 7º, I, em favor da apelante: isenção da TSJ restrita a entes públicos (e MP/Defensoria no inciso II). A frase 'sem custas' da sentença não se estende ao preparo recursal da ré (art. 6º, p.ú.: em ACP, o réu condenado paga).",
+  "Lei 7.347/1985, art. 18; Lei 8.078/1990, art. 87; Lei 10.741/2003, art. 88 — dispensa de adiantamento em favor do RÉU: contrariam AgInt no AREsp 2.590.583/RS, AgInt no AREsp 3.058.374/BA, AgInt no AREsp 1.432.391/PR e TJSC ApCiv 5034526-34.2025.8.24.0018 (todos no dossiê).",
+  "Lei 10.741/2003, art. 51 (assistência judiciária a entidades filantrópicas/sem fins lucrativos): a apelante é sociedade empresária com fins lucrativos.",
+  "CPC, art. 98 e art. 99 (qualquer parágrafo) como fundamento de NOVO pedido de gratuidade: o preparo foi pago em 02/09/2026 (Ev. 31/32); pedir gratuidade após pagar atrai a Súmula 51/TJSC. A peça deve DESISTIR expressamente do pedido de gratuidade das razões recursais.",
+  "CPC, art. 99, §3º, em favor da apelante: presunção de veracidade exclusiva da pessoa natural.",
+  "CPC, art. 1.007, §4º e §5º, como moldura do caso ou oferta de recolhimento em dobro: o caso é o do art. 99, §7º (gratuidade requerida no recurso → prazo do relator para recolhimento simples). Mencionar o §4º só defensivamente, para afastá-lo.",
+  "CPC, art. 1.007, §6º, como PEDIDO de relevação de deserção: não houve deserção (recolhimento dentro do prazo do Ev. 25/27). Usar apenas como registro ad cautelam do justo impedimento sistêmico (Doc. 4).",
+  "CPC, art. 932, parágrafo único, e art. 76, §2º, I, como pedidos de prazo para sanar vício: equivalem a confissão de irregularidade. A regularização vem 'em reforço e para que não paire dúvida'.",
+  "CPC, art. 104, caput e §2º, e CC, art. 662, caput, transcritos na peça ('sem procuração', 'ineficaz', 'sem poderes'): confessam o vício. Usar somente CC art. 662, parágrafo único (ratificação expressa e retroativa), em redação de reforço.",
+  "Súmula 115/STJ na peça: enunciar a 'inexistência' do recurso sem procuração ao juntar a procuração nova é autoincriminatório. Uso apenas interno.",
+  "CC, art. 117, na peça: trazer a autocontratação à discussão convida o relator a examiná-la. Reservar para eventual resposta a intimação (ramificação 9.c).",
+  "CPC, art. 111 (revogação) como base para a desabilitação de Caroline Vaz e Lígia Luis: a hipótese é RENÚNCIA consumada e não processada (CPC, art. 112; Ev. 211 e 256).",
+  "CPC, art. 272, §8º, como arguição de nulidade das intimações dirigidas às renunciantes ou publicadas em nome de advogado revogado: NÃO arguir nulidade agora; apenas requerer certidão das comunicações, com ressalva expressa de direitos.",
+  "Súmula 187/STJ: trata de porte de remessa e retorno para o STJ, dispensado em autos eletrônicos (CPC, art. 1.007, §3º). Inútil e desatualizada para o caso.",
+  "Tema 1296/STJ, Súmula 410/STJ, Tema 1442/STJ, Súmula 7/STJ e demais fundamentos de mérito/execução das astreintes: não pertencem à petição de preparo e representação; guardá-los para memoriais, ED e cumprimento de sentença.",
+  "Anexo Único da Lei 17.654/2018 e Circular CGJ n. 643/2025 com número de item e valor: não conferidos na fonte; ancorar o valor exclusivamente na guia gerada pela DCDP (Ev. 31) e no comprovante [CONFERIR NO EPROC].",
+  "Cartilha de Custas — Advogados (TJSC), itens 5.2 e 5.7, como NORMA: é orientação administrativa; citar apenas como documento comprobatório do bloqueio sistêmico (Doc. 4), não como fundamento jurídico.",
+  "Menção à 'Espírito Santo – Sociedade Individual de Advocacia' (CNPJ 50.411.747/0001-00), inclusive para fins do art. 272, §2º, parte final: registro na OAB/SC não confirmado.",
+  "Grafia 'EIRELI' para a apelante: a forma correta é 'Ltda.' (Sétima Alteração, JUCESC 08/06/2021); pedir a retificação do cadastro, nunca reproduzir o erro.",
+  "Qualquer precedente não listado no dossiê (números de AgInt, ApCiv, súmulas do TJSC além da 51, do STJ além da 481/115/187/410 e Temas além de 1296/1442/706/698): não inventar nem completar de memória."
+ ]
+}
