@@ -26,7 +26,7 @@ A OUTORGANTE declara que seu administrador, investido da representação ativa e
 @@ **ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA.**
 @@ CNPJ 02.145.891/0001-08
 @@ pela OUTORGANTE: Gabriel Fabrizio do Espírito Santo — sócio único e administrador — CPF 544.074.601-30
-@@ (assinatura digital com certificado ICP-Brasil da outorgante — CPC, art. 105, § 1º)
+@@ (assinatura pela outorgante: certificado ICP-Brasil e-CNPJ da sociedade ou e-CPF do administrador, na qualidade de representante legal — CPC, arts. 75, VIII, e 105, § 1º)
 
 @@ ____________________________________________
 @@ OUTORGADO: **Gabriel Fabrízio do Espírito Santo** — OAB/SC 53.040

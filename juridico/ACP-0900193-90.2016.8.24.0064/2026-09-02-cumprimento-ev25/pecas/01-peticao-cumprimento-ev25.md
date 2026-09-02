@@ -24,7 +24,7 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., pessoa jurídica de direito
 
 5. O pagamento foi efetuado em 02/09/2026, pelo meio disponibilizado no Evento 32, e está comprovado no Doc. 1, que reúne a guia, o comprovante de pagamento e o extrato da guia. [MANTER SÓ SE O PAGAMENTO FOI POR BOLETO: O vencimento do boleto não interfere na contagem do prazo processual (Resolução CM n. 3/2019 do TJSC, art. 1º, § 4º); o pagamento efetivou-se em 02/09/2026, dentro do prazo do Evento 27.] [CONFERIR NO EPROC ANTES DE PROTOCOLAR: meio de pagamento (cartão ou boleto), pagamento integral e à vista, data efetiva do pagamento e situação "paga/baixada" da guia na aba "Custas" do 2º grau; se a guia ainda constar "aguardando compensação", suprimir a expressão "e o extrato da guia" e manter guia e comprovante, ajustando no mesmo sentido a alínea "a" dos pedidos e a descrição do Doc. 1]
 
-6. O recolhimento é tempestivo e singelo. Formulado o requerimento de gratuidade nas razões recursais (Evento 280 dos autos de origem; certidão do Evento 23 deste recurso), a apelante estava dispensada de comprovar o preparo no ato da interposição (CPC, art. 99, § 7º), e o despacho do Evento 25, na forma do § 2º do mesmo artigo, facultou-lhe, em alternativa à demonstração dos pressupostos do benefício, o recolhimento em prazo certo — alternativa que a apelante exerceu. Não incide, portanto, o § 4º do art. 1.007 do CPC: a hipótese de quem requereu a gratuidade no ato da interposição é regida pela norma especial do art. 99, § 7º, que prevê recolhimento singelo no prazo fixado pelo relator, e não pela regra geral do recolhimento em dobro, reservada a quem simplesmente deixou de comprovar o preparo. Recolhido o preparo no prazo assinado por Vossa Excelência, está afastada a deserção (CPC, art. 1.007, caput).
+6. O recolhimento é tempestivo e singelo. Formulado o requerimento de gratuidade nas razões recursais (Evento 280 dos autos de origem; certidão do Evento 23 deste recurso), a apelante estava dispensada de comprovar o preparo no ato da interposição (CPC, art. 99, § 7º), e o despacho do Evento 25, na forma do § 2º do mesmo artigo, facultou-lhe, em alternativa à demonstração dos pressupostos do benefício, o recolhimento em prazo certo — alternativa que a apelante exerceu. Não incide, portanto, o § 4º do art. 1.007 do CPC: a hipótese de quem requereu a gratuidade no ato da interposição é regida pela norma especial do art. 99, § 7º, que prevê recolhimento singelo no prazo fixado pelo relator, e não pela regra geral do recolhimento em dobro, reservada a quem simplesmente deixou de comprovar o preparo. Recolhido o preparo no prazo assinado por Vossa Excelência, está afastada a deserção (CPC, art. 1.007, caput). Satisfaz-se, com isso, também a condição a que o parecer da Procuradoria-Geral de Justiça (Evento 15) subordinou o conhecimento do recurso.
 
 7. Caso, por qualquer razão, se entenda haver dúvida quanto ao valor, à vinculação da guia ao recurso ou à compensação do pagamento, a apelante requer, desde logo, a intimação para complementação ou saneamento no prazo de cinco dias, na forma do art. 1.007, §§ 2º e 7º, do CPC, antes de qualquer consequência processual.
 
@@ -38,7 +38,7 @@ ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA., pessoa jurídica de direito
 
 ## IV — Do registro da cronologia
 
-11. Apenas para documentar a cronologia, registra-se que a anotação cadastral de gratuidade "deferida" (Evento 293 dos autos de origem; Eventos 3 e 4 deste recurso) foi retificada em 21/08/2026 (Eventos 22 e 23) e que, em 02/09/2026, o sistema ainda exibia tarjados — isto é, indisponíveis para emissão — os itens de preparo da apelante, e a guia somente foi gerada pela Seção de Custas Judiciais no mesmo dia, após solicitação do subscritor (Eventos 31 e 32; Doc. 4). O recolhimento seguiu-se imediatamente, dentro do prazo do Evento 27.
+11. Apenas para documentar a cronologia, registra-se que a anotação cadastral de gratuidade "deferida" (Evento 293 dos autos de origem; Eventos 3 e 4 deste recurso) foi retificada neste grau em 21/08/2026 (Eventos 22 e 23) e que, em 02/09/2026, a tela "Custas" dos autos de origem ainda exibia tarjados — isto é, indisponíveis para emissão — os itens de preparo da apelante, e a guia somente foi gerada pela Seção de Custas Judiciais no mesmo dia, após solicitação do subscritor (Eventos 31 e 32; Doc. 4). O recolhimento seguiu-se imediatamente, dentro do prazo do Evento 27.
 
 12. Nada se requer a esse título. O registro é feito com a ressalva do art. 1.007, § 6º, do CPC, apenas para a hipótese de se cogitar consequência diversa do recolhimento simples.
 
@@ -66,14 +66,14 @@ e) o prosseguimento do recurso, com a inclusão em pauta e a intimação da paut
 
 - Doc. 1 — Guia de preparo recursal (Evento 31), comprovante de pagamento de 02/09/2026 e extrato da guia;
 - Doc. 2 — Procuração *ad judicia et extra*, com cláusula de ratificação;
-- Doc. 3 — Sétima Alteração do Contrato Social da apelante (JUCESC, 08/06/2021);
-- Doc. 4 — Captura da tela "Custas" de 02/09/2026 e mensagens trocadas com a Seção de Custas Judiciais em 02/09/2026.
+- Doc. 3 — Sétima Alteração do Contrato Social da apelante (JUCESC, 08/06/2021, Termo de Autenticação n. 218.834.454);
+- Doc. 4 — Captura da tela "Custas" dos autos de origem, de 02/09/2026, e mensagens trocadas com a Seção de Custas Judiciais em 02/09/2026.
 
 17. O subscritor declara autênticas as reproduções digitalizadas que acompanham esta petição, cujos originais permanecem sob sua guarda (Lei n. 11.419/2006, art. 11, § 1º; CPC, art. 425, VI e § 1º).
 
 @@ Nestes termos, pede deferimento.
 
-@@ São José/SC, 2 de setembro de 2026. [CONFERIR: data do protocolo efetivo — se for 03/09/2026, ajustar também a data da procuração (Doc. 2) e a da petição de cadastro, que se reporta a "nesta data"]
+@@ São José/SC, 2 de setembro de 2026. [CONFERIR: data do protocolo efetivo — se for 03/09/2026, ajustar também a data da procuração (Doc. 2) e conferir a da petição de cadastro, que deve ser igual ou posterior]
 
 @@ **Gabriel Fabrízio do Espírito Santo**
 @@ OAB/SC 53.040

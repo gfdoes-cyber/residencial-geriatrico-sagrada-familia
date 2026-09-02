@@ -1,0 +1,99 @@
+{
+ "lacunas": [
+  {
+   "onde": "Peça 01, Doc. 1 (§§ 4-5, pedido \"a\", rol do § 16) — prova do pagamento",
+   "o_que_falta": "A auditoria nunca viu a guia do Ev. 31, o comprovante nem a situação da guia após o pagamento; o meio (cartão x boleto) é desconhecido. Se o pagamento foi por boleto, a compensação pode ainda não constar em 03/09 e a expressão \"extrato da guia\" (repetida em três lugares) ficaria sem lastro. Não há confirmação de que a guia está vinculada ao recurso de 2º grau (o Ev. 2 dizia não haver guias vinculadas) nem de que o pagamento foi integral e à vista.",
+   "gravidade": "alta",
+   "sugestao": "Antes de assinar: abrir a aba \"Custas\" do 2º grau, confirmar guia vinculada à Apelação e à parte Antunelli, situação \"Paga/Baixada\", R$ 720,00 integral, data 02/09/2026; tirar print com data/hora. Montar o Doc. 1 em PDF único (guia + comprovante do gateway/banco com autenticação + extrato). Se ainda constar \"aguardando compensação\", aplicar a instrução já embutida no § 5º (suprimir \"e o extrato da guia\" no § 5º, no pedido \"a\" e no rol do § 16) e protocolar mesmo assim, complementando com o extrato em petição avulsa até 04/09/2026 23:59."
+  },
+  {
+   "onde": "Peça 02 (procuração) — forma da assinatura da OUTORGANTE",
+   "o_que_falta": "O instrumento indica apenas \"assinatura digital com certificado ICP-Brasil\" na linha da outorgante, sem definir qual certificado. O login/certificado do advogado no eproc autentica o outorgado, não a vontade da outorgante; assinatura gov.br isolada tem validade debatida. Sem essa definição, o Doc. 2 pode ser considerado não assinado pela parte (CPC 105, caput e § 1º), esvaziando a ratificação.",
+   "gravidade": "alta",
+   "sugestao": "Assinar o PDF da procuração com o e-CNPJ ICP-Brasil da Antunelli ou, na falta dele, com assinatura de punho digitalizada do administrador sobreposta pela assinatura ICP-Brasil do e-CPF do administrador (qualificado como representante legal — CPC 75, VIII). Assinar também a linha do OUTORGADO. Conferir a validade do certificado antes. Se houver assinatura de punho digitalizada, a declaração de autenticidade do § 17 da Peça 01 já a cobre."
+  },
+  {
+   "onde": "Peça 01 — checklist pré-protocolo (fora do texto)",
+   "o_que_falta": "O § 1º traz [CONFERIR] apenas para o Ev. 25. O laudo de representação (achado 8) exige a leitura integral também do Ev. 18 (despacho de 20/08/2026, teor nunca lido) e do Ev. 23 (INF1), para afastar a hipótese de já haver determinação sobre representação processual ou prazo distinto. Se o Ev. 18 tratou de procuração, a estratégia de \"reforço\" precisa virar cumprimento expresso de despacho.",
+   "gravidade": "alta",
+   "sugestao": "Ler no eproc, antes de fechar a peça, os Ev. 18, 23 e 25 na íntegra e os eventos posteriores ao 32 (juntada automática do pagamento, certidão da DCDP, manifestação da PGJ). Se o Ev. 18 mencionar representação, inserir no § 14: \"e em cumprimento ao despacho do Evento 18\", mantendo a cláusula de ratificação e sem admitir vício."
+  },
+  {
+   "onde": "Peça 01, cap. V, e Peça 02 — \"procuração de reforço\" de 08/05/2026",
+   "o_que_falta": "O dossiê registra uma procuração assinada em 08/05/2026 (carimbo Antunelli), anterior à apelação de 11/05/2026, nunca juntada. As peças não a mencionam nem preveem um Doc. 2-A. Se for autêntica e assinada pela sociedade com nome/OAB/endereço do advogado (CPC 105, § 2º), sua juntada transforma a situação do Ev. 280 em simples juntada tardia de instrumento preexistente — posição mais confortável, inclusive para eventual REsp (Súmula 115/STJ).",
+   "gravidade": "media",
+   "sugestao": "Localizar o instrumento. Se regular, acrescentar ao § 14 da Peça 01: \"Junta-se também o instrumento de 08/05/2026 (Doc. 2-A), anterior à interposição do recurso.\" e incluí-lo no rol do § 16 e no pedido \"d\". Se irregular ou não localizado, nada dizer. Nunca retrodatar."
+  },
+  {
+   "onde": "Peça 01, pedido \"b\" (cap. VI)",
+   "o_que_falta": "O laudo de custas (achado \"Cadastro divergente\" e item Capítulo VI-b do deve-conter) recomenda que a declaração de prejudicialidade da gratuidade venha \"com anotação no cadastro dos dois graus e comunicação ao juízo de origem\". Hoje a tarja do 2º grau diz \"Não requerida\" (DCDP, Ev. 31) e a tela do 1º grau ainda diz \"Deferida\"; sem esse pedido, a divergência cadastral persiste e pode gerar comunicações erradas na fase de custas finais.",
+   "gravidade": "baixa",
+   "sugestao": "Redigir o pedido \"b\": \"...formulado nas razões recursais (Evento 280 dos autos de origem), com a anotação correspondente no cadastro deste grau e comunicação ao juízo de origem para igual registro\"."
+  },
+  {
+   "onde": "Peça 01, § 4º — valor do preparo",
+   "o_que_falta": "A peça afirma R$ 720,00 sem que o advogado tenha explicado a diferença para os itens tarjados de maio (R$ 724,33 e R$ 724,18, IDs 47855854/47864788). O pedido subsidiário \"c\" protege, mas o laudo pede que a origem da diferença seja anotada antes do protocolo, e que não se pague \"diferença\" sem guia do Tribunal.",
+   "gravidade": "media",
+   "sugestao": "Comparar o valor da guia Ev. 31 com o Anexo Único da Lei 17.654/2018 (tabela 2026) e anotar internamente a razão da diferença. Manter o texto como está (sem transcrever tabela nem rubrica). Não recolher complemento espontâneo."
+  },
+  {
+   "onde": "Peça 03, § 5º e pedido \"c\" — retificação cadastral",
+   "o_que_falta": "Os dois laudos e o dossiê (item 8.5) previam também a retificação do endereço da apelante no cadastro, além de \"EIRELI\" → \"Ltda.\". A peça só pede a denominação. Além disso, a grafia \"Ltda.\" no texto do Ev. 25 está apenas em [CONFERIR].",
+   "gravidade": "baixa",
+   "sugestao": "Conferir na capa do 2º grau qual endereço consta. Se divergir do registro JUCESC (Rua Vergilino Domingos da Silva, 1.100, com estabelecimento no 1.003), acrescentar ao pedido \"c\": \"e do endereço, conforme o ato constitutivo (Doc. 2)\". Confirmar a grafia \"Ltda.\" no DESPADEC1 do Ev. 25 antes de mantê-la como argumento."
+  },
+  {
+   "onde": "Peça 03, § 2º e pedido \"a\" — Alessandra Cristina Laurindo Arruda (OAB/SC 39.854)",
+   "o_que_falta": "Há [CONFERIR] sobre a habilitação de Alessandra, mas a redação sugerida (\"cujo instrumento foi superado pela procuração ora juntada\") não se encaixa no fundamento do pedido \"a\" (CPC 112 — renúncia), pois o caso dela não é renúncia. Se incluída sem ajuste, o pedido fica com fundamento heterogêneo.",
+   "gravidade": "baixa",
+   "sugestao": "Se Alessandra ainda constar habilitada, criar alínea própria (\"a-1\") com fundamento distinto e neutro: \"a desabilitação de Alessandra Cristina Laurindo Arruda (OAB/SC 39.854), cujo instrumento (Evento 21 dos autos de origem) está superado pela procuração ora juntada (Doc. 1), na qual a apelante constitui exclusivamente o subscritor\". Não citar CPC 111 nem falar em revogação."
+  },
+  {
+   "onde": "Peça 01, § 15 e Peça 03 — classificação e ordem de protocolo",
+   "o_que_falta": "Não há registro operacional de: (i) classificar os anexos no eproc como PROCURAÇÃO, CONTRATO SOCIAL, GUIA, COMPROVANTE (para que o cadastro anote o mandato); (ii) protocolar a Peça 01 no caderno da Apelação (2º grau), vinculada ao prazo do Ev. 27, e conferir depois se o prazo aparece como cumprido; (iii) protocolar a Peça 03 somente depois de obter o número do evento da Peça 01, preenchendo o placeholder do § 1º.",
+   "gravidade": "media",
+   "sugestao": "Checklist: protocolar a Peça 01 em 03/09/2026 (04/09 como reserva), guardar recibo com data/hora, anotar o evento gerado, conferir prazo do Ev. 27 fechado e cadastro de procuradores; só então preencher o [CONFERIR] do § 1º da Peça 03 e protocolá-la no mesmo dia ou em 04/09."
+  },
+  {
+   "onde": "Peça 01, § 11 e Doc. 4",
+   "o_que_falta": "O print do Doc. 4 é da tela \"Custas\" do 1º grau, que ainda grafa \"Situação da justiça gratuita: Deferida\" em 02/09/2026, mas o § 11 diz que a anotação \"foi retificada em 21/08/2026 (Eventos 22 e 23)\" sem esclarecer que a retificação ocorreu no cadastro do 2º grau. O leitor pode enxergar contradição entre o texto e a imagem.",
+   "gravidade": "baixa",
+   "sugestao": "No § 11, especificar: \"...foi retificada neste grau em 21/08/2026 (Eventos 22 e 23) e que, em 02/09/2026, a tela 'Custas' dos autos de origem ainda exibia tarjados...\". Idem na descrição do Doc. 4: \"Captura da tela 'Custas' dos autos de origem, de 02/09/2026\"."
+  },
+  {
+   "onde": "Peça 02 (procuração) — grafia do nome do outorgado",
+   "o_que_falta": "A procuração adota \"Fabrízio\" para o outorgado e \"Fabrizio\" para o administrador, explicando a divergência com o contrato social. O CPC 272, § 4º, exige que a grafia da publicação seja a da procuração ou a do registro na OAB; a Peça 03 pede intimação exclusiva com \"Fabrízio\". Falta confirmar qual grafia consta do cadastro da OAB/SC.",
+   "gravidade": "baixa",
+   "sugestao": "Conferir a grafia no cadastro OAB/SC 53.040 (CNA). Se for \"Fabrizio\", inverter: usar a grafia da OAB como principal em todas as peças e mencionar a outra entre parênteses."
+  },
+  {
+   "onde": "Peça 01 (opcional) — parecer da PGJ (Ev. 15)",
+   "o_que_falta": "O parecer da PGJ condicionou o conhecimento \"à concessão da justiça gratuita ou ao recolhimento do preparo\". Uma frase registrando que a condição está satisfeita fecharia o quadro de admissibilidade sem repetir memoriais. Não é obrigatório.",
+   "gravidade": "baixa",
+   "sugestao": "Acrescentar ao § 6º, ao final: \"Satisfaz-se, com isso, também a condição a que o parecer da Procuradoria-Geral de Justiça (Evento 15) subordinou o conhecimento do recurso.\""
+  }
+ ],
+ "incoerencias_entre_pecas": [
+  "Referência cruzada estéril: o [CONFERIR] de data da Peça 01 diz que a \"petição de cadastro\" se reporta a \"nesta data\", mas a Peça 03 final não usa essa expressão — ela remete à petição principal pelo número do evento (placeholder) e traz data própria (03/09/2026). Atualizar a nota da Peça 01 para: \"se for 03/09/2026, conferir a data da Peça 03 (igual ou posterior)\"; a procuração datada de 02/09/2026 NÃO precisa ser redatada se o protocolo for em 03/09 (instrumento anterior ao ato é válido; jamais pós-datar).",
+  "Datas distintas por desenho (Peça 01 e procuração: 02/09/2026; Peça 03: 03/09/2026) — coerente com a ordem de protocolo recomendada, desde que a Peça 01 seja efetivamente protocolada em 02 ou 03/09 e a Peça 03 depois dela. Se ambas forem protocoladas no mesmo dia, harmonizar as datas e o formato (\"2 de setembro\" x \"03 de setembro\").",
+  "Numeração de documentos: a Peça 03 renumera a procuração e o contrato social como Docs. 1 e 2 e declara expressamente a equivalência com os Docs. 2 e 3 da Peça 01 — coerente, mas a descrição do contrato social difere: a Peça 03 cita o \"Termo de Autenticação n. 218.834.454\" e a Peça 01 (Doc. 3, § 16) não. Harmonizar acrescentando o termo à Peça 01.",
+  "Sobreposição parcial de pedidos: Peça 01, pedido \"e\" (intimação da pauta na pessoa do subscritor) e Peça 03, pedido \"b\" (todas as intimações exclusivamente em nome do subscritor, inclusive pauta). Não há contradição — a Peça 03 é mais ampla e tem fundamento próprio (CPC 272, §§ 2º e 5º) —, mas convém que a Peça 03 registre no § 7º: \"em reiteração do que já se requereu quanto à pauta na petição do Evento [__]\".",
+  "Descrição do Doc. 4 (Peça 01, § 16) fala em \"tela 'Custas' de 02/09/2026\" sem dizer que é a tela dos autos de origem (1º grau), enquanto o § 11 atribui a retificação aos Eventos 22 e 23 (2º grau); o print mostrará \"Deferida\", o que pode parecer contradizer o texto (ver lacuna correspondente).",
+  "Cabeçalhos: a Peça 03 qualifica a apelante com CNPJ e o Município com \"/SC\"; a Peça 01 não — diferença trivial, mas harmonizável.",
+  "Peça 02, item (v) da ratificação, afirma que o recolhimento foi \"realizado na mesma data\" (02/09/2026) e a Peça 01, § 5º, afirma pagamento em 02/09/2026 — coerentes entre si, mas ambos dependem da conferência do comprovante; se a compensação/pagamento efetivo for de 03/09, ajustar as duas peças ao mesmo tempo."
+ ],
+ "ok": [
+  "Estratégia fixada integralmente respeitada na Peça 01: opção pelo preparo (R$ 720,00, Ev. 31, 02/09/2026), desistência expressa do requerimento de gratuidade com pedido de prejudicialidade, nenhuma renovação/reserva de gratuidade, Súmula 51/TJSC tratada como não incidente e, subsidiariamente, limitada ao ponto; expressão \"desiste do recurso\" ausente; item \"b\" dos memoriais (Ev. 17) declarado sem objeto e o mais mantido.",
+  "Peça 01 não contém nenhum item proibido pelos laudos: não cita CPC 76, 104, 111 ou 112; não narra revogação (Ev. 93/07-02-2020) nem renúncia (Ev. 211); não usa \"sanar/regularizar/convalidar/ineficaz\" no capítulo da representação; não menciona Ev. 21/38, Súmula 115/STJ, sociedade individual de advocacia, \"EIRELI\", documentos contábeis, teses mortas (Lei 17.654 art. 7º, I; EPI 51; LACP 18; CDC 87; EPI 88), mérito, efeito suspensivo, Tema 1296, precedentes não listados, nem pedido de relevação por justo impedimento (§ 6º entra só como ressalva, § 12).",
+  "Registro do erro de cadastro (cap. IV) em dois parágrafos, tom neutro, sem adjetivos sobre servidores e sem pedido, exatamente como recomendado.",
+  "Tempestividade corretamente demonstrada: DJEN disponibilização 27/08 (Ev. 28), publicação 28/08 (Ev. 29), início 31/08, termo final 04/09/2026 (Ev. 27; CPC 219 e 224, §§ 2º e 3º).",
+  "Tese do recolhimento singelo bem posta: CPC 99, §§ 2º e 7º, afastando o § 4º do art. 1.007; pedido subsidiário de intimação para complementar/sanear (1.007, §§ 2º e 7º); porte de remessa e retorno dispensado (1.007, § 3º); Súmula 481/STJ mencionada apenas como razão da opção.",
+  "Dispositivos citados nas três peças existem e dizem o que se afirma: CPC 75, VIII; 99, §§ 2º e 7º; 105, caput e §§ 1º, 2º e 4º; 112 e § 1º; 200; 219; 224, §§ 2º e 3º; 272, §§ 2º, 4º e 5º; 425, VI e § 1º; 932, I; 1.007, caput e §§ 2º, 3º, 4º, 6º e 7º; CC 117, 662 p.ú., 1.018 e 1.053, caput; Lei 11.419/2006, art. 11, § 1º; Súmulas 51/TJSC e 481/STJ (ambas do dossiê). Nenhuma transcrição entre aspas de texto não conferido (Resolução CM 3/2019 e Anexo Único da Lei 17.654/2018 não foram transcritos).",
+  "Todos os fatos das peças têm origem no dossiê (eventos, datas, CNPJ, NIRE, Termo JUCESC, endereços, OAB, telefone, IDs de guia, e-mails da DCDP, Ev. 257/CONTRSOCIAL9, Cláusula Quinta, incidente 5049926-11), e os pontos não vistos pela auditoria estão marcados com [CONFERIR NO EPROC].",
+  "Procuração (Peça 02) atende aos requisitos dos laudos: dupla qualificação (outorgante por seu administrador; outorgado com nome, OAB/SC 53.040 e endereço completo — CPC 105, § 2º); poderes ad judicia et extra em qualquer instância, inclusive STJ e STF; poderes especiais expressos do CPC 105, caput, mais \"desistir\" nominalmente do requerimento de gratuidade do Ev. 280, recolher custas e preparo, requerer intimação exclusiva, habilitar/desabilitar procuradores e substabelecer; cláusula de ratificação nominativa (Ev. 257, Ev. 280, incidente, Ev. 17, diligências e recolhimento de 02/09) com cláusula geral \"até a data deste instrumento\" e retroação (CC 662, p.ú.); autorização expressa da autocontratação (CC 117 e 1.018 c/c 1.053); aceite do outorgado; sem cláusula de honorários, sem declaração de hipossuficiência, sem outorga à sociedade de advocacia, sem retrodatação; data 02/09/2026; divergência de grafia Fabrizio/Fabrízio explicitada.",
+  "Peça 03 corretamente separada e sem prazo: fundamento em CPC 112 (renúncia, não revogação), pedido de baixa das duas renunciantes nos dois graus com comunicação à origem, intimação exclusiva com base no CPC 272, §§ 2º e 5º, retificação \"EIRELI\" → \"Ltda.\", narrativa da renúncia em uma frase, sem arguição de nulidade das intimações anteriores e sem pedido de certidão das comunicações às renunciantes; remete à procuração já juntada na peça principal (placeholder do evento).",
+  "Declaração de autenticidade das reproduções digitalizadas presente nas duas petições (Lei 11.419/2006, art. 11, § 1º; CPC 425, VI e § 1º).",
+  "Rol de documentos da Peça 01 (Docs. 1 a 4) coincide com o item 11 do dossiê; pedidos em alíneas cobrem recebimento do preparo/afastamento da deserção, prejudicialidade da gratuidade, saneamento subsidiário, juntada e anotação da procuração, prosseguimento com pauta — sem repetir memoriais nem pedir preferência por idade.",
+  "Endereçamento e cabeçalho corretos: Des. Carlos Adilson Silva, Gabinete 03, 2ª Câmara de Direito Público, Apelação Cível 0900193-90.2016.8.24.0064, apelante grafada \"Ltda.\", referência expressa aos Eventos 25 e 27; assinatura com nome, OAB/SC 53.040, endereço completo do escritório e e-mail."
+ ]
+}
