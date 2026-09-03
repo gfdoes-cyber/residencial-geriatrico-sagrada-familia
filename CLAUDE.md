@@ -55,3 +55,22 @@ Trabalhe na branch indicada pela sessão. Commits em português, mensagem curta 
 Não abra pull request sem pedido. A pasta `projeto-claude-espirito-santo-advocacia/` é material
 do Prédio A hospedado provisoriamente aqui; a decisão registrada é movê-la para o repositório
 próprio do escritório quando ele existir. Não faça merge dela na `main`.
+
+## Como o Gabriel "assume o Mac" pelo app — Remote Control
+
+Sessão da nuvem nunca terá mãos na máquina. A sessão com mãos é a que **roda no Mac** e aparece
+no app por Remote Control (docs: https://code.claude.com/docs/en/remote-control). Para abri-la:
+
+```
+cd ~/.claude-gfdoes
+claude remote-control
+```
+
+Ou duplo clique em `scripts/assumir-o-mac.command`. A sessão aparece em claude.ai/code e no
+celular com ícone de computador e ponto verde. Ali o eproc, o Chrome logado, os gates, o radar e
+o OCR funcionam. Requisitos: `claude` logado via `/login` (não API key), sem variáveis que
+desliguem telemetria, pasta aberta uma vez para aceitar a confiança do workspace. Com Ctrl+C a
+sessão fica retomável por cerca de 4 horas com `claude remote-control --continue`.
+
+Se o usuário pedir a uma sessão da nuvem para "assumir o Mac", responda com este bloco em vez de
+tentar: não há rota.
