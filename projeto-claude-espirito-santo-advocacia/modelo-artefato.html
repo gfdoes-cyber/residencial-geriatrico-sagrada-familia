@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Peça — Espírito Santo Advocacia</title>
+<style>
+@page { size: A4; margin: 2.3cm 3cm 1.8cm 3cm; }
+* { box-sizing: border-box; }
+body, div, li, td { orphans: 2; widows: 2; }
+
+body { font-family: 'Times New Roman', Times, serif; font-size: 12pt;
+       line-height: 1.35; text-align: justify; color: #000; margin: 0;
+       hyphens: auto; -webkit-hyphens: auto; }
+
+/* parágrafo: recuo de 1ª linha, sem espaço entre parágrafos */
+p { text-indent: 2cm; margin: 0; orphans: 2; widows: 2; }
+p.flush { text-indent: 0; margin: 0; }
+p.center { text-align: center; text-indent: 0; margin: 0; }
+/* parágrafo de até 3 linhas não se quebra: ou cabe, ou vai inteiro */
+p.curto, li.curto { page-break-inside: avoid; break-inside: avoid; }
+/* "Nestes termos", data e assinatura colam no texto que os precede */
+p.fecho { page-break-before: avoid; page-break-after: avoid; }
+
+/* títulos — nunca no pé da página */
+h1.sec { font-size: 12pt; font-weight: bold; text-align: left; text-indent: 0;
+         margin: 18pt 0 10pt 0; color: #1F3864;
+         border-bottom: 0.6pt solid #B8C4D4; padding-bottom: 2pt;
+         page-break-after: avoid; page-break-inside: avoid; }
+h2.sub { font-size: 12pt; font-weight: bold; text-align: left; text-indent: 0;
+         margin: 15pt 0 8pt 0; color: #2E5077;
+         page-break-after: avoid; page-break-inside: avoid; }
+h3.subsub { font-size: 12pt; font-weight: bold; font-style: italic; text-align: left;
+            text-indent: 0; margin: 13pt 0 7pt 0;
+            page-break-after: avoid; page-break-inside: avoid; }
+
+/* citação em bloco — as ÚNICAS marcas são recuo e fonte menor */
+p.cit { font-family: Charter, 'Bitstream Charter', Georgia, serif; font-size: 11pt;
+        line-height: 1.3; margin: 10pt 0 10pt 3cm; text-indent: 0;
+        orphans: 2; widows: 2; }
+
+ul { margin: 0; padding-left: 2cm; }
+li { margin: 0 0 2pt 0; text-align: justify; }
+
+/* JANELAS SUSPENSAS — sóbrias, sem saturação. Nunca marca-texto. */
+.jan { border: 0.6pt solid; border-left-width: 3pt; border-radius: 2pt;
+       padding: 7pt 10pt 6pt 10pt; margin: 10pt 0 12pt 0; text-align: justify;
+       page-break-inside: avoid; text-indent: 0; }
+.jan p { text-indent: 0; margin: 0 0 4pt 0; }
+.jan p:last-child { margin: 0; }
+.jan .jrot { display: block; font-size: 10pt; font-weight: bold; letter-spacing: 0.3pt;
+             text-transform: uppercase; margin: 0 0 4pt 0; }
+.jan.qualif { background: #F4F6FA; border-color: #C3CDDE; border-left-color: #1F3864;
+              margin-left: 2.55cm; }
+.jan.qualif .jrot { color: #1F3864; }
+.jan.cita { background: #F7F7F4; border-color: #DCDCD4; border-left-color: #6E6E62;
+            margin-left: 2.55cm; font-family: Charter, Georgia, serif; font-size: 11pt; }
+.jan.cita .jrot { color: #1F3864; }
+.jan.tempo { background: #F5F7FA; border-color: #CBD4E0; border-left-color: #2E5077; }
+.jan.tempo .jrot { color: #2E5077; }
+.jan.calc { background: #FBF7F0; border-color: #E0D5C0; border-left-color: #8A6D3B; }
+.jan.calc .jrot { color: #8A6D3B; }
+.jan.dout { background: #F4F7F1; border-color: #CDD9C4; border-left-color: #4A6B3A; }
+.jan.dout .jrot { color: #4A6B3A; }
+/* janela longa: pode partir entre páginas, mas nunca no meio de um parágrafo */
+.jan.longa { page-break-inside: auto; }
+.jan.longa > p, .jan.longa li { page-break-inside: avoid; }
+
+/* quadros */
+table.q { width: 100%; border-collapse: collapse; margin: 10pt 0 12pt 0;
+          font-size: 11pt; line-height: 1.3; page-break-inside: avoid; }
+table.q th { background: #EDF0F5; color: #1F3864; font-weight: bold; text-align: left;
+             border: 0.6pt solid #B8C4D4; padding: 4pt 6pt; }
+table.q td { border: 0.6pt solid #D5DCE6; padding: 4pt 6pt; text-align: left;
+             vertical-align: top; }
+
+/* prova recortada — imagem nunca vem sozinha: sempre com legenda */
+figure.prova { margin: 10pt 0 12pt 0; padding: 0; text-align: center;
+               page-break-inside: avoid; }
+figure.prova img { max-width: 100%; height: auto; border: 0.6pt solid #B8B8B0; }
+figure.prova figcaption { font-size: 9pt; line-height: 1.3; color: #3A3A34;
+                          text-align: left; text-indent: 0; margin: 4pt 0 0 0; }
+figure.prova figcaption .fig { font-weight: bold; color: #1F3864; }
+
+/* assinatura */
+.assin { margin: 26pt 0 0 0; text-align: center; page-break-inside: avoid; }
+.assin p { text-indent: 0; margin: 0; text-align: center; line-height: 1.35; }
+</style>
+</head>
+<body>
+
+<p class="flush"><b>EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA ___ VARA ___ DA COMARCA DE ___/SC</b></p>
+<p class="flush">&nbsp;</p>
+<p class="flush">&nbsp;</p>
+<p class="flush">&nbsp;</p>
+<p class="flush">&nbsp;</p>
+
+<div class="jan qualif">
+  <span class="jrot">Qualificação</span>
+  <p>NOME DA PARTE, nacionalidade, estado civil, profissão, CPF, endereço.</p>
+</div>
+
+<p>Corpo da peça, com recuo de primeira linha de 2 cm e entrelinha 1,35.</p>
+
+<h1 class="sec">I. Dos fatos</h1>
+<p>Texto.</p>
+
+<div class="jan tempo">
+  <span class="jrot">Linha do tempo</span>
+  <p><b>DD/MM/AAAA</b> — fato (evento X, fl. Y).</p>
+</div>
+
+<div class="jan cita">
+  <span class="jrot">Dispositivo</span>
+  <p>"Texto transcrito do dispositivo, entre aspas."</p>
+</div>
+
+<h1 class="sec">II. Do direito</h1>
+<p>Texto.</p>
+
+<p class="cit">Citação em bloco em Charter 11 pt, recuo de 3 cm, sem itálico e sem aspas.</p>
+
+<h1 class="sec">III. Dos pedidos</h1>
+<p>Texto.</p>
+
+<p class="fecho">Nestes termos, pede deferimento.</p>
+<p class="fecho center">São José/SC, DD de mês de AAAA.</p>
+
+<div class="assin">
+  <p><b>Gabriel Fabrízio do Espírito Santo</b></p>
+  <p>Advogado</p>
+  <p>OAB/SC 53.040</p>
+</div>
+
+</body>
+</html>
