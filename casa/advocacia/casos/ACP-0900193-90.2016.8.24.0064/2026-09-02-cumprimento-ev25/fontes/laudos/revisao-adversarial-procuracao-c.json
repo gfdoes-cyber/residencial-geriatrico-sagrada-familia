@@ -1,0 +1,65 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "media",
+   "trecho": "A OUTORGANTE ratifica, para todos os fins de direito (Código Civil, art. 662, parágrafo único; CPC, art. 104, § 1º), todos os atos processuais praticados em seu nome pelo OUTORGADO",
+   "problema": "Citação legal imprecisa. O § 1º do art. 104 do CPC trata do prazo de 15 dias para o advogado exibir a procuração nas hipóteses do caput; quem trata da ratificação (e da ineficácia do ato não ratificado) é o § 2º (texto confirmado em fontes públicas). A cláusula ratificatória, único ponto do instrumento em que a estratégia admite citar o CPC 104, deve apontar o parágrafo que efetivamente fala em ratificação. Além disso, a cláusula fala só em 'atos processuais', mas em seguida ratifica 'diligências perante a Seção de Custas Judiciais', que são atos extraprocessuais.",
+   "correcao": "A OUTORGANTE ratifica expressamente, para todos os fins de direito (Código Civil, art. 662, parágrafo único; CPC, art. 104, § 2º), todos os atos, processuais e extraprocessuais, praticados em seu nome e no seu interesse pelo OUTORGADO"
+  },
+  {
+   "severidade": "media",
+   "trecho": "em especial: a manifestação e os documentos do Evento 257 dos autos de origem (22/01/2025); a Apelação Cível do Evento 280 (11/05/2026); a petição inicial e as demais manifestações do Pedido de Efeito Suspensivo n. 5049926-11.2026.8.24.0000 (junho de 2026); os memoriais do Evento 17 da Apelação Cível (14/08/2026); as diligências de 02/09/2026 perante a Seção de Custas Judiciais e o recolhimento do preparo (Eventos 31 e 32); e a petição de cumprimento do despacho do Evento 25 da Apelação Cível, que este instrumento acompanha.",
+   "problema": "A enumeração nominativa é o coração da cláusula e está imprecisa em três pontos: (i) 'a Apelação Cível do Evento 280' confunde o recurso (peça interposta no Evento 280 dos autos de origem, 1º grau) com a classe processual do 2º grau (Apelação Cível), e não indica em qual caderno está o Evento 280; (ii) 'Eventos 31 e 32' não diz de qual caderno (são da Apelação Cível) e vincula a esses eventos o 'recolhimento do preparo', quando os eventos contêm apenas a guia (Ev. 31) e o link de pagamento (Ev. 32) — o pagamento em si não é evento; (iii) o item omite os documentos que instruem a apelação. Também há mistura de formatos de data no mesmo parágrafo ('7 de fevereiro de 2020' e '22/01/2025').",
+   "correcao": "desde 07/02/2020, em especial: (i) a manifestação de 22/01/2025 e os documentos que a acompanharam (Evento 257 dos autos de origem); (ii) o recurso de apelação interposto em 11/05/2026 e todos os documentos que o instruem (Evento 280 dos autos de origem); (iii) a petição inicial e as demais manifestações do Pedido de Efeito Suspensivo à Apelação n. 5049926-11.2026.8.24.0000 (junho de 2026); (iv) os memoriais apresentados em 14/08/2026 (Evento 17 da Apelação Cível); (v) as diligências realizadas em 02/09/2026 perante a Seção de Custas Judiciais do TJSC, a emissão da guia de preparo (Eventos 31 e 32 da Apelação Cível) e o respectivo recolhimento, efetuado em 02/09/2026; e (vi) a petição de cumprimento do despacho do Evento 25 da Apelação Cível, que este instrumento acompanha, e os requerimentos nela formulados."
+  },
+  {
+   "severidade": "media",
+   "trecho": "com sede na Rua Vergilino Domingos da Silva, n. 1.003 (n. 1.100 no registro da JUCESC), Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170",
+   "problema": "A sede declarada no instrumento (n. 1.003) diverge da sede constante do ato constitutivo que acompanhará a procuração como Doc. 3 (JUCESC: n. 1.100). Em documento cuja função é provar a regularidade da representação, a qualificação da pessoa jurídica deve coincidir com o registro público; o endereço operacional pode ser mencionado como estabelecimento, sem contradizer o contrato social.",
+   "correcao": "com sede na Rua Vergilino Domingos da Silva, n. 1.100, conforme registro na JUCESC (estabelecimento situado no n. 1.003 da mesma via), Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170"
+  },
+  {
+   "severidade": "media",
+   "trecho": "@@ São José/SC, 2 de setembro de 2026.\n\n@@ ____________________________________________\n@@ **ANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA.**\n@@ CNPJ 02.145.891/0001-08\n@@ pela OUTORGANTE: Gabriel Fabrizio do Espírito Santo — sócio administrador — CPF 544.074.601-30\n\n@@ ____________________________________________\n@@ OUTORGADO: **Gabriel Fabrízio do Espírito Santo** — OAB/SC 53.040",
+   "problema": "Os marcadores '@@' no início das linhas de data e assinatura parecem diretivas de formatação do pipeline ou placeholders esquecidos. Se não forem removidos na conversão para PDF, aparecerão no instrumento assinado. Além disso: (i) a qualificação do signatário pela outorgante ('sócio administrador') não coincide com a do preâmbulo ('sócio único e administrador'); (ii) a data está fixada em 02/09/2026 — se a assinatura ICP-Brasil for aposta em 03/09/2026, o carimbo de tempo divergirá da data declarada (nunca retrodatar); (iii) o bloco não indica a forma de assinatura eletrônica (CPC, art. 105, § 1º), o que ajuda o relator a identificar que quem assina é a outorgante, não o login do advogado no eproc.",
+   "correcao": "São José/SC, [02 ou 03] de setembro de 2026 [CONFERIR: data idêntica à da assinatura digital].\n\n____________________________________________\nANTUNELLI E ANTUNELLI INSTITUIÇÃO DE IDOSOS LTDA.\nCNPJ 02.145.891/0001-08\npela OUTORGANTE: Gabriel Fabrizio do Espírito Santo — sócio único e administrador — CPF 544.074.601-30\n(assinado digitalmente, certificado ICP-Brasil — CPC, art. 105, § 1º)\n\n____________________________________________\nOUTORGADO: Gabriel Fabrízio do Espírito Santo — OAB/SC 53.040\n(assinado digitalmente, certificado ICP-Brasil)"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "por seu sócio único e administrador GABRIEL FABRIZIO DO ESPÍRITO SANTO, brasileiro, divorciado, empresário e advogado [...] **OUTORGADO:** GABRIEL FABRÍZIO DO ESPÍRITO SANTO, brasileiro, advogado",
+   "problema": "A mesma pessoa natural aparece com duas grafias no mesmo instrumento ('FABRIZIO' sem acento como administrador; 'FABRÍZIO' com acento como advogado). O dossiê indica que a divergência reflete os assentos (contrato social x OAB), mas, sem ressalva, lê-se como erro de digitação justamente no ponto em que a cláusula de Declarações afirma a coincidência de pessoas. Convém uma ressalva expressa na primeira ocorrência.",
+   "correcao": "por seu sócio único e administrador GABRIEL FABRIZIO DO ESPÍRITO SANTO (grafado 'Gabriel Fabrízio do Espírito Santo' nos assentos da OAB/SC), brasileiro, divorciado, empresário e advogado"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "na forma da Cláusula Quinta de sua Sétima Alteração Contratual (transformação em sociedade limitada), arquivada na JUCESC em 08/06/2021",
+   "problema": "A denominação do ato constitutivo deve coincidir com a usada no rol de documentos da peça principal ('Doc. 3 — Sétima Alteração do Contrato Social, JUCESC, 08/06/2021') e convém indicar o Termo de Autenticação da JUCESC, que consta do dossiê e individualiza o documento.",
+   "correcao": "na forma da Cláusula Quinta de sua Sétima Alteração do Contrato Social (transformação em sociedade limitada), arquivada na JUCESC em 08/06/2021 sob o Termo de Autenticação n. 218.834.454"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "na Apelação Cível correspondente perante o Tribunal de Justiça de Santa Catarina, no Pedido de Efeito Suspensivo à Apelação n. 5049926-11.2026.8.24.0000",
+   "problema": "A Apelação Cível não está identificada pelo número nem pelo órgão julgador, embora o dossiê forneça ambos (mesmo número da ACP; 2ª Câmara de Direito Público). A classe 'Pedido de Efeito Suspensivo à Apelação' não consta do dossiê (que fala apenas em 'incidente'); a denominação deve ser conferida no eproc.",
+   "correcao": "na Apelação Cível n. 0900193-90.2016.8.24.0064, em trâmite na 2ª Câmara de Direito Público do Tribunal de Justiça de Santa Catarina, no Pedido de Efeito Suspensivo à Apelação n. 5049926-11.2026.8.24.0000 [CONFERIR NO EPROC: classe do incidente]"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "Confere-lhe, ainda, de modo expresso e especial (CPC, art. 105), os poderes para receber citação",
+   "problema": "A remissão deve indicar o caput, já que o § 4º do mesmo artigo é citado logo acima com outro conteúdo; evita ambiguidade sobre qual parte do art. 105 fundamenta os poderes especiais.",
+   "correcao": "Confere-lhe, ainda, de modo expresso e especial (CPC, art. 105, caput), os poderes para receber citação"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "é de seu pleno conhecimento e por ela expressamente autorizada (Código Civil, art. 117), sendo a parte nos processos referidos a própria sociedade. O OUTORGADO aceita o mandato.",
+   "problema": "A oração 'sendo a parte nos processos referidos a própria sociedade' está sintaticamente truncada (ordem invertida e sem o contraste que se pretende afirmar), o que dificulta a leitura de cláusula relevante para o afastamento do art. 117 do CC.",
+   "correcao": "é de seu pleno conhecimento e por ela expressamente autorizada (Código Civil, art. 117), por reputá-la de seu exclusivo interesse, sendo a própria sociedade — e não o administrador — a parte nos processos referidos. O OUTORGADO aceita o mandato."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "Declara que tais atos foram praticados por procurador de sua confiança e no seu interesse e que produzem efeitos desde as respectivas datas.",
+   "problema": "Redação frouxa para o efeito pretendido: o art. 662, parágrafo único, do CC fala em ratificação 'expressa' que 'retroagirá à data do ato'; convém que a declaração espelhe esses termos e afirme que a sociedade jamais se opôs aos atos, fechando a discussão sobre o alcance da ratificação.",
+   "correcao": "Declara que tais atos foram praticados por sua determinação e no seu interesse, que a eles jamais se opôs e que a presente ratificação, expressa, retroage à data de cada ato (Código Civil, art. 662, parágrafo único)."
+  }
+ ]
+}

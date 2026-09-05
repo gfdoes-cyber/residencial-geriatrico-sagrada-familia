@@ -1,0 +1,41 @@
+{
+  "_leia":"FONTE UNICA DE VERDADE das medidas tipograficas da casa (Predio A - GFES). Instituido em 27/08/2026 depois de um erro real: uma peca foi declarada 'conforme a regra canonica' medindo valores JA REVOGADOS, porque a conferencia foi feita contra a memoria e nao contra a camada mais nova da regra. Quem muda a regra muda ESTE arquivo E o CSS dos geradores, na mesma sessao. O gate validar_paginacao.py compara o PDF com este arquivo e REPROVA a divergencia.",
+  "vigente_desde":"2026-09-02",
+  "_adendo_2026-09-02":"Adocao dos 14 itens da reanalise dos dois cursos (ordem do Gabriel, 02/09/2026): versalete em titulos de secao e no cabecalho da peca (caixa mista sintetizada); numeracao automatica de secoes por diretiva @numerar; quadro de requerimentos preliminares [!requerimentos] na capa; quadro de tutela em duas colunas (probabilidade x perigo); [provatrio]; [provaquadro]; seta no [provapar]; marca reduzida nas paginas seguintes do parecer e do contrato; formula \"a que couber por distribuicao\"; revisao com intervalo; CPC 425, VI como fundamento do print. Capitular e etiqueta lateral de lei: RECUSADOS com motivo. Titulo permanece 12 pt. Um numero so para o vao: vao_maximo_pct.",
+  "fonte_da_regra":"skills/assistente-juridico/references/regra-geral-de-formatacao-2026-08-27.md, item III.1 (aula 2 da Masterclass, transcrita palavra por palavra em 27/08/2026)",
+  "revoga":"entrelinha 1,5; citacao recuada 4 cm; margem direita 2 cm; destaque 'so negrito'; Georgia; orphans/widows 3/3",
+
+  "corpo":       {"fonte":"TimesNewRoman", "tamanho_pt":12},
+  "citacao":     {"fonte":"Charter",       "tamanho_pt":11, "recuo_cm":3.0},
+  "entrelinha":  {"fator":1.35, "pt_esperado":16.5, "tolerancia_pt":0.8},
+  "margens_cm":  {"esquerda":3.0, "direita":3.0, "superior":2.3, "inferior":1.8},
+  "_margens_verticais":"Reduzidas em 27/08/2026 (ordem do Gabriel: o branco entre o fim de uma folha e o inicio da outra media 6,42 cm - 22% de uma folha). A peca forense nao tem timbre nem rodape, logo 3 cm no topo era branco herdado de documento timbrado. PISO: a tarja do eproc ocupa a faixa superior do PDF juntado - nao descer de 2,3. Contrato: 2,5/2,0 (leva logo no alto). Parecer: mantem as suas, tem timbre em todas as paginas.",
+  "recuo_1a_linha_cm":2.0,
+  "titulos": {"corpo_pt":12, "versalete":true, "numeracao_automatica":"por diretiva @numerar", "_nota":"02/09/2026: titulo fica no corpo do texto (12), como a v2 do proprio autor; versalete = font-variant small-caps sintetizado; caixa-alta no corpo continua proibida."},
+  "capa": {"sintese":"quadro de duas colunas", "requerimentos_preliminares":"janela [!requerimentos] com caixas, logo abaixo da SINTESE", "vocativo_sem_vara":"...da Vara ... a que couber por distribuicao da Comarca de ..."},
+  "prova_visual": {"par":"[provapar] com seta entre pagina e zoom", "serie":"[provatrio]", "quadro_de_apoio":"[provaquadro] com coordenada em cada campo", "fundamento":"CPC 369; CPC 425, VI e par. 1; Lei 11.419, art. 11, caput, par. 1 e 3"},
+  "timbre": {"peca_forense":"nenhum", "parecer_e_contrato":"primeira pagina completa; seguintes so marca reduzida e Pg. n (caixas de margem de pagina)"},
+  "recusados_2026-09-02": ["capitular (ornamento sem dado que o sustente - aula 1: alguem testou?)", "etiqueta lateral de lei (margem de 3 cm nao comporta; a funcao e cumprida pelo dispositivo no rotulo do titulo e pela janela [!cita])"],
+  "tolerancia_cm":0.10,
+
+  "paginacao":{
+    "orphans":2,
+    "widows":2,
+    "_porque_2":"Medido no Chrome headless em 27/08/2026: quando orphans+widows EXCEDE o numero de linhas do paragrafo, a restricao e impossivel e o Chrome DESCARTA a widow. Com 3/3, todo paragrafo de 4 ou 5 linhas quebra 3+1 e CRIA a linha orfa que se queria impedir.",
+    "vao_maximo_pct":20,
+    "_vao":"02/09/2026: substitui ocupacao_minima_pct 70 (contradizia o gate, que sempre mediu 20 % de vao). Vale para toda pagina menos a ultima. validar_diagramacao.py e validar_paginacao.py leem este numero.",
+    "ultima_pagina_linhas_minimas":8,
+    "_ultima":"Seção 7 da canonica de 24/08: nunca deixar sozinha na pagina final so a assinatura, so o fecho ou so uma linha do ultimo item."
+  },
+
+  "proibido":["sublinhado","caixa-alta no corpo","marca-texto","pagina em branco","linha orfa","linha viuva","titulo no pe da pagina","assinatura orfa"],
+  "permitido_com_parcimonia":["negrito","italico"],
+
+  "desempate":"Encurtar a linha vence economizar pagina - linha longa e 'erro muito grave' (professor); o tamanho da peca e resultado, nao meta.",
+  "ordem_para_fechar_buraco":[
+    "1. conferir orphans/widows (3/3 e defeito, nao solucao)",
+    "2. TIRAR linhas antes do bloco indivisivel - acrescentar texto so empurra o bloco de novo",
+    "3. enxugar a redacao sem perda juridica, conferindo item a item que nenhum dado critico sumiu",
+    "4. NUNCA mexer em fonte, corpo, entrelinha, margem ou recuo para caber"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "alta",
+   "trecho": "calculado pelo sistema com base no Anexo Único da Lei estadual n. 17.654/2018, na tabela vigente para 2026 (Circular CGJ n. 643/2025)",
+   "problema": "Citação normativa aparentemente distorcida. A Circular CGJ n. 643, de 10/12/2025 (tjsc.jus.br/documents/d/corregedoria-geral-da-justica/circularcgj643-2025-pdf), trata da atualização pelo INPC dos EMOLUMENTOS e do selo do foro extrajudicial (Lei Complementar estadual n. 755/2019, art. 97), e não da Taxa de Serviços Judiciais da Lei 17.654/2018. A atualização da TSJ para 2026 (vigência 1º/01/2026) foi divulgada pelo TJSC em ato próprio da Presidência ('Atualização monetária da Taxa de Serviços Judiciais a partir de 1º de janeiro de 2026'), cujo número/espécie não pôde ser confirmado nesta sessão. O dossiê reproduziu a Circular 643/2025 como base, mas a busca externa não a confirma; citar norma de emolumentos extrajudiciais como fundamento do preparo recursal expõe a peça a reparo pela PGJ ou pelo relator, embora sem reflexo na validade do recolhimento (o valor foi calculado pelo próprio Tribunal).",
+   "correcao": "calculado pelo sistema do Tribunal com base no Anexo Único da Lei estadual n. 17.654/2018, com os valores atualizados para o exercício de 2026 [CONFERIR NO PORTAL DO TJSC: ato normativo da Presidência que atualizou a Taxa de Serviços Judiciais com vigência em 1º/01/2026 — não é a Circular CGJ n. 643/2025, que cuida dos emolumentos do foro extrajudicial (LC 755/2019)]"
+  },
+  {
+   "severidade": "media",
+   "trecho": "com sede na Rua Vergilino Domingos da Silva, n. 1.003, Bairro Serraria, São José/SC, CEP 88.115-170",
+   "problema": "O dossiê (item 1) registra que o n. 1.003 (Loteamento Canaã) é a sede OPERACIONAL, enquanto a JUCESC e o alvará grafam n. 1.100 — e o Doc. 3 (Sétima Alteração do Contrato Social) que acompanha a própria petição trará a sede registrada no n. 1.100. Afirmar 'sede' no n. 1.003 cria divergência interna entre a qualificação da peça e o ato constitutivo juntado, justamente no capítulo em que se pretende afastar dúvida sobre a representação.",
+   "correcao": "com sede registrada na Rua Vergilino Domingos da Silva, n. 1.100, e estabelecimento na mesma via, n. 1.003, Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170"
+  },
+  {
+   "severidade": "media",
+   "trecho": "no valor de R$ 720,00 (setecentos e vinte reais), correspondente ao item de recolhimento n. 51010131,",
+   "problema": "Fato sem origem confirmada no dossiê. O ID 51010131 (02/09/2026, Preparo, R$ 720,00) foi lido na tela 'Custas' do 1º grau, ainda TARJADO, no print anterior ao contato com a DCDP (e-mail das 10h27). A guia do Ev. 31 foi gerada pela Seção de Custas depois (10h52); o dossiê declara expressamente que a auditoria NÃO viu o Ev. 31 nem a guia. Não há, portanto, coordenada que ligue a guia efetivamente paga ao item 51010131; afirmar a correspondência sem conferir pode gerar 'dúvida quanto ao recolhimento' (CPC 1.007, §7º) se o número da guia for outro.",
+   "correcao": "no valor de R$ 720,00 (setecentos e vinte reais), correspondente ao item de recolhimento n. 51010131 [CONFERIR NO EPROC: número/ID e valor constantes da guia do Ev. 31 e da aba 'Custas' do 2º grau; se divergirem do ID 51010131 lido na tela do 1º grau, substituir pelo número da guia],"
+  },
+  {
+   "severidade": "media",
+   "trecho": "cabendo ao relator, se o caso, fixar prazo para o recolhimento — que é exatamente o que fez o despacho do Evento 25 (CPC, art. 99, § 7º)",
+   "problema": "Leitura imprecisa do dispositivo. O art. 99, §7º, do CPC dispõe que, requerida a gratuidade em recurso, o recorrente fica dispensado de comprovar o preparo, 'incumbindo ao relator, neste caso, apreciar o requerimento e, SE INDEFERI-LO, fixar prazo para realização do recolhimento'. O Ev. 25 não indeferiu a gratuidade: com base no art. 99, §2º (intimação prévia antes de eventual indeferimento) — como a própria peça afirma no item 1 —, facultou à apelante comprovar os pressupostos OU recolher. Dizer que o Ev. 25 fez 'exatamente' o que o §7º prevê contradiz o item 1 e convida a PGJ a apontar a imprecisão. O ponto útil do §7º é apenas a dispensa da comprovação no ato da interposição.",
+   "correcao": "Formulado o requerimento de gratuidade nas razões recursais (Evento 280; certidão do Evento 23), a apelante estava dispensada de comprovar o preparo no ato da interposição (CPC, art. 99, § 7º), e o despacho do Evento 25, na forma do § 2º do mesmo artigo, facultou-lhe, em alternativa à demonstração dos pressupostos do benefício, o recolhimento em prazo certo — alternativa que a apelante exerceu."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "Não incide, portanto, o § 4º do art. 1.007 do CPC, que pressupõe recorrente que nada recolheu nem requereu no ato da interposição.",
+   "problema": "O texto do art. 1.007, §4º, não contém a condição 'nem requereu': fala apenas no recorrente 'que não comprovar, no ato de interposição do recurso, o recolhimento do preparo'. A exclusão de quem requereu gratuidade decorre da conjugação com o art. 99, §7º (norma especial), não do texto do §4º. Redigido como está, o período atribui ao dispositivo um pressuposto que ele não enuncia.",
+   "correcao": "Não incide, portanto, o § 4º do art. 1.007 do CPC: a hipótese de quem requereu a gratuidade no ato da interposição é regida pela norma especial do art. 99, § 7º, que prevê recolhimento singelo no prazo fixado pelo relator, e não pela regra geral do recolhimento em dobro, reservada a quem simplesmente deixou de comprovar o preparo."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "O pagamento foi efetuado em 02/09/2026, pelo meio disponibilizado no Evento 32, e está comprovado no Doc. 1, que reúne a guia, o comprovante de pagamento e o extrato da guia. [CONFERIR: meio de pagamento — cartão ou boleto — e situação da guia na aba \"Custas\" antes de protocolar]",
+   "problema": "A peça afirma adiante, sem ressalva, preparo 'integralmente recolhido' (item 8) e 'recolhimento tempestivo e integral' (pedido 'a'). O dossiê declara que a auditoria não viu a guia, o comprovante nem a situação da guia, e que o meio de pagamento é desconhecido (o link do Ev. 32 admite boleto, inclusive parcelado). A marcação de conferência deve abranger também a integralidade (ausência de parcelamento) e a data efetiva do pagamento, sob pena de a peça afirmar fato não verificado.",
+   "correcao": "O pagamento foi efetuado em 02/09/2026, pelo meio disponibilizado no Evento 32, e está comprovado no Doc. 1, que reúne a guia, o comprovante de pagamento e o extrato da guia. [CONFERIR NO EPROC ANTES DE PROTOCOLAR: meio de pagamento (cartão ou boleto), pagamento integral e à vista (sem parcelamento), data efetiva do pagamento e situação 'paga/baixada' da guia na aba 'Custas' do 2º grau; se a guia ainda constar 'aguardando compensação', suprimir a expressão 'extrato da guia' e manter apenas guia + comprovante]"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "a anotação constante da capa decorreu de erro de cadastro do cartório de origem, já retificado (Eventos 22 e 23)",
+   "problema": "A atribuição do erro ao 'cartório de origem' está no dossiê apenas como conteúdo da certidão do Ev. 23 ('anotação do cartório de origem foi posteriormente retificada'), não como transcrição do Ev. 25, cujo teor integral a banca não leu. A peça coloca a expressão na boca do relator ('Vossa Excelência assentou'). Embora já haja marcação [CONFERIR], convém redigir de modo neutro, que não dependa da literalidade do Ev. 25 nem aponte responsável.",
+   "correcao": "a anotação de gratuidade constante da autuação decorreu de erro de cadastro, já retificado (Eventos 22 e 23)"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "São José/SC, 2 de setembro de 2026.",
+   "problema": "A data da peça deve coincidir com a do protocolo. O laudo de auditoria recomenda protocolar em 03/09/2026 (com 04/09 como reserva), após confirmar a compensação da guia; se o pagamento foi por boleto, o extrato 'paga/baixada' só existirá em 03/09. Datar em 02/09 e protocolar em 03 ou 04/09 gera descompasso com o Doc. 1 (extrato de data posterior).",
+   "correcao": "São José/SC, [CONFERIR: data do protocolo — 3 de setembro de 2026, ou a data efetiva] de setembro de 2026."
+  }
+ ]
+}
