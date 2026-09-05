@@ -1,0 +1,19 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+DerivedData/
+build/
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.swiftpm/
+
+# Artefatos de distribuição
+*.ipa
+*.dSYM.zip
+
+# macOS
+.DS_Store

@@ -1,1 +1,1026 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#FBF6EE">
+<meta name="format-detection" content="telephone=no">
+<title>Residencial Geriátrico Sagrada Família – Cuidado, carinho e dignidade</title>
+<meta name="description" content="Residencial geriátrico (ILPI) com equipe de enfermagem e cuidadores 24 horas, acompanhamento médico, nutrição, fisioterapia e atividades de convivência. Agende uma visita e conheça nosso lar.">
+<style>
+/* ============================================================
+   Residencial Geriátrico Sagrada Família – site institucional
+   Arquivo único, sem dependências externas (funciona offline).
+   ============================================================ */
+:root{
+  color-scheme: light;
+  --terracota:#A34A2E;
+  --terracota-escuro:#853A22;
+  --terracota-clara:#F2D9CC;
+  --terracota-suave:#FBEFE8;
+  --salvia:#4F6B55;
+  --salvia-media:#6F8B74;
+  --salvia-clara:#DCE5DC;
+  --salvia-suave:#EEF3EE;
+  --creme:#FBF6EE;
+  --areia:#F3EADB;
+  --branco:#FFFFFF;
+  --texto:#3B2A22;
+  --texto-suave:#6B5A50;
+  --borda:#E6DCCD;
+  --whats:#075E54;
+  --whats-claro:#128C7E;
+  --foco:#3B2A22;
+  --raio:20px;
+  --raio-p:14px;
+  --sombra:0 6px 24px rgba(59,42,34,.08);
+  --sombra-forte:0 14px 40px rgba(59,42,34,.16);
+  --header-h:72px;
+  --fonte:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{
+  overflow-x:clip;
+  /* --header-real é medido por JS (altura do header sem o safe-area); sem JS usa --header-h */
+  scroll-padding-top:calc(var(--header-real, var(--header-h)) + env(safe-area-inset-top, 0px) + 12px);
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+@media (prefers-reduced-motion: no-preference){
+  html{scroll-behavior:smooth}
+}
+body{
+  margin:0;
+  font-family:var(--fonte);
+  font-size:17px;
+  line-height:1.6;
+  color:var(--texto);
+  background:var(--creme);
+  -webkit-font-smoothing:antialiased;
+}
+@media (min-width:768px){ body{font-size:18px} }
+img,svg{max-width:100%;display:block}
+h1,h2,h3,h4{line-height:1.2;margin:0 0 .5em;font-weight:800;letter-spacing:-.01em}
+h1{font-size:clamp(2rem, 5.2vw, 3.3rem)}
+h2{font-size:clamp(1.65rem, 3.6vw, 2.4rem)}
+h3{font-size:1.2rem}
+p{margin:0 0 1em}
+a{color:var(--terracota);text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover{color:var(--terracota-escuro)}
+ul,ol{margin:0;padding:0}
+:focus-visible{outline:3px solid var(--foco);outline-offset:3px;border-radius:6px}
+/* iOS: remove o realce cinza padrão ao tocar; o feedback fica com :focus-visible e :active */
+a,button,summary{-webkit-tap-highlight-color:transparent}
+.container{
+  width:min(100% - 40px, 1180px);margin-inline:auto;
+  /* paisagem no iPhone com notch/Dynamic Island: afasta o conteúdo do recorte */
+  padding-left:env(safe-area-inset-left, 0px);padding-right:env(safe-area-inset-right, 0px);
+}
+@media (min-width:768px){ .container{width:min(100% - 64px, 1180px)} }
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
+/* Skip link */
+.skip-link{
+  position:absolute;left:calc(16px + env(safe-area-inset-left, 0px));top:-100px;z-index:100;
+  background:var(--texto);color:#fff;padding:12px 18px;border-radius:12px;
+  font-weight:700;text-decoration:none;
+}
+.skip-link:focus{top:calc(12px + env(safe-area-inset-top, 0px))}
+
+/* Ícones */
+.ico{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ico-wrap{
+  width:54px;height:54px;border-radius:16px;display:grid;place-items:center;flex:none;
+  background:var(--terracota-suave);color:var(--terracota);margin-bottom:16px;
+}
+.ico-wrap .ico{width:28px;height:28px}
+.ico-wrap.salvia{background:var(--salvia-suave);color:var(--salvia)}
+
+/* Botões */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:50px;padding:12px 22px;border-radius:999px;
+  font-weight:700;font-size:1rem;text-decoration:none;line-height:1.2;
+  border:2px solid transparent;cursor:pointer;
+  transition:transform .15s ease, background-color .15s ease, box-shadow .15s ease;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn .ico{width:22px;height:22px}
+.btn-primary{background:var(--terracota);color:#fff}
+.btn-primary:hover{background:var(--terracota-escuro);color:#fff}
+.btn-whats{background:var(--whats);color:#fff}
+.btn-whats:hover{background:#054a42;color:#fff}
+.btn-outline{background:transparent;color:var(--terracota);border-color:var(--terracota)}
+.btn-outline:hover{background:var(--terracota-suave);color:var(--terracota-escuro)}
+.btn-block{width:100%}
+
+/* Header */
+.site-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(251,246,238,.94);
+  -webkit-backdrop-filter:saturate(1.4) blur(10px);
+  backdrop-filter:saturate(1.4) blur(10px);
+  border-bottom:1px solid var(--borda);
+  padding-top:env(safe-area-inset-top, 0px);
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  min-height:var(--header-h);padding-top:10px;padding-bottom:10px;
+}
+.brand{
+  display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--texto);
+  min-height:48px;border-radius:12px;
+}
+.brand .logo{width:46px;height:46px;flex:none}
+.brand-text{display:flex;flex-direction:column;line-height:1.15}
+.brand-sup{font-size:.78rem;font-weight:600;color:var(--salvia);text-transform:uppercase;letter-spacing:.06em}
+.brand-name{font-size:1.15rem;font-weight:800;color:var(--terracota)}
+.nav-toggle{
+  appearance:none;-webkit-appearance:none;border:2px solid var(--borda);background:#fff;color:var(--texto);
+  width:48px;height:48px;border-radius:14px;display:grid;place-items:center;cursor:pointer;flex:none;
+}
+.nav-toggle .ico{width:26px;height:26px}
+.ico-close{display:none}
+.menu-aberto .ico-burger{display:none}
+.menu-aberto .ico-close{display:block}
+.site-nav{
+  display:none;
+  position:absolute;left:0;right:0;top:100%;
+  background:var(--branco);border-bottom:1px solid var(--borda);box-shadow:var(--sombra-forte);
+  padding:8px calc(20px + env(safe-area-inset-right, 0px)) calc(20px + env(safe-area-inset-bottom, 0px)) calc(20px + env(safe-area-inset-left, 0px));
+  max-height:calc(100vh - var(--header-real, var(--header-h)) - env(safe-area-inset-top, 0px));overflow-y:auto;
+  /* Safari iOS: dvh acompanha as barras do navegador (WebKit >= 15.4; versões antigas ficam com vh) */
+  max-height:calc(100dvh - var(--header-real, var(--header-h)) - env(safe-area-inset-top, 0px));
+}
+.menu-aberto .site-nav{display:block}
+.site-nav ul{list-style:none;display:flex;flex-direction:column;gap:2px}
+.site-nav ul a{
+  display:flex;align-items:center;min-height:48px;padding:10px 14px;border-radius:12px;
+  color:var(--texto);font-weight:600;text-decoration:none;
+}
+.site-nav ul a:hover{background:var(--terracota-suave);color:var(--terracota-escuro)}
+.nav-cta{margin-top:12px}
+/* Nav horizontal só a partir de 1200px (largura natural de marca + menu + CTA ≈ 1150px);
+   abaixo disso (inclusive iPad) fica o menu hambúrguer, evitando itens em duas linhas. */
+@media (min-width:1200px){
+  .nav-toggle{display:none}
+  .brand{flex:none}
+  .brand-text,.site-nav ul a,.nav-cta{white-space:nowrap}
+  .site-nav{
+    display:flex!important;position:static;background:transparent;border:0;box-shadow:none;
+    padding:0;max-height:none;overflow:visible;align-items:center;gap:12px;flex:none;
+  }
+  .site-nav ul{flex-direction:row;gap:2px}
+  .site-nav ul a{padding:10px 10px;min-height:44px;font-size:.92rem}
+  .nav-cta{margin-top:0;padding:10px 18px;font-size:.95rem}
+}
+
+/* Seções */
+.section{padding:56px 0}
+@media (min-width:768px){ .section{padding:88px 0} }
+.section.areia{background:var(--areia)}
+.section.branca{background:var(--branco)}
+.section.salvia-bg{background:var(--salvia-suave)}
+.section-head{max-width:760px;margin-bottom:36px}
+.section-head.center{margin-inline:auto;text-align:center}
+.eyebrow{
+  display:inline-block;font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--salvia);margin-bottom:10px;
+}
+.lead{font-size:1.1rem;color:var(--texto-suave)}
+@media (min-width:768px){ .lead{font-size:1.2rem} }
+
+/* Hero */
+.hero{
+  padding:40px 0 56px;
+  background:linear-gradient(180deg, var(--creme) 0%, var(--terracota-suave) 100%);
+}
+@media (min-width:960px){ .hero{padding:72px 0 88px} }
+.hero-grid{display:grid;gap:36px;align-items:center}
+@media (min-width:960px){ .hero-grid{grid-template-columns:1.05fr .95fr;gap:56px} }
+.hero h1{color:var(--texto);margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--terracota)}
+.hero .lead{max-width:600px;margin-bottom:28px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+@media (max-width:479px){ .hero-actions .btn{width:100%} }
+.hero-bullets{list-style:none;display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--texto);font-weight:600}
+.hero-bullets li{display:flex;align-items:center;gap:8px}
+.hero-bullets .ico{color:var(--salvia)}
+.hero-art{width:100%;height:auto;max-width:560px;margin-inline:auto;filter:drop-shadow(0 18px 30px rgba(59,42,34,.12))}
+@media (max-width:959px){ .hero-art{max-width:440px} }
+
+/* Cards e grades */
+.grid{display:grid;gap:20px}
+.grid-2{grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr))}
+.grid-3{grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr))}
+@media (min-width:768px) and (max-width:1023px){ .grid-3 > :last-child:nth-child(odd){grid-column:1 / -1} }
+.grid-4{grid-template-columns:repeat(auto-fit, minmax(min(100%, 230px), 1fr))}
+.card{
+  background:var(--branco);border:1px solid var(--borda);border-radius:var(--raio);
+  padding:26px;box-shadow:var(--sombra);
+}
+.card h3{margin-bottom:8px}
+.card p{color:var(--texto-suave);margin:0}
+.card.soft{background:var(--terracota-suave);border-color:var(--terracota-clara);box-shadow:none}
+.card.soft h3{color:var(--terracota-escuro)}
+.card.salvia-card{background:var(--salvia-suave);border-color:var(--salvia-clara);box-shadow:none}
+
+/* Sobre */
+.sobre-grid{display:grid;gap:28px;align-items:start}
+@media (min-width:960px){ .sobre-grid{grid-template-columns:1.1fr .9fr;gap:48px} }
+.valores{list-style:none;display:grid;gap:14px;grid-template-columns:repeat(auto-fit, minmax(min(100%, 200px), 1fr));margin-top:24px}
+@media (min-width:768px) and (max-width:959px){ .valores{grid-template-columns:repeat(2, 1fr)} }
+.valores li{
+  display:flex;gap:12px;align-items:flex-start;background:var(--branco);border:1px solid var(--borda);
+  border-radius:var(--raio-p);padding:16px;
+}
+.valores .ico{color:var(--terracota);margin-top:2px}
+.valores strong{display:block;margin-bottom:2px}
+.valores span{color:var(--texto-suave);font-size:.95rem}
+.ilpi-box{
+  background:var(--salvia-suave);border:1px solid var(--salvia-clara);border-radius:var(--raio);padding:26px;
+}
+.ilpi-box h3{color:var(--salvia);display:flex;align-items:center;gap:10px}
+.ilpi-box p:last-child{margin:0}
+
+/* Lista de estrutura */
+.features{list-style:none;display:grid;gap:14px;grid-template-columns:repeat(auto-fit, minmax(min(100%, 260px), 1fr))}
+/* 7 itens: em telas médias o último ocupa a linha inteira; em telas largas, 4 + 3 sem buraco */
+@media (min-width:768px) and (max-width:1199px){ .features li:last-child:nth-child(odd){grid-column:1 / -1} }
+@media (min-width:1200px){
+  .features{grid-template-columns:repeat(12, 1fr)}
+  .features li{grid-column:span 3}
+  .features li:nth-child(n+5){grid-column:span 4}
+}
+.features li{
+  display:flex;gap:14px;align-items:flex-start;background:var(--branco);border:1px solid var(--borda);
+  border-radius:var(--raio-p);padding:18px;
+}
+.features .ico-wrap{width:46px;height:46px;border-radius:13px;margin:0;flex:none}
+.features .ico-wrap .ico{width:24px;height:24px}
+.features strong{display:block;margin-bottom:2px}
+.features span{color:var(--texto-suave);font-size:.95rem}
+
+/* Passos */
+.steps{list-style:none;counter-reset:passo;display:grid;gap:16px}
+@media (min-width:768px){ .steps{grid-template-columns:repeat(5, 1fr)} }
+/* tablet: 5 passos em 3 + 2 centralizados (grade de 6 colunas) */
+@media (min-width:768px) and (max-width:1023px){
+  .steps{grid-template-columns:repeat(6, 1fr)}
+  .steps li{grid-column:span 2}
+  .steps li:nth-child(4){grid-column:2 / span 2}
+  .steps li:nth-child(5){grid-column:4 / span 2}
+}
+.steps li{
+  counter-increment:passo;position:relative;background:var(--branco);border:1px solid var(--borda);
+  border-radius:var(--raio);padding:24px 22px 22px;box-shadow:var(--sombra);
+}
+.steps li::before{
+  content:counter(passo);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;
+  background:var(--terracota);color:#fff;font-weight:800;font-size:1.1rem;margin-bottom:14px;
+}
+.steps h3{font-size:1.1rem;margin-bottom:6px}
+.steps p{color:var(--texto-suave);margin:0;font-size:.98rem}
+.transparencia{display:grid;gap:20px;margin-top:28px}
+@media (min-width:768px){ .transparencia{grid-template-columns:1fr 1fr} }
+.transparencia .card{display:flex;gap:16px;align-items:flex-start}
+.transparencia .ico-wrap{margin:0}
+
+/* FAQ */
+.faq{display:grid;gap:12px;max-width:860px;margin-inline:auto}
+.faq details{
+  background:var(--branco);border:1px solid var(--borda);border-radius:var(--raio-p);
+  overflow:hidden;
+}
+.faq details[open]{box-shadow:var(--sombra)}
+.faq summary{
+  list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:18px 20px;min-height:56px;font-weight:700;font-size:1.05rem;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::marker{content:""}
+.faq summary:hover{background:var(--terracota-suave)}
+.faq summary:focus-visible{outline-offset:-5px;border-radius:calc(var(--raio-p) - 3px)}
+.faq summary .ico{color:var(--terracota);transition:transform .2s ease}
+.faq details[open] summary .ico{transform:rotate(45deg)}
+.faq .faq-body{padding:0 20px 20px;color:var(--texto-suave)}
+.faq .faq-body p:last-child{margin:0}
+
+/* Contato */
+.contato-grid{display:grid;gap:20px}
+@media (min-width:960px){ .contato-grid{grid-template-columns:1.1fr .9fr;gap:36px} }
+.contato-lista{list-style:none;display:grid;gap:14px}
+.contato-lista li{
+  display:flex;gap:16px;align-items:flex-start;background:var(--branco);border:1px solid var(--borda);
+  border-radius:var(--raio-p);padding:18px;
+}
+.contato-lista .ico-wrap{margin:0;width:48px;height:48px;border-radius:14px}
+.contato-lista .ico-wrap .ico{width:24px;height:24px}
+.contato-lista strong{display:block;margin-bottom:2px}
+.contato-lista a{font-weight:600;word-break:break-word;display:inline-block;padding-block:8px;min-height:44px}
+.contato-lista .sub{display:block;color:var(--texto-suave);font-size:.95rem}
+.contato-lista a.sub{display:inline-block;color:var(--terracota)}
+.contato-lista a.sub:hover{color:var(--terracota-escuro)}
+.contato-cta{
+  background:var(--terracota-suave);border:1px solid var(--terracota-clara);border-radius:var(--raio);
+  padding:28px;display:flex;flex-direction:column;gap:14px;
+}
+.contato-cta h3{color:var(--terracota-escuro);margin-bottom:4px}
+.contato-cta p{color:var(--texto-suave)}
+.contato-cta .btn{width:100%}
+.aviso{font-size:.95rem;color:var(--texto-suave);margin-top:10px}
+
+/* Rodapé */
+.site-footer{
+  background:var(--texto);color:var(--areia);
+  /* respiro inferior extra para o botão flutuante do WhatsApp não cobrir o texto */
+  padding:48px 0 calc(96px + env(safe-area-inset-bottom, 0px));
+}
+.site-footer a{color:#F0C9B5}
+.site-footer a:hover{color:#fff}
+.site-footer :focus-visible{outline-color:var(--areia)}
+.footer-grid{display:grid;gap:32px}
+@media (min-width:768px){ .footer-grid{grid-template-columns:1.2fr 1fr 1fr} }
+.footer-brand{display:flex;align-items:center;gap:12px;color:var(--areia);text-decoration:none;margin-bottom:14px}
+.footer-brand .logo{width:44px;height:44px}
+.footer-brand strong{font-size:1.05rem;line-height:1.2}
+.site-footer h4{color:#fff;font-size:1rem;margin-bottom:12px;text-transform:uppercase;letter-spacing:.06em}
+.site-footer p{color:#D9CBBC;font-size:.95rem}
+.footer-links{list-style:none;display:grid;gap:4px}
+.footer-links a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;font-weight:600}
+.footer-links a:hover{text-decoration:underline}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.14);margin-top:36px;padding-top:22px;
+  display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:.9rem;color:#D9CBBC;
+}
+.footer-bottom p{margin:0;font-size:.9rem}
+
+/* Botão flutuante do WhatsApp */
+.whats-float{
+  position:fixed;z-index:60;
+  right:calc(16px + env(safe-area-inset-right, 0px));
+  bottom:calc(16px + env(safe-area-inset-bottom, 0px));
+  width:60px;height:60px;border-radius:50%;
+  background:var(--whats-claro);color:#fff;display:grid;place-items:center;
+  box-shadow:0 10px 26px rgba(7,94,84,.35);text-decoration:none;
+  transition:transform .15s ease;
+}
+.whats-float:hover{transform:scale(1.05);color:#fff}
+.whats-float .ico{width:32px;height:32px;stroke-width:1.7}
+.btn:active,.whats-float:active,.nav-toggle:active{transform:scale(.98)}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .btn:hover,.whats-float:hover{transform:none}
+}
+@media print{
+  .site-header,.whats-float,.skip-link{display:none}
+}
+</style>
+<noscript><style>
+/* Sem JavaScript: o menu fica sempre visível abaixo da marca (o botão hambúrguer depende de JS) */
+@media (max-width:1199px){
+  .nav-toggle{display:none}
+  .header-inner{flex-wrap:wrap}
+  .site-nav{display:block;position:static;flex-basis:100%;box-shadow:none;border:0;padding:0 0 12px;max-height:none}
+}
+</style></noscript>
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- Sprite de ícones (reutilizados via <use>) -->
+<svg width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-nurse" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M20.8 8.6c0-2.6-2.1-4.6-4.6-4.6-1.7 0-3.2.9-4.2 2.3-1-1.4-2.5-2.3-4.2-2.3-2.5 0-4.6 2.1-4.6 4.6C3.2 14 12 20 12 20s8.8-6 8.8-11.4Z"/><path d="M6 12h3l1.5-2.5 3 5 1.5-2.5H18"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 20c0-8 5-13 14-14-1 9-6 14-14 14Z"/><path d="M5 20c3-4 6-7 10-10"/></symbol>
+  <symbol id="i-activity" viewBox="0 0 24 24"><circle cx="13.5" cy="4.5" r="1.8"/><path d="M12.5 7.5 10 13l-3 8"/><path d="M10 13l4 3v5"/><path d="M12.5 7.5 16 9.5l2 3.5"/><path d="M12.5 7.5 9 9l-2 4"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H9l-4 3v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/><path d="M18 9h2a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-4-3h-4"/></symbol>
+  <symbol id="i-pill" viewBox="0 0 24 24"><path d="M13.5 3.5 3.5 13.5a4.95 4.95 0 0 0 7 7l10-10a4.95 4.95 0 0 0-7-7Z"/><path d="M8.5 8.5l7 7"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 19V9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10"/><path d="M3 14h18"/><path d="M7 11h4v3H7z"/></symbol>
+  <symbol id="i-shower" viewBox="0 0 24 24"><path d="M5 9a7 7 0 0 1 14 0"/><path d="M4 9h16"/><path d="M12 4V2M12 2h4"/><path d="M7 13v1M12 13v1M17 13v1M9.5 17v1M14.5 17v1M12 20v1"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 15.5a5 5 0 0 1 5.5 4.5"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 22v-6"/><path d="M12 16c-4 0-7-2.5-7-6 0-2 1-3.5 2.5-4.3C8 3.5 10 2 12 2s4 1.5 4.5 3.7C18 6.5 19 8 19 10c0 3.5-3 6-7 6Z"/></symbol>
+  <symbol id="i-food" viewBox="0 0 24 24"><path d="M6 2v7a2 2 0 0 0 4 0V2"/><path d="M8 2v20"/><path d="M18 2c-2 1.5-3 4-3 7v4h3v9"/></symbol>
+  <symbol id="i-rail" viewBox="0 0 24 24"><path d="M4 20V9"/><path d="M4 9c4-3 12-3 16 0"/><path d="M20 20V9"/><path d="M8 7.6V20M12 6.8V20M16 7.6V20"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 5-5.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3Z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1.2-1.6-2.2-1-1 1a4.6 4.6 0 0 1-2.4-2.4l1-1-1-2.2Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10A4.5 4.5 0 0 1 12 7.2 4.5 4.5 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10Z"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 13h6M10 17h6"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol>
+</svg>
+
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a class="brand" href="#inicio" aria-label="Residencial Geriátrico Sagrada Família – ir para o início">
+      <svg class="logo" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+        <rect width="48" height="48" rx="14" fill="#A34A2E"/>
+        <path d="M24 4.5v5M21.6 7h4.8" fill="none" stroke="#FBF6EE" stroke-width="2" stroke-linecap="round"/>
+        <path d="M10 23 24 11l14 12" fill="none" stroke="#FBF6EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 22v15h20V22" fill="none" stroke="#FBF6EE" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M24 33c-4.4-2.7-6.8-5.2-6.8-8.1a3.7 3.7 0 0 1 6.8-1.7 3.7 3.7 0 0 1 6.8 1.7c0 2.9-2.4 5.4-6.8 8.1Z" fill="#FBF6EE"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-sup">Residencial Geriátrico</span>
+        <span class="brand-name">Sagrada Família</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+      <svg class="ico ico-burger" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="ico ico-close" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+
+    <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#estrutura">Estrutura</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#duvidas">Dúvidas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a class="btn btn-primary nav-cta" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Residencial%20Geri%C3%A1trico%20Sagrada%20Fam%C3%ADlia." target="_blank" rel="noopener" data-site-href="whatsapp">
+        <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>
+        Agendar visita
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Residencial geriátrico · ILPI</span>
+        <h1 id="titulo-hero">Cuidado, carinho e <em>dignidade</em> para quem você ama</h1>
+        <p class="lead">Um lar acolhedor para pessoas idosas, com enfermagem e cuidadores 24 horas, acompanhamento de saúde e uma rotina pensada para o bem-estar de cada residente — e para a tranquilidade da família.</p>
+        <div class="hero-actions">
+          <a class="btn btn-whats" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Residencial%20Geri%C3%A1trico%20Sagrada%20Fam%C3%ADlia." target="_blank" rel="noopener" data-site-href="whatsapp">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+            Agendar visita pelo WhatsApp
+          </a>
+          <a class="btn btn-outline" href="tel:+550000000000" data-site-href="tel">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+            Ligar agora
+          </a>
+        </div>
+        <ul class="hero-bullets">
+          <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Equipe presente 24 horas</li>
+          <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Plano de cuidado individual</li>
+          <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Família sempre bem-vinda</li>
+        </ul>
+      </div>
+
+      <svg class="hero-art" viewBox="0 0 520 400" role="img" aria-labelledby="hero-art-titulo">
+        <title id="hero-art-titulo">Ilustração de uma casa acolhedora com um coração, jardim ao redor e duas pessoas conversando em frente à porta</title>
+        <defs>
+          <linearGradient id="g-ceu" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFFFFF"/>
+            <stop offset="1" stop-color="#F3EADB"/>
+          </linearGradient>
+          <clipPath id="clip-art"><rect width="520" height="400" rx="40"/></clipPath>
+        </defs>
+        <g clip-path="url(#clip-art)">
+          <rect width="520" height="400" fill="url(#g-ceu)"/>
+          <!-- sol -->
+          <circle cx="412" cy="92" r="46" fill="#F7DFB8"/>
+          <circle cx="412" cy="92" r="32" fill="#F2C88C"/>
+          <!-- colinas -->
+          <ellipse cx="110" cy="372" rx="260" ry="78" fill="#DCE5DC"/>
+          <ellipse cx="440" cy="392" rx="260" ry="82" fill="#CBD9CC"/>
+          <rect y="336" width="520" height="70" fill="#C2D2C3"/>
+          <ellipse cx="260" cy="336" rx="330" ry="30" fill="#C2D2C3"/>
+          <!-- árvore -->
+          <rect x="86" y="252" width="14" height="70" rx="6" fill="#8B5E3C"/>
+          <circle cx="93" cy="228" r="40" fill="#6F8B74"/>
+          <circle cx="66" cy="250" r="27" fill="#7E9A83"/>
+          <circle cx="122" cy="248" r="27" fill="#5F7C66"/>
+          <!-- casa -->
+          <rect x="150" y="172" width="220" height="150" rx="12" fill="#FFFFFF" stroke="#E6DCCD" stroke-width="3"/>
+          <path d="M136 182 260 92l124 90" fill="none" stroke="#A34A2E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M150 182 260 102l110 80Z" fill="#B5573A"/>
+          <circle cx="260" cy="152" r="23" fill="#FBF6EE"/>
+          <path d="M260 164c-8.6-5.3-13.4-10.3-13.4-16a7.2 7.2 0 0 1 13.4-3.3 7.2 7.2 0 0 1 13.4 3.3c0 5.7-4.8 10.7-13.4 16Z" fill="#A34A2E"/>
+          <!-- janelas -->
+          <rect x="170" y="204" width="46" height="46" rx="9" fill="#DCE5DC" stroke="#CBD9CC" stroke-width="3"/>
+          <path d="M193 204v46M170 227h46" stroke="#FFFFFF" stroke-width="3"/>
+          <rect x="304" y="204" width="46" height="46" rx="9" fill="#DCE5DC" stroke="#CBD9CC" stroke-width="3"/>
+          <path d="M327 204v46M304 227h46" stroke="#FFFFFF" stroke-width="3"/>
+          <!-- floreiras -->
+          <rect x="166" y="250" width="54" height="10" rx="4" fill="#A34A2E"/>
+          <rect x="300" y="250" width="54" height="10" rx="4" fill="#A34A2E"/>
+          <circle cx="178" cy="246" r="5" fill="#E8A090"/><circle cx="193" cy="244" r="5" fill="#F2C88C"/><circle cx="208" cy="246" r="5" fill="#E8A090"/>
+          <circle cx="312" cy="246" r="5" fill="#F2C88C"/><circle cx="327" cy="244" r="5" fill="#E8A090"/><circle cx="342" cy="246" r="5" fill="#F2C88C"/>
+          <!-- porta -->
+          <path d="M234 322v-64a26 26 0 0 1 52 0v64Z" fill="#4F6B55"/>
+          <circle cx="276" cy="290" r="3.5" fill="#FBF6EE"/>
+          <!-- caminho -->
+          <path d="M240 322h40l30 60H210Z" fill="#E6DCCD"/>
+          <!-- pessoa idosa (com bengala) -->
+          <circle cx="428" cy="222" r="15" fill="#E9C3A6"/>
+          <path d="M414 214c2-10 8-14 14-14s12 4 14 14c-4-4-9-6-14-6s-10 2-14 6Z" fill="#D9D3CC"/>
+          <rect x="410" y="238" width="36" height="54" rx="15" fill="#4F6B55"/>
+          <rect x="414" y="288" width="12" height="36" rx="5" fill="#6B5A50"/>
+          <rect x="430" y="288" width="12" height="36" rx="5" fill="#6B5A50"/>
+          <path d="M446 256l8 12" stroke="#4F6B55" stroke-width="9" stroke-linecap="round"/>
+          <path d="M456 268v56" stroke="#8B5E3C" stroke-width="5" stroke-linecap="round"/>
+          <!-- cuidador(a) -->
+          <circle cx="484" cy="206" r="15" fill="#C98F6A"/>
+          <path d="M470 200c1-10 7-15 14-15s13 5 14 15c-3-4-8-7-14-7s-11 3-14 7Z" fill="#3B2A22"/>
+          <rect x="466" y="222" width="36" height="66" rx="15" fill="#A34A2E"/>
+          <path d="M466 244l-16 14" stroke="#A34A2E" stroke-width="9" stroke-linecap="round"/>
+          <rect x="470" y="284" width="12" height="40" rx="5" fill="#3B2A22"/>
+          <rect x="486" y="284" width="12" height="40" rx="5" fill="#3B2A22"/>
+          <!-- coraçãozinho entre os dois -->
+          <path d="M456 200c-4.4-2.7-6.8-5.2-6.8-8.1a3.7 3.7 0 0 1 6.8-1.7 3.7 3.7 0 0 1 6.8 1.7c0 2.9-2.4 5.4-6.8 8.1Z" fill="#E08A6E"/>
+          <!-- flores no chão -->
+          <circle cx="40" cy="336" r="6" fill="#E8A090"/><circle cx="60" cy="340" r="4" fill="#F2C88C"/>
+          <circle cx="160" cy="342" r="5" fill="#F2C88C"/><circle cx="395" cy="340" r="5" fill="#E8A090"/>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="section branca" id="sobre" aria-labelledby="titulo-sobre">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Sobre nós</span>
+        <h2 id="titulo-sobre">Um lar, e não apenas uma instituição</h2>
+        <p class="lead">Nossa missão é oferecer moradia, cuidado e convivência para pessoas idosas com respeito à sua história, autonomia e individualidade — e ser um apoio de confiança para as famílias.</p>
+      </div>
+
+      <div class="sobre-grid">
+        <div>
+          <p>Acreditamos que envelhecer com dignidade é ter segurança, atenção à saúde e, sobretudo, afeto no dia a dia. Por isso, cada residente tem um plano de cuidado individual, construído com a família e revisado pela equipe, que acompanha de perto a rotina, a alimentação, os medicamentos e o bem-estar emocional.</p>
+          <p>Trabalhamos com transparência: as famílias conhecem a equipe, participam das decisões e recebem informações claras sobre tudo o que envolve o cuidado do seu familiar.</p>
+
+          <ul class="valores" aria-label="Nossos valores">
+            <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><div><strong>Respeito</strong><span>À história, às escolhas e ao ritmo de cada pessoa.</span></div></li>
+            <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><div><strong>Segurança</strong><span>Ambiente adaptado e equipe presente 24 horas.</span></div></li>
+            <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-heart"/></svg><div><strong>Afeto</strong><span>Cuidar com atenção, paciência e carinho de verdade.</span></div></li>
+            <li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-eye"/></svg><div><strong>Transparência</strong><span>Informação clara e comunicação constante com a família.</span></div></li>
+          </ul>
+        </div>
+
+        <aside class="ilpi-box" aria-labelledby="titulo-ilpi">
+          <h3 id="titulo-ilpi"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-info"/></svg>O que é uma ILPI?</h3>
+          <p>ILPI significa <strong>Instituição de Longa Permanência para Idosos</strong>. É o nome técnico das casas de repouso e residenciais geriátricos: locais de moradia coletiva para pessoas com 60 anos ou mais, com ou sem apoio familiar, que oferecem cuidado diário, alimentação, acompanhamento de saúde e atividades de convivência.</p>
+          <p>Diferente de um hospital, uma ILPI é um <strong>lar</strong>: a rotina é organizada em torno do conforto, da autonomia possível e da vida em comunidade — com a segurança de uma equipe preparada para as necessidades da idade.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section class="section areia" id="servicos" aria-labelledby="titulo-servicos">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Serviços</span>
+        <h2 id="titulo-servicos">Cuidado completo, todos os dias</h2>
+        <p class="lead">Do acolhimento à rotina diária, cada serviço é planejado para atender às necessidades de saúde, conforto e convivência dos nossos residentes.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-home"/></svg></div>
+          <h3>Moradia de longa permanência</h3>
+          <p>Acomodação com todo o suporte diário: higiene, alimentação, medicação e acompanhamento contínuo, em um ambiente seguro e acolhedor.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg></div>
+          <h3>Centro-dia e hospedagem temporária</h3>
+          <p>Cuidado durante o dia ou por períodos curtos, conforme disponibilidade — férias, viagens, o período após uma alta hospitalar (quando compatível com a avaliação da nossa equipe) ou um respiro para quem cuida em casa.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-nurse"/></svg></div>
+          <h3>Enfermagem e cuidadores 24 horas</h3>
+          <p>Equipe de enfermagem e cuidadores presentes dia e noite, para auxílio nas atividades diárias e atenção rápida quando necessário.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pulse"/></svg></div>
+          <h3>Acompanhamento médico e geriátrico</h3>
+          <p>Avaliações periódicas, acompanhamento de doenças crônicas e articulação com os médicos de confiança da família.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-leaf"/></svg></div>
+          <h3>Nutrição com cardápio orientado</h3>
+          <p>Refeições preparadas com orientação de nutricionista, adaptadas a dietas especiais, restrições e preferências de cada residente.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-activity"/></svg></div>
+          <h3>Fisioterapia e atividades físicas</h3>
+          <p>Exercícios para manter mobilidade, equilíbrio e independência, com prevenção de quedas e estímulo diário ao movimento.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg></div>
+          <h3>Apoio psicológico e social</h3>
+          <p>Acolhimento emocional na adaptação e no dia a dia, além de apoio à família nas decisões e na relação com o residente.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pill"/></svg></div>
+          <h3>Administração de medicamentos</h3>
+          <p>Medicamentos administrados pela enfermagem conforme prescrição, com controle de horários, doses e registro para a família.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-music"/></svg></div>
+          <h3>Atividades recreativas e convivência</h3>
+          <p>Música, jogos, oficinas, datas comemorativas e momentos de convívio que estimulam a memória, a alegria e os vínculos.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ESTRUTURA ===================== -->
+  <section class="section branca" id="estrutura" aria-labelledby="titulo-estrutura">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Estrutura</span>
+        <h2 id="titulo-estrutura">Espaços pensados para conforto e segurança</h2>
+        <p class="lead">Ambientes adaptados para a pessoa idosa, com acessibilidade nos ambientes de circulação e de uso dos residentes e áreas de convivência que fazem a casa parecer, de verdade, um lar.</p>
+      </div>
+
+      <ul class="features">
+        <li><div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bed"/></svg></div><div><strong>Quartos individuais e compartilhados</strong><span>Opções conforme a necessidade e a preferência de cada família, com camas adequadas e espaço para pertences pessoais.</span></div></li>
+        <li><div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shower"/></svg></div><div><strong>Banheiros adaptados</strong><span>Barras de apoio, piso antiderrapante, chuveiros acessíveis e espaço para auxílio no banho.</span></div></li>
+        <li><div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-users"/></svg></div><div><strong>Áreas de convivência</strong><span>Salas de estar e de TV, espaço para atividades em grupo e para receber a família.</span></div></li>
+        <li><div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-tree"/></svg></div><div><strong>Jardim e área externa</strong><span>Espaço ao ar livre para tomar sol, caminhar com segurança e cuidar das plantas.</span></div></li>
+        <li><div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-food"/></svg></div><div><strong>Refeitório</strong><span>Refeições em ambiente agradável, com apoio da equipe para quem precisa de ajuda ao se alimentar.</span></div></li>
+        <li><div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-rail"/></svg></div><div><strong>Acessibilidade</strong><span>Rampas, corrimãos, barras de apoio e portas largas para circulação com cadeira de rodas e andador.</span></div></li>
+        <li><div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></div><div><strong>Monitoramento e segurança</strong><span>Equipe presente 24 horas, controle de acesso e monitoramento das áreas comuns, com respeito à privacidade dos residentes.</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== EQUIPE ===================== -->
+  <section class="section salvia-bg" id="equipe" aria-labelledby="titulo-equipe">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Equipe</span>
+        <h2 id="titulo-equipe">Profissionais que cuidam com competência e afeto</h2>
+        <p class="lead">Uma equipe multiprofissional trabalha de forma integrada para acompanhar a saúde, a alimentação, a mobilidade e o bem-estar emocional de cada residente.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-nurse"/></svg></div>
+          <h3>Enfermagem</h3>
+          <p>Coordena os cuidados de saúde, administra medicamentos e acompanha sinais vitais e curativos.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-heart"/></svg></div>
+          <h3>Cuidadores de idosos</h3>
+          <p>Presentes 24 horas, auxiliam na higiene, na alimentação, na locomoção e na companhia do dia a dia.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pulse"/></svg></div>
+          <h3>Médico geriatra</h3>
+          <p>Avalia periodicamente cada residente, acompanha condições crônicas e orienta a equipe e a família.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-leaf"/></svg></div>
+          <h3>Nutricionista</h3>
+          <p>Planeja o cardápio, adapta dietas especiais e acompanha o estado nutricional dos residentes.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-activity"/></svg></div>
+          <h3>Fisioterapeuta</h3>
+          <p>Trabalha mobilidade, força e equilíbrio, com foco na prevenção de quedas e na independência.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg></div>
+          <h3>Psicólogo(a)</h3>
+          <p>Acompanha a adaptação, a memória e o bem-estar emocional, e oferece apoio às famílias.</p>
+        </article>
+        <article class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-users"/></svg></div>
+          <h3>Assistente social</h3>
+          <p>Faz a ponte entre residente, família e instituição, orientando sobre direitos e o processo de acolhimento.</p>
+        </article>
+        <article class="card soft">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-doc"/></svg></div>
+          <h3>Responsável técnico(a)</h3>
+          <p>Profissional que responde pela instituição perante a autoridade sanitária local e pela organização do cuidado, conforme previsto na RDC nº 502/2021 da ANVISA.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMO FUNCIONA ===================== -->
+  <section class="section branca" id="como-funciona" aria-labelledby="titulo-como-funciona">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Como funciona</span>
+        <h2 id="titulo-como-funciona">Do primeiro contato ao acolhimento</h2>
+        <p class="lead">Um processo simples e sem pressa, para que a família e o futuro residente conheçam a casa, tirem dúvidas e se sintam seguros com a decisão.</p>
+      </div>
+
+      <ol class="steps">
+        <li><h3>Contato</h3><p>Fale conosco por WhatsApp, telefone ou e-mail. Ouvimos a situação da família e explicamos como trabalhamos.</p></li>
+        <li><h3>Visita</h3><p>Convidamos a família a conhecer a casa, a equipe e a rotina — de preferência com o futuro residente.</p></li>
+        <li><h3>Avaliação individual</h3><p>Nossa equipe avalia as necessidades de saúde, mobilidade, alimentação e hábitos da pessoa idosa.</p></li>
+        <li><h3>Plano de cuidado</h3><p>Montamos, junto com a família, um plano de cuidado individual e apresentamos o contrato com todos os detalhes.</p></li>
+        <li><h3>Acolhimento</h3><p>Preparamos o quarto e o primeiro dia com calma e atenção, acompanhando de perto o período de adaptação.</p></li>
+      </ol>
+
+      <div class="transparencia">
+        <div class="card">
+          <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-doc"/></svg></div>
+          <div>
+            <h3>Contrato transparente</h3>
+            <p>Os serviços incluídos, valores, reajustes e condições ficam descritos em contrato, explicado com calma antes da assinatura. Sem letras miúdas.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg></div>
+          <div>
+            <h3>Família por perto</h3>
+            <p>As visitas são incentivadas e fazem parte do cuidado. A família recebe informações regulares sobre a rotina e é avisada prontamente sobre intercorrências e alterações relevantes no estado de saúde do residente (como quedas, febre, encaminhamentos ou mudanças de medicação).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DÚVIDAS ===================== -->
+  <section class="section areia" id="duvidas" aria-labelledby="titulo-duvidas">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Dúvidas frequentes</span>
+        <h2 id="titulo-duvidas">Perguntas que as famílias costumam fazer</h2>
+        <p class="lead">Se a sua dúvida não estiver aqui, fale com a gente — respondemos com transparência.</p>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>Como funcionam as visitas da família?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>As visitas são bem-vindas e incentivadas. Os horários de visita são informados em Contato e combinados com a família; com aviso prévio, organizamos horários alternativos. Pedimos apenas respeito aos momentos de descanso e de refeição dos residentes.</p></div>
+        </details>
+        <details>
+          <summary>Como é feita a administração dos medicamentos?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>A equipe de enfermagem administra os medicamentos conforme a prescrição médica, com registro de horário e dose. A família fornece as receitas atualizadas, e qualquer alteração só acontece com orientação médica.</p></div>
+        </details>
+        <details>
+          <summary>Vocês aceitam convênios ou planos de saúde?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>A moradia no residencial é contratada de forma particular. Consultas, exames e internações fora da casa podem ser cobertos pelo plano de saúde do residente, dependendo de cada contrato — orientamos a família a confirmar diretamente com a operadora. Não fazemos promessas de cobertura.</p></div>
+        </details>
+        <details>
+          <summary>O residente pode levar pertences pessoais?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>Sim, e incentivamos: fotos, uma colcha favorita, o rádio, objetos de afeto. Isso ajuda muito na adaptação. Combinamos com a família o que cabe com segurança no quarto e identificamos os itens.</p></div>
+        </details>
+        <details>
+          <summary>Há cardápio para dietas especiais?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>Sim. A nutricionista adapta o cardápio para diabetes, hipertensão, dificuldade de deglutição (alimentos pastosos), alergias, restrições e preferências, sempre com base em orientação profissional.</p></div>
+        </details>
+        <details>
+          <summary>Os residentes podem sair para passeios?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>Sim. Saídas com a família são combinadas previamente e registradas. Também organizamos passeios e atividades externas com acompanhamento da equipe, respeitando as condições de saúde de cada residente.</p></div>
+        </details>
+        <details>
+          <summary>Como a família recebe notícias?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>Mantemos um canal direto (telefone e WhatsApp) com a pessoa de referência da família. Avisamos prontamente sobre intercorrências e alterações relevantes de saúde (como quedas, febre, encaminhamentos ou mudanças de medicação) e compartilhamos informações regulares sobre a rotina, as atividades e o bem-estar do residente.</p></div>
+        </details>
+        <details>
+          <summary>O que levar no dia do acolhimento?<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary>
+          <div class="faq-body"><p>Documentos pessoais (RG, CPF, cartão do SUS e do plano de saúde, se houver), receitas e medicamentos em uso, exames recentes, roupas confortáveis identificadas, itens de higiene pessoal e objetos de afeto. Antes do acolhimento, enviamos uma lista completa e personalizada.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section class="section branca" id="contato" aria-labelledby="titulo-contato">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Contato</span>
+        <h2 id="titulo-contato">Venha nos conhecer</h2>
+        <p class="lead">A melhor forma de conhecer o residencial é visitando. Fale com a gente pelo canal que preferir e agende um horário.</p>
+      </div>
+
+      <div class="contato-grid">
+        <ul class="contato-lista" aria-label="Canais de contato">
+          <li>
+            <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></div>
+            <div>
+              <strong>Telefone</strong>
+              <a href="tel:+550000000000" data-site-href="tel"><span data-site="telefone">(00) 0000-0000</span></a>
+              <span class="sub" data-site="horarioTelefone">Atendimento em horário comercial</span>
+            </div>
+          </li>
+          <li>
+            <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Residencial%20Geri%C3%A1trico%20Sagrada%20Fam%C3%ADlia." target="_blank" rel="noopener" data-site-href="whatsapp"><span data-site="whatsapp">(00) 00000-0000</span></a>
+              <span class="sub" data-site="retornoWhatsApp">Respondemos assim que possível</span>
+            </div>
+          </li>
+          <li>
+            <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></div>
+            <div>
+              <strong>E-mail</strong>
+              <a href="mailto:contato@exemplo.com.br?subject=Contato%20pelo%20site" data-site-href="email"><span data-site="email">contato@exemplo.com.br</span></a>
+            </div>
+          </li>
+          <li>
+            <div class="ico-wrap salvia"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg></div>
+            <div>
+              <strong>Endereço</strong>
+              <span data-site="enderecoCompleto">Rua Exemplo, 123 – Bairro – Cidade/UF – CEP 00000-000</span>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Exemplo%2C%20123%20%E2%80%93%20Bairro%20%E2%80%93%20Cidade%2FUF" target="_blank" rel="noopener" data-site-href="maps" class="sub">Ver no Google Maps</a>
+            </div>
+          </li>
+          <li>
+            <div class="ico-wrap"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg></div>
+            <div>
+              <strong>Horário de visitas</strong>
+              <span data-site="horarioVisitas">Diariamente, em horários combinados com a família</span>
+              <span class="sub">Combine o horário com antecedência ao agendar a visita</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="contato-cta">
+          <h3>Agende uma visita</h3>
+          <p>Conheça a casa, a equipe e a rotina. Sem compromisso, no seu tempo.</p>
+          <a class="btn btn-whats" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Residencial%20Geri%C3%A1trico%20Sagrada%20Fam%C3%ADlia." target="_blank" rel="noopener" data-site-href="whatsapp">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+            Falar no WhatsApp
+          </a>
+          <a class="btn btn-outline" href="mailto:contato@exemplo.com.br?subject=Contato%20pelo%20site" data-site-href="email">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>
+            Enviar e-mail
+          </a>
+          <a class="btn btn-outline" href="tel:+550000000000" data-site-href="tel">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+            Ligar
+          </a>
+          <p class="aviso">Valores, disponibilidade de vagas e condições são informados pessoalmente, de acordo com a avaliação individual de cada residente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== RODAPÉ ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="footer-brand" href="#topo">
+          <svg class="logo" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <rect width="48" height="48" rx="14" fill="#A34A2E"/>
+            <path d="M24 4.5v5M21.6 7h4.8" fill="none" stroke="#FBF6EE" stroke-width="2" stroke-linecap="round"/>
+            <path d="M10 23 24 11l14 12" fill="none" stroke="#FBF6EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 22v15h20V22" fill="none" stroke="#FBF6EE" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M24 33c-4.4-2.7-6.8-5.2-6.8-8.1a3.7 3.7 0 0 1 6.8-1.7 3.7 3.7 0 0 1 6.8 1.7c0 2.9-2.4 5.4-6.8 8.1Z" fill="#FBF6EE"/>
+          </svg>
+          <strong data-site="nome">Residencial Geriátrico Sagrada Família</strong>
+        </a>
+        <p>Instituição de Longa Permanência para Idosos (ILPI). Cuidado, carinho e dignidade para quem você ama.</p>
+        <p>CNPJ <span data-site="cnpj">00.000.000/0000-00</span><br>Responsável técnico(a): <span data-site="responsavelTecnico">Nome do(a) Responsável Técnico(a) – registro profissional 000000</span></p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#estrutura">Estrutura</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#duvidas">Dúvidas frequentes</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Compromisso</h4>
+        <p>Atuamos em conformidade com as normas da ANVISA para ILPIs (RDC nº 502/2021) e com o Estatuto da Pessoa Idosa (Lei nº 10.741/2003).</p>
+        <p><strong style="color:#fff">Privacidade (LGPD):</strong> este site não coleta dados pessoais — não há formulários, cookies ou ferramentas de rastreamento. O contato acontece apenas pelos canais que você escolher (telefone, WhatsApp ou e-mail). Ao usar o WhatsApp ou o Google Maps, você será direcionado a serviços de terceiros, com políticas de privacidade próprias. Os dados que você nos enviar por esses canais são usados apenas para atender ao seu contato.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span data-site="ano">2026</span> <span data-site="nome">Residencial Geriátrico Sagrada Família</span>. Todos os direitos reservados.</p>
+      <p>Site institucional — informações sujeitas a confirmação na visita.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="whats-float" href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20Residencial%20Geri%C3%A1trico%20Sagrada%20Fam%C3%ADlia." target="_blank" rel="noopener" aria-label="Falar no WhatsApp" data-site-href="whatsapp">
+  <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+</a>
+
+<script>
+(function () {
+  'use strict';
+
+  // ============================================================
+  // EDITE AQUI — dados do residencial.
+  // Os valores abaixo são PLACEHOLDERS FICTÍCIOS. Substitua pelos
+  // dados reais. O HTML já traz os mesmos valores como fallback,
+  // então o site continua funcionando mesmo sem JavaScript.
+  // ============================================================
+  const SITE = {
+    nome: 'Residencial Geriátrico Sagrada Família',
+    telefone: '(00) 0000-0000',             // telefone fixo, como deve aparecer no site
+    whatsapp: '(00) 00000-0000',            // celular com WhatsApp, como deve aparecer no site
+    email: 'contato@exemplo.com.br',
+    endereco: 'Rua Exemplo, 123 – Bairro',
+    cidadeUF: 'Cidade/UF',
+    cep: '00000-000',
+    horarioVisitas: 'Diariamente, em horários combinados com a família', // EXEMPLO – substitua pelos horários reais de visita
+    horarioTelefone: 'Atendimento em horário comercial',                 // EXEMPLO – confirmar com o residencial
+    retornoWhatsApp: 'Respondemos assim que possível',                   // EXEMPLO – confirmar com o residencial
+    cnpj: '00.000.000/0000-00',
+    responsavelTecnico: 'Nome do(a) Responsável Técnico(a) – registro profissional 000000',
+    mensagemWhatsApp: 'Olá! Gostaria de agendar uma visita ao Residencial Geriátrico Sagrada Família.',
+    assuntoEmail: 'Contato pelo site'        // assunto do e-mail (igual ao fallback no HTML)
+  };
+  // ============================================================
+
+  const somenteDigitos = function (s) { return String(s).replace(/\D/g, ''); };
+  const enderecoCompleto = SITE.endereco + ' – ' + SITE.cidadeUF + (SITE.cep ? ' – CEP ' + SITE.cep : '');
+
+  const links = {
+    tel: 'tel:+55' + somenteDigitos(SITE.telefone),
+    whatsapp: 'https://wa.me/55' + somenteDigitos(SITE.whatsapp) + '?text=' + encodeURIComponent(SITE.mensagemWhatsApp),
+    email: 'mailto:' + SITE.email + '?subject=' + encodeURIComponent(SITE.assuntoEmail),
+    maps: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(SITE.endereco + ' – ' + SITE.cidadeUF)
+  };
+
+  const textos = Object.assign({}, SITE, {
+    enderecoCompleto: enderecoCompleto,
+    ano: String(new Date().getFullYear())
+  });
+
+  // Preenche textos [data-site="chave"]
+  document.querySelectorAll('[data-site]').forEach(function (el) {
+    const chave = el.getAttribute('data-site');
+    if (textos[chave] != null) el.textContent = textos[chave];
+  });
+
+  // Preenche links [data-site-href="tel|whatsapp|email|maps"]
+  document.querySelectorAll('[data-site-href]').forEach(function (el) {
+    const chave = el.getAttribute('data-site-href');
+    if (links[chave]) el.setAttribute('href', links[chave]);
+  });
+
+  // ---------- Menu responsivo ----------
+  const header = document.querySelector('.site-header');
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.getElementById('menu-principal');
+  if (header && toggle && nav) {
+    const setMenu = function (aberto) {
+      header.classList.toggle('menu-aberto', aberto);
+      toggle.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+      toggle.setAttribute('aria-label', aberto ? 'Fechar menu' : 'Abrir menu');
+    };
+    const menuAberto = function () { return header.classList.contains('menu-aberto'); };
+
+    toggle.addEventListener('click', function () { setMenu(!menuAberto()); });
+    nav.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menuAberto()) { setMenu(false); toggle.focus(); }
+    });
+    document.addEventListener('click', function (e) {
+      if (menuAberto() && !header.contains(e.target)) setMenu(false);
+    });
+    const mq = window.matchMedia('(min-width: 1200px)');
+    const aoMudar = function (e) { if (e.matches) setMenu(false); };
+    if (typeof mq.addEventListener === 'function') mq.addEventListener('change', aoMudar);
+    else if (typeof mq.addListener === 'function') mq.addListener(aoMudar);
+
+    // Mede a altura real do header (sem o safe-area superior) para que as âncoras
+    // nunca fiquem escondidas atrás dele, seja qual for a largura da tela.
+    const medirHeader = function () {
+      const safeTop = parseFloat(getComputedStyle(header).paddingTop) || 0;
+      const altura = Math.round(header.offsetHeight - safeTop);
+      if (altura > 0) document.documentElement.style.setProperty('--header-real', altura + 'px');
+    };
+    medirHeader();
+    if (typeof ResizeObserver === 'function') new ResizeObserver(medirHeader).observe(header);
+    else window.addEventListener('resize', medirHeader);
+  }
+})();
+</script>
+</body>
+</html>
