@@ -5,10 +5,11 @@ description: Conformidade e comunicação da ILPI Residencial Sagrada Família (
 
 # ILPI — conformidade
 
-**Esqueleto.** O conteúdo completo vive na máquina local em
-`~/.claude-gfdoes/skills/ilpi-conformidade/SKILL.md` e
-`~/.claude-gfdoes/skills/registro-assistencial-e-sistema/SKILL.md`. Substitua este arquivo por
-eles quando forem trazidos para o repositório.
+**Esqueleto.** O conteúdo completo vive na fonte única do plugin `gfes`, no vault do Mac
+(`Advocacia/02 - SKILLS E AGENTES/skills/ilpi-conformidade/SKILL.md` e
+`.../skills/registro-assistencial-e-sistema/SKILL.md`; desde 05/09/2026 — o caminho antigo
+`~/.claude-gfdoes/skills/` é resíduo). Substitua este arquivo por eles quando forem trazidos
+para o repositório.
 
 Enquanto isso, valem as travas do `CLAUDE.md`:
 

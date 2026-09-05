@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/gabriel/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/Advocacia/**)",
+      "Edit(//Users/gabriel/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/Advocacia/**)",
+      "Write(//Users/gabriel/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/Advocacia/**)",
+      "Read(//Users/gabriel/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/Tipografia Jurídica/**)",
+      "Read(//Users/gabriel/Documents/**)",
+      "Edit(//Users/gabriel/Documents/Claude outputs/**)",
+      "Write(//Users/gabriel/Documents/Claude outputs/**)",
+      "Read(//tmp/**)",
+      "Write(//tmp/**)",
+      "Bash(ls:*)", "Bash(cat:*)", "Bash(head:*)", "Bash(tail:*)", "Bash(wc:*)", "Bash(grep:*)", "Bash(rg:*)",
+      "Bash(find:*)", "Bash(cp:*)", "Bash(mkdir:*)", "Bash(mv:*)", "Bash(stat:*)", "Bash(diff:*)", "Bash(md5:*)",
+      "Bash(python3:*)", "Bash(/usr/bin/python3:*)",
+      "Bash(git status *)", "Bash(git log *)", "Bash(git diff *)", "Bash(git add *)", "Bash(git commit *)",
+      "Bash(open:*)", "Bash(brctl download:*)", "Bash(launchctl list*)", "Bash(launchctl print*)",
+      "Bash(zsh:*)", "Bash(sw_vers)", "Bash(uname:*)", "Bash(whoami)", "Bash(which:*)", "Bash(alias)",
+      "Bash(pbcopy:*)", "Bash(pbpaste)", "Bash(defaults read:*)",
+      "mcp__obsidian"
+    ],
+    "deny": [
+      "Read(//Users/gabriel/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/Residencial/**)",
+      "Read(//Users/gabriel/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/.obsidian/plugins/obsidian-local-rest-api/data.json)",
+      "Read(//Users/gabriel/Documents/**/*.pfx)",
+      "Read(//Users/gabriel/Documents/**/*.p12)",
+      "Read(//Users/gabriel/Documents/residencial-documentos/**)",
+      "Read(//Users/gabriel/Documents/sistema-sagrada-familia/**)",
+      "Bash(rm:*)", "Bash(rmdir:*)", "Bash(git push*)", "Bash(git reset --hard*)", "Bash(launchctl unload*)", "Bash(launchctl bootout*)"
+    ]
+  }
+}

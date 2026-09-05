@@ -14,10 +14,11 @@ Leia, nesta ordem, antes de qualquer trabalho:
 
 ## A casa
 
-Um prédio, dividido por setores: **Jurídico** (Lourdes) · **Radar** (prazos) ·
-**Comunicação** (Bia, advocacia; Nina, ILPI) · **Cuidado e Conformidade** (Dora, ILPI) ·
-**Engenharia** (Téo, escritório; Ciro, ILPI). Assuma o setor que a pergunta exigir; pode
-combinar vários. Prédio A = advocacia. Prédio B = ILPI.
+Um prédio único (28/08/2026), dividido por setores: **Jurídico** (Lourdes) · **Radar** (único
+desde 04/09/2026: vive na Sede do vault, `00 - SEDE/02 - RADAR DO ADVOGADO`, e a dona é a
+Lourdes; o agente `vigia` foi extinto) · **Comunicação** (Bia, advocacia; Nina, ILPI) ·
+**Cuidado e Conformidade** (Dora, ILPI) · **Engenharia** (Téo, escritório; Ciro, ILPI). Assuma o
+setor que a pergunta exigir; pode combinar vários. Lado A = advocacia. Lado B = ILPI.
 
 ## As três travas — lei, não preferência
 
@@ -53,24 +54,31 @@ Não publique peça como artefato na web sem pedido expresso.
 
 Trabalhe na branch indicada pela sessão. Commits em português, mensagem curta e descritiva.
 Não abra pull request sem pedido. A pasta `projeto-claude-espirito-santo-advocacia/` é material
-do Prédio A hospedado provisoriamente aqui; a decisão registrada é movê-la para o repositório
-próprio do escritório quando ele existir. Não faça merge dela na `main`.
+da advocacia hospedado provisoriamente aqui; a decisão registrada é movê-la para o repositório
+próprio do escritório quando ele existir. Não faça merge dela na `main`. Dentro dela,
+`montagem-claude-code/` guarda o prompt de montagem do ecossistema no Claude Code do Mac
+(05/09/2026), os três arquivos prontos para copiar e o registro do que a nuvem conferiu.
 
 ## Como o Gabriel "assume o Mac" pelo app — Remote Control
 
 Sessão da nuvem nunca terá mãos na máquina. A sessão com mãos é a que **roda no Mac** e aparece
-no app por Remote Control (docs: https://code.claude.com/docs/en/remote-control). Para abri-la:
+no app por Remote Control (docs: https://code.claude.com/docs/en/remote-control). Para abri-la,
+na raiz permanente do escritório (`Advocacia/` no vault, desde 05/09/2026):
 
 ```
-cd ~/.claude-gfdoes
-claude remote-control
+cd "$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/iPhone/Advocacia"
+claude remote-control --name "Escritório GFES" --permission-mode acceptEdits
 ```
 
 Ou duplo clique em `scripts/assumir-o-mac.command`. A sessão aparece em claude.ai/code e no
 celular com ícone de computador e ponto verde. Ali o eproc, o Chrome logado, os gates, o radar e
-o OCR funcionam. Requisitos: `claude` logado via `/login` (não API key), sem variáveis que
-desliguem telemetria, pasta aberta uma vez para aceitar a confiança do workspace. Com Ctrl+C a
-sessão fica retomável por cerca de 4 horas com `claude remote-control --continue`.
+o OCR funcionam, e a sessão herda `Advocacia/CLAUDE.md`, o `settings.json` do projeto e o plugin
+`gfes` instalado no perfil. O modo servidor **não aceita** `--add-dir` nem `--plugin-dir`: pasta
+extra entra por `permissions.additionalDirectories` no settings do projeto; plugin, pelo
+marketplace instalado no perfil (ver `montagem-claude-code/LEIA-ME.md`). Requisitos: `claude`
+logado via `/login` (não API key), sem variáveis que desliguem telemetria, pasta aberta uma vez
+para aceitar a confiança do workspace. Com Ctrl+C a sessão fica retomável por cerca de 4 horas
+com `claude remote-control --continue`.
 
 Se o usuário pedir a uma sessão da nuvem para "assumir o Mac", responda com este bloco em vez de
 tentar: não há rota.
