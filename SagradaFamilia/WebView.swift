@@ -1,5 +1,6 @@
 import SwiftUI
 import WebKit
+import UIKit
 
 /// Envelope SwiftUI para o `WKWebView` que exibe o site do Residencial.
 ///
