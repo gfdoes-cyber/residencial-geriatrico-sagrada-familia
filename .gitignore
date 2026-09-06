@@ -1,0 +1,14 @@
+# Artefatos de execução — não entram no repositório da casa.
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS e editores
+.DS_Store
+*.swp
+
+# Node, se algum dia alguém instalar as dependências da ferramenta de DOCX/PDF
+node_modules/
+
+# A lixeira que não apaga é rastreada de propósito: o que sai fica visível
+# até o Gabriel decidir. Ver _to_delete/README.md.
