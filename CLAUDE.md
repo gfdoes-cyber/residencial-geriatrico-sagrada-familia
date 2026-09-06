@@ -77,6 +77,11 @@ próprio do escritório quando ele existir — junto com `casa/advocacia/`. Não
 nenhuma das duas na `main`. Dentro da primeira, `montagem-claude-code/` guarda o prompt de
 montagem do ecossistema no Claude Code do Mac (05/09/2026) e os três arquivos prontos para copiar.
 
+As permissões da sessão estão em `.claude/settings.json`. `rm` e `rmdir` são **negados de
+propósito**: a casa não apaga em definitivo. Arquivo que sai vai para `_to_delete/`, e quem apaga
+é o Gabriel. Também são negados o que reescreve história (`reset --hard`, `clean`, `rebase`,
+push forçado) e o push para a `main`. Não afrouxe isso para resolver um problema pontual.
+
 As branches de origem (`claude/analise-pecas-processuais-l9f1i1`,
 `claude/auditoria-processo-judicial-tjfklb`, `claude/gfes-skills-audit-13jul-ka2vbo`,
 `claude/oi-gmeoip`, `claude/parecer-processo-5001125-l87z4z`,
