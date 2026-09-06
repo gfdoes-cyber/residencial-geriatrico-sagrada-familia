@@ -50,14 +50,38 @@ Peça, parecer, relatório e auditoria saem como **arquivo HTML único** com o C
 usuário com SendUserFile em modo render. Nada de markdown solto nem texto de chat para peça.
 Não publique peça como artefato na web sem pedido expresso.
 
+## O que mora neste repositório
+
+Em 06/09/2026 o trabalho que estava espalhado em seis branches da conta foi reunido aqui, em
+duas alas separadas pelas travas. O mapa com a procedência de cada arquivo está em
+`casa/README.md` — leia-o antes de mexer em qualquer coisa dentro de `casa/`.
+
+| Onde | O que é |
+|---|---|
+| `casa/advocacia/` | tipografia e geradores (02/09), o caso ACP 0900193-90 com peças e auditoria, o parecer retido do 5026537, as páginas e o acervo superado de 30/07 |
+| `casa/residencial/` | o site da ILPI, o app iOS SagradaFamilia e os modelos de documento do Residencial |
+| `projeto-claude-espirito-santo-advocacia/` | material do projeto do app e a montagem do ecossistema no Claude Code do Mac |
+| `.claude/skills/` | as três skills vigentes desta sessão da nuvem |
+
+⚠️ **Trava 1 e 3 na prática:** este é o repositório do Residencial e agora hospeda também
+páginas da advocacia. Enquanto as duas alas convivem aqui, **nada de `casa/advocacia/` pode ir
+para um caminho publicado** (Pages, `CNAME`, `index.html` da raiz): site do escritório e site da
+ILPI não saem do mesmo domínio. A saída registrada é o repositório próprio do escritório.
+
 ## Git
 
 Trabalhe na branch indicada pela sessão. Commits em português, mensagem curta e descritiva.
 Não abra pull request sem pedido. A pasta `projeto-claude-espirito-santo-advocacia/` é material
 da advocacia hospedado provisoriamente aqui; a decisão registrada é movê-la para o repositório
-próprio do escritório quando ele existir. Não faça merge dela na `main`. Dentro dela,
-`montagem-claude-code/` guarda o prompt de montagem do ecossistema no Claude Code do Mac
-(05/09/2026), os três arquivos prontos para copiar e o registro do que a nuvem conferiu.
+próprio do escritório quando ele existir — junto com `casa/advocacia/`. Não faça merge de
+nenhuma das duas na `main`. Dentro da primeira, `montagem-claude-code/` guarda o prompt de
+montagem do ecossistema no Claude Code do Mac (05/09/2026) e os três arquivos prontos para copiar.
+
+As branches de origem (`claude/analise-pecas-processuais-l9f1i1`,
+`claude/auditoria-processo-judicial-tjfklb`, `claude/gfes-skills-audit-13jul-ka2vbo`,
+`claude/oi-gmeoip`, `claude/parecer-processo-5001125-l87z4z`,
+`claude/acp-especializacao-mestrado-doutorado-vyjt3n`) **seguem intactas no remoto** — a reunião
+copiou, não moveu. Quem apaga branch é o Gabriel.
 
 ## Como o Gabriel "assume o Mac" pelo app — Remote Control
 
@@ -75,7 +99,7 @@ celular com ícone de computador e ponto verde. Ali o eproc, o Chrome logado, os
 o OCR funcionam, e a sessão herda `Advocacia/CLAUDE.md`, o `settings.json` do projeto e o plugin
 `gfes` instalado no perfil. O modo servidor **não aceita** `--add-dir` nem `--plugin-dir`: pasta
 extra entra por `permissions.additionalDirectories` no settings do projeto; plugin, pelo
-marketplace instalado no perfil (ver `montagem-claude-code/LEIA-ME.md`). Requisitos: `claude`
+marketplace instalado no perfil (ver o prompt de montagem). Requisitos: `claude`
 logado via `/login` (não API key), sem variáveis que desliguem telemetria, pasta aberta uma vez
 para aceitar a confiança do workspace. Com Ctrl+C a sessão fica retomável por cerca de 4 horas
 com `claude remote-control --continue`.
