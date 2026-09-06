@@ -24,9 +24,14 @@ Prazo do Ev. 25/27: **04/09/2026, 23h59min59s**.
 
 ## Como regenerar DOCX/PDF a partir do markdown
 
-Os `.md` são a fonte. O DOCX é gerado com `docx` (npm) e o PDF com Chromium headless (Playwright); ver `tools/` na raiz do repositório.
+Os `.md` são a fonte. O DOCX é gerado com `docx` (npm) e o PDF com Chromium headless (Playwright).
+
+> **06/09/2026 — a ferramenta mudou de lugar.** Ao reunir as branches, `tools/` saiu da raiz do
+> repositório e foi para `casa/advocacia/ferramentas-docx-pdf/`. Os comandos abaixo já apontam
+> para lá, a partir desta pasta do caso. Nada mais mudou: os mesmos quatro arquivos, o mesmo uso.
 
 ```bash
-node tools/gen_docx.js pecas/01-peticao-cumprimento-ev25.md pecas/01-peticao-cumprimento-ev25.docx
-node tools/md2pdf.js  pecas/01-peticao-cumprimento-ev25.md pecas/01-peticao-cumprimento-ev25.pdf
+FERR=../../../ferramentas-docx-pdf
+node "$FERR/gen_docx.js" pecas/01-peticao-cumprimento-ev25.md pecas/01-peticao-cumprimento-ev25.docx
+node "$FERR/md2pdf.js"   pecas/01-peticao-cumprimento-ev25.md pecas/01-peticao-cumprimento-ev25.pdf
 ```
