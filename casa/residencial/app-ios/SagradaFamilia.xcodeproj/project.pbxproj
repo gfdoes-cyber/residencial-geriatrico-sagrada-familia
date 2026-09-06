@@ -21,7 +21,7 @@
 		106EC97C4CB16E3E588B251B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		24D043BC8418874C82C25699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5413285F130050348B3B96CA /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
-		57B77182DBD02C7D11399E18 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		57B77182DBD02C7D11399E18 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../site/index.html; sourceTree = "<group>"; };
 		7E30F8A0CC388A7BE29FCDA9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A9AE976662C44DEA90944DFD /* SagradaFamiliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagradaFamiliaApp.swift; sourceTree = "<group>"; };
 		DFFA9CE1B45992E2DFDD2AFD /* SagradaFamilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SagradaFamilia.app; sourceTree = BUILT_PRODUCTS_DIR; };

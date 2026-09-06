@@ -11,24 +11,33 @@ O repositório contém duas coisas que compartilham um único arquivo de conteú
 
 ## Estrutura de pastas
 
+> **06/09/2026 — o repositório foi reorganizado.** O site saiu da raiz e foi para
+> `casa/residencial/site/index.html`; o app ficou em `casa/residencial/app-ios/`. A referência do
+> recurso no `project.pbxproj` foi ajustada para `../site/index.html` na mesma data, de modo que o
+> projeto continua compilando e continua havendo **um único** `index.html`. Se você abrir o Xcode
+> e o `index.html` aparecer em vermelho, é sinal de que essa referência se perdeu de novo.
+
 ```
-.
-├── index.html                          # o site (arquivo único; também é o recurso embutido no app)
-├── README.md
-├── .gitignore                          # padrão Xcode/Swift
-├── SagradaFamilia.xcodeproj/           # projeto Xcode (abra este)
-│   ├── project.pbxproj
-│   └── project.xcworkspace/contents.xcworkspacedata
-└── SagradaFamilia/                     # código do app iOS
-    ├── SagradaFamiliaApp.swift         # ponto de entrada (@main)
-    ├── ContentView.swift               # tela principal: WebView + carregando + tela de erro
-    ├── WebView.swift                   # WKWebView (UIViewRepresentable) e tratamento de links externos
-    ├── AppConfig.swift                 # configurações: página embutida, URL remota, cores
-    ├── PrivacyInfo.xcprivacy           # manifesto de privacidade (o app não coleta dados)
-    └── Assets.xcassets/                # ícone do app (AppIcon) e cor de destaque (AccentColor)
+casa/residencial/
+├── site/
+│   └── index.html                      # o site (arquivo único; também é o recurso embutido no app)
+└── app-ios/                            # ← abra o Xcode a partir daqui
+    ├── README.md
+    ├── .gitignore                      # padrão Xcode/Swift
+    ├── SagradaFamilia.xcodeproj/       # projeto Xcode (abra este)
+    │   ├── project.pbxproj
+    │   └── project.xcworkspace/contents.xcworkspacedata
+    └── SagradaFamilia/                 # código do app iOS
+        ├── SagradaFamiliaApp.swift     # ponto de entrada (@main)
+        ├── ContentView.swift           # tela principal: WebView + carregando + tela de erro
+        ├── WebView.swift               # WKWebView (UIViewRepresentable) e links externos
+        ├── AppConfig.swift             # configurações: página embutida, URL remota, cores
+        ├── PrivacyInfo.xcprivacy       # manifesto de privacidade (o app não coleta dados)
+        └── Assets.xcassets/            # ícone do app (AppIcon) e cor de destaque (AccentColor)
 ```
 
-O `index.html` **não** é copiado para dentro de `SagradaFamilia/`: o projeto referencia o arquivo da raiz do repositório como recurso do target. Editar o site atualiza o app no próximo build.
+O `index.html` **não** é copiado para dentro de `SagradaFamilia/`: o projeto referencia o arquivo
+de `casa/residencial/site/` como recurso do target. Editar o site atualiza o app no próximo build.
 
 ## Requisitos
 
@@ -99,6 +108,16 @@ Nesse modo, se o aparelho estiver sem conexão o app mostra uma tela de erro em 
 
 ## Publicar o site no GitHub Pages
 
+> ⛔ **06/09/2026 — não ligue o Pages neste repositório ainda.** Ele passou a hospedar também
+> material da advocacia, em `casa/advocacia/`, incluindo peças de um processo em curso e uma
+> procuração com CPF, RG e endereço residencial. O Pages serve **todos** os arquivos da branch
+> publicada, não só o `index.html`: ligá-lo tornaria esses documentos baixáveis pela web, e ainda
+> faria o site do escritório e o do Residencial saírem do mesmo domínio, contra as travas 1 e 3
+> da casa. Ligue o Pages só depois que o material da advocacia sair daqui para o repositório
+> próprio do escritório. Veja `casa/README.md`, item 1.3.
+
+Quando o repositório estiver só com o Residencial:
+
 1. No GitHub, abra o repositório → **Settings** → **Pages**.
 2. Em **Build and deployment**, escolha **Source: Deploy from a branch**.
 3. Em **Branch**, selecione **`main`** e a pasta **`/ (root)`**; clique em **Save**.
@@ -108,7 +127,7 @@ Nesse modo, se o aparelho estiver sem conexão o app mostra uma tela de erro em 
 
    (o formato é `https://<usuário>.github.io/<repositório>/`; confirme o nome de usuário exato na própria página de Settings → Pages, que exibe a URL final).
 
-Como o site é um único `index.html` sem dependências, não há etapa de build. Cada `git push` na branch `main` republica automaticamente.
+Como o site é um único `index.html` sem dependências, não há etapa de build. Cada `git push` na branch `main` republica automaticamente. Atenção: com o site em `casa/residencial/site/`, a pasta `/ (root)` **não** serve a página na raiz da URL — ou o `index.html` volta para a raiz da branch publicada, ou o Pages aponta para a pasta certa, ou a URL passa a terminar em `/casa/residencial/site/`.
 
 ## O que você precisa preencher ou decidir
 
