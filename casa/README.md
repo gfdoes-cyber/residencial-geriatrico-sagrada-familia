@@ -9,7 +9,7 @@ histórico. Nada foi apagado. Quem apaga branch é o Gabriel.
 
 ---
 
-## 1. Três coisas antes de qualquer trabalho
+## 1. Quatro coisas antes de qualquer trabalho
 
 ### 1.1 ⏰ O prazo do Ev. 25 venceu em 04/09/2026 — confirmar hoje se foi protocolado
 
@@ -35,7 +35,50 @@ número do evento aqui. Se não foi, o prazo é perdido e não se apaga: mede-se
 apelação) e levanta-se o remédio, com a auditoria de preparo já pronta em
 `casos/ACP-0900193-90.2016.8.24.0064/2026-09-02-cumprimento-ev25/auditoria/`.
 
-### 1.2 🔓 Este repositório é público
+### 1.2 🚩 As peças do caso ACP não estão em estado de protocolo
+
+Conferido em 06/09/2026 abrindo os arquivos, não por leitura do checklist. São três defeitos, e
+os três são do tipo que os gates da casa existem para pegar. Nenhum gate rodou, porque a
+ferramenta que gerou esses arquivos não tem gate nenhum.
+
+**a) Oito notas internas ficaram visíveis no texto entregue.** O próprio checklist manda, na
+seção A: "Remover das peças, antes de assinar, todas as marcações entre colchetes [CONFERIR …]".
+Elas seguem lá, e não só no markdown: vazaram para o DOCX e para o PDF.
+
+| Arquivo | Marcações no DOCX | Marcações no PDF |
+|---|---|---|
+| `01-peticao-cumprimento-ev25` | 4 | 4 |
+| `02-procuracao-ad-judicia` | 0 | 0 |
+| `03-regularizacao-cadastro-intimacao-exclusiva` | 4 | 4 |
+
+Uma delas, no PDF da peça principal, diz literalmente "[CONFERIR NO EPROC ANTES DE PROTOCOLAR:
+meio de pagamento …]". É bastidor do escritório dentro do documento que iria aos autos.
+
+**b) Os PDF carregam metadado que denuncia a produção automatizada.** Nenhum foi limpo:
+
+```
+title:    about:blank
+creator:  Mozilla/5.0 (X11; Linux x86_64) … HeadlessChrome/141.0.0.0 Safari/537.36
+producer: Skia/PDF m141
+```
+
+Um documento de escritório em São José/SC declarando-se feito em Chrome headless sobre Linux é
+exatamente o rastro que a regra forense da casa (24/08/2026) manda apagar, e que o módulo
+`metadados_pdf` faz nos geradores em Python — o mesmo módulo que não veio (item 5.2).
+
+**c) A tipografia é a revogada.** Detalhe medido no item 5.1.
+
+**O que não fiz, e por quê.** Não limpei as marcações nem regenerei nada. Cada `[CONFERIR …]` é
+uma conferência que só se faz dentro do eproc, com a credencial do Gabriel; apagar a marca sem
+fazer a conferência não conserta a peça, esconde que ela está por fazer. E se as peças já foram
+protocoladas, mexer nos arquivos cria divergência com o que está nos autos.
+
+**Próximo ato do Gabriel**, na ordem: (1) descobrir se protocolou (item 1.1); (2) se **não**
+protocolou, fazer as oito conferências no eproc, apagar as marcações, regenerar e só então
+assinar; (3) se **protocolou**, ver no evento juntado qual versão subiu, e avaliar se cabe
+petição de substituição por erro material.
+
+### 1.3 🔓 Este repositório é público
 
 Conferido em 06/09/2026 na API do GitHub: `"private": false`. O repositório
 `gfdoes-cyber/residencial-geriatrico-sagrada-familia` é **público**, descrito como "Website do
@@ -69,7 +112,7 @@ site da ILPI saindo do mesmo domínio é problema das travas 1 e 3, não questã
 > Tornar privado não apaga o passado: o que já foi enviado a um repositório público pode ter sido
 > copiado ou indexado. Trocar a visibilidade reduz a exposição daqui para a frente; não a desfaz.
 
-### 1.3 📄 O parecer do 5026537 segue retido desde 04/09/2026
+### 1.4 📄 O parecer do 5026537 segue retido desde 04/09/2026
 
 `casos/5026537-50.2020.8.24.0018/PARECER-RETIDO.md` está retido porque os autos nunca chegaram, e
 traz um alerta que dizia "verificar hoje" — e aquele "hoje" era 04/09. Já se passaram dois dias.
@@ -138,7 +181,7 @@ Obsidian, em `Advocacia/02 - SKILLS E AGENTES/`, e a sessão da nuvem não alcan
 ler o vault e enviar para cá. É a sessão de Remote Control, aberta no Mac conforme o `CLAUDE.md`
 da raiz. Uma sessão da nuvem, como a que escreveu este mapa, nunca terá esse alcance.
 
-Antes de trazer, porém, resolva o item 1.2: **enquanto este repositório for público, trazer o
+Antes de trazer, porém, resolva o item 1.3: **enquanto este repositório for público, trazer o
 vault para cá é ampliar a exposição**, não organizá-la.
 
 ---
@@ -149,7 +192,7 @@ vault para cá é ampliar a exposição**, não organizá-la.
 |---|---|
 | ⛔ 1 — publicidade não se mistura | `advocacia/paginas/` e `residencial/site/` são alas separadas e **nenhuma das duas está publicada**. Não junte as duas num mesmo domínio, conta de anúncio ou landing. |
 | 🔒 2 — dado de saúde de residente | Não há dado de saúde de residente neste material. O caso ACP tem a Antunelli como parte, não os residentes. Modelos em `residencial/documentos/` são formulários em branco: mantenha-os assim, sem preencher com pessoa real. |
-| 💰 3 — contas e CNPJ não se misturam | As duas empresas aparecem aqui porque a ILPI é cliente do escritório neste processo. Isso é lícito e está declarado na procuração. O que não pode é conta, contrato, nota ou domínio comum — e é por isso que a separação em dois repositórios está no item 1.2. |
+| 💰 3 — contas e CNPJ não se misturam | As duas empresas aparecem aqui porque a ILPI é cliente do escritório neste processo. Isso é lícito e está declarado na procuração. O que não pode é conta, contrato, nota ou domínio comum — e é por isso que a separação em dois repositórios está no item 1.3. |
 
 ## 5. Pendências técnicas apuradas em 06/09/2026
 
