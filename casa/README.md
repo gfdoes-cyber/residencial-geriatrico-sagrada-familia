@@ -276,3 +276,43 @@ Liberation Serif, e o PDF sairia com fonte substituta, reprovado no gate de pagi
 **A peça definitiva fecha no Mac.** Daqui saem rascunho e conferência de conteúdo, nada que se
 assine ou protocole. E vale a regra da casa: PDF reprovado não se entrega, e conserta-se a peça,
 nunca o gate.
+
+## 7. O que foi conferido em 06/09/2026, e o que não foi
+
+Registro para ninguém refazer o que já se fez, nem confiar no que não se conferiu.
+
+### Conferido e limpo
+
+| O que | Como | Resultado |
+|---|---|---|
+| Site do Residencial x trava 1 | busca por "advocacia", "OAB", CNPJ e nome do escritório no HTML | **nenhuma menção**: as duas empresas não se cruzam ali |
+| Site do Residencial x rastreamento | busca por Analytics, Tag Manager, pixel da Meta, Hotjar, fonte de CDN | **nenhum**; só dois links externos, WhatsApp e Google Maps; nenhum formulário |
+| Site da advocacia x Provimento CFOAB 205/2021 | busca por preço, honorário, desconto, promessa de resultado, captação | **nada de irregular**. "100%" é CSS, "garantias" é termo da LGPD, e "IA" aparece como área de atuação, não como autoria da página |
+| As três páginas x envio de dados | busca por `action`, `fetch`, `XMLHttpRequest`, Formspree, Netlify | o formulário do site da advocacia **não envia a lugar nenhum**; as outras duas não têm formulário |
+| `calcular_prazo.py` do acervo de julho | rodado em quatro cenários e conferido dia a dia à mão | **acerta**: DJEN com publicação no dia útil seguinte, dias úteis do CPC 219, dias corridos do CPP 798 e prorrogação do vencimento em dia não útil |
+| Régua tipográfica | `tipografia-vigente.json` contra a skill da casa | **as medidas batem**: Times 12, entrelinha 1,35, recuo 2 cm, citação Charter 11 a 3 cm, margens 2,3/3/1,8/3, órfãs e viúvas 2/2 |
+| Integridade da reunião | contagem arquivo a arquivo contra `git diff` de cada branch | 106 de 106; o `tools/` da branch da auditoria quase ficou para trás e foi recuperado |
+
+### Conferido e com defeito
+
+Estão nos itens 1.2, 5.1, 5.2 e 5.3. Em resumo: as peças do caso ACP não estão em estado de
+protocolo, a ferramenta que as gerou usa medidas revogadas, os geradores em Python não iniciam,
+e a skill de tipografia desta sessão está uma camada atrás do JSON.
+
+Dois defeitos foram criados pela própria reunião e já corrigidos no mesmo dia: o README do caso
+apontava para `tools/` na raiz, e o projeto Xcode apontava para o `index.html` da raiz. Ambos
+agora apontam para o lugar novo.
+
+### Não conferido — e por que fica VAZIO
+
+| O que | Por quê |
+|---|---|
+| Se as peças do ACP foram protocoladas | o eproc é inalcançável daqui, e a credencial é do Gabriel |
+| O teor dos Eventos 18, 23, 25, 27, 31 e 32 | idem; a própria auditoria de 02/09 já dizia não ter visto |
+| Se as citações legais das peças conferem com o Planalto | não rodei o gate de citações; a auditoria de 02/09 registrou que Planalto, ALESC e TJSC estavam bloqueados para ela também |
+| Se o app iOS compila | exige Xcode e macOS; aqui só se conferiu que a referência do recurso voltou a apontar para um arquivo existente |
+| Se os dados de contato do site do Residencial estão certos | são **placeholders fictícios** (`(00) 0000-0000`, `contato@exemplo.com.br`, "Rua Exemplo, 123"), e o próprio README do app lista o que preencher |
+
+E fica o alerta que o calculador de prazos não resolve sozinho: **ele não tem feriado embutido**.
+Sem passar `--feriados`, ele conta feriado como dia útil. Antes de confiar num vencimento, os
+feriados nacionais, estaduais, municipais e o recesso forense entram na mão.
