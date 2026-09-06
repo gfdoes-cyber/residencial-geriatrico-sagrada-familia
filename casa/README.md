@@ -151,20 +151,85 @@ vault para cá é ampliar a exposição**, não organizá-la.
 | 🔒 2 — dado de saúde de residente | Não há dado de saúde de residente neste material. O caso ACP tem a Antunelli como parte, não os residentes. Modelos em `residencial/documentos/` são formulários em branco: mantenha-os assim, sem preencher com pessoa real. |
 | 💰 3 — contas e CNPJ não se misturam | As duas empresas aparecem aqui porque a ILPI é cliente do escritório neste processo. Isso é lícito e está declarado na procuração. O que não pode é conta, contrato, nota ou domínio comum — e é por isso que a separação em dois repositórios está no item 1.2. |
 
-## 5. Como regenerar uma peça
+## 5. Pendências técnicas apuradas em 06/09/2026
 
-Os `.md` são a fonte; `.docx` e `.pdf` são derivados. A ferramenta está em
-`advocacia/ferramentas-docx-pdf/` e roda com Node mais `docx` e Playwright; `build.sh` gera ainda
-os PNG de conferência com PyMuPDF.
+Conferidas rodando o código e lendo a fonte, não por leitura de documentação.
+
+### 5.1 ⚠️ Os DOCX e PDF do caso ACP saíram com medidas revogadas
+
+A ferramenta em `advocacia/ferramentas-docx-pdf/` foi escrita com a tipografia antiga. Os `.md`
+das três peças estão corretos: o problema é só a renderização. Comparando o código da ferramenta
+com `tipografia-vigente.json` (que se declara vigente desde 02/09/2026):
+
+| Medida | Ferramenta que gerou o caso | Régua vigente | Situação |
+|---|---|---|---|
+| Entrelinha | 1,5 | 1,35 | **revogada em 27/08/2026** |
+| Margem direita | 2 cm | 3 cm | **revogada em 27/08/2026** |
+| Citação em bloco | recuo 4 cm, 11 pt | recuo 3 cm, Charter 11 | **revogada em 27/08/2026** |
+| Margem superior / inferior | 3 / 2,5 cm | 2,3 / 1,8 cm | divergente |
+| Recuo de 1ª linha | 1,25 cm | 2 cm | divergente |
+| Espaço entre parágrafos | 6 pt | nenhum | divergente |
+| Sublinhado | suportado (`__texto__`) | **proibido** | contra a regra |
+
+Coordenadas: `ferramentas-docx-pdf/md2pdf.js`, linhas 39, 40, 41 e 46; `gen_docx.js`, linhas 1,
+26 e 117; a lista do que foi revogado está no campo `revoga` de
+`advocacia/tipografia-e-geradores/instalar/skills/assistente-juridico/references/tipografia-vigente.json`.
+
+É exatamente o erro que fez a casa criar aquele JSON: uma peça declarada conforme a regra, medindo
+valores já revogados, porque a conferência foi contra a memória e não contra a camada mais nova.
+
+Isto é **forma, não mérito**: nada aqui invalida juridicamente as peças. Mas se elas foram
+protocoladas, foi nessa forma. **Próximo ato:** decidir se regenera. Os `.md` do caso já usam
+`@@`, `#`, `##` e `**Rótulo:**`, que é a marcação que o gerador da casa entende; a adaptação é
+pequena, e passa por tirar o sublinhado e converter as transcrições `>` para janela `[!cita]`.
+
+### 5.2 Os geradores em Python não rodam a partir do que veio
+
+Os três importam `metadados_pdf`, o módulo forense que limpa o rastro do PDF, e ele **não veio em
+nenhuma branch**. É `import` de topo: aborta antes de qualquer coisa. Testado aqui em 06/09/2026.
+
+Faltam também três dos gates que os geradores chamam:
+
+| Gate | Chegou? |
+|---|---|
+| `validar_diagramacao.py` · `validar_paginacao.py` | sim |
+| `validar_norma_culta.py` · `validar_ficha_de_fatos.py` · `validar_admissibilidade.py` | **não** |
+
+**A armadilha:** os gates que faltam degradam com um simples `[aviso] ... não encontrado; gerando
+sem gate` e o PDF sai assim mesmo (`gerar_pdf.py`, linhas 886, 899 e 931). Ou seja: basta alguém
+copiar um `metadados_pdf.py` qualquer para o lugar e o gerador passa a produzir PDF que parece
+pronto tendo passado por dois gates dos cinco. Quem trouxer os arquivos que faltam, traga todos.
+
+### 5.3 A skill de tipografia desta sessão está uma camada atrás
+
+`.claude/skills/tipografia-da-casa/SKILL.md` diz "vigente desde 27/08/2026". O JSON diz
+`vigente_desde: 2026-09-02` e traz o adendo dos 14 itens (versalete em títulos, numeração
+automática por `@numerar`, quadro `[!requerimentos]`, quadro de tutela em duas colunas,
+`[provatrio]`, `[provaquadro]`, seta no `[provapar]`, CPC art. 425, VI como fundamento do print).
+**As medidas batem** — Times 12, entrelinha 1,35, recuo 2 cm, citação Charter 11 a 3 cm, margens
+2,3/3/1,8/3, órfãs e viúvas 2/2. O que falta na skill são os 14 itens novos, não a régua.
+
+## 6. Como regenerar uma peça
+
+Os `.md` são a fonte; `.docx` e `.pdf` são derivados. Hoje há **dois caminhos, e nenhum dos dois
+está pronto para fechar peça** — leia o item 5 antes de usar qualquer um.
+
+**Caminho A, a ferramenta em Node** (`advocacia/ferramentas-docx-pdf/`, Node mais `docx` e
+Playwright; `build.sh` gera ainda os PNG de conferência com PyMuPDF). Roda, mas **com a
+tipografia revogada do item 5.1**. Serve para rascunho e conferência de conteúdo, não para a peça
+que vai ao processo, enquanto as medidas não forem corrigidas.
 
 ```bash
 node advocacia/ferramentas-docx-pdf/gen_docx.js <peça>.md <peça>.docx
 node advocacia/ferramentas-docx-pdf/md2pdf.js   <peça>.md <peça>.pdf
 ```
 
-Os geradores em Python da casa, com os gates, estão em
-`advocacia/tipografia-e-geradores/instalar/skills/assistente-juridico/`. Eles dependem do Chrome e
-das fontes do macOS: **a peça definitiva fecha no Mac**. Nesta nuvem só existe Liberation Serif, e
-o PDF sairia com fonte substituta, reprovado no gate de paginação.
+**Caminho B, os geradores da casa em Python**
+(`advocacia/tipografia-e-geradores/instalar/skills/assistente-juridico/`). Leem a régua do JSON e
+rodam os gates, que é o certo — mas **não iniciam**, por falta do módulo `metadados_pdf` (item
+5.2). E mesmo completos, dependem do Chrome e das fontes do macOS: nesta nuvem só existe
+Liberation Serif, e o PDF sairia com fonte substituta, reprovado no gate de paginação.
 
-E vale aqui a regra da casa: PDF reprovado não se entrega, e conserta-se a peça, nunca o gate.
+**A peça definitiva fecha no Mac.** Daqui saem rascunho e conferência de conteúdo, nada que se
+assine ou protocole. E vale a regra da casa: PDF reprovado não se entrega, e conserta-se a peça,
+nunca o gate.
