@@ -1,0 +1,59 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "alta",
+   "trecho": "O art. 272, § 2º, do CPC assegura que, requerida a intimação em nome de advogado determinado, as publicações contenham o seu nome e o número de sua inscrição; o § 5º do mesmo artigo comina nulidade ao descumprimento.",
+   "problema": "Citação distorcida: o conteúdo atribuído ao § 2º é, na verdade, o do § 5º. O § 2º do art. 272 é regra geral — exige, sob pena de nulidade, que da publicação constem os nomes das partes e de seus advogados, com o número de inscrição na OAB (ou, se requerido, da sociedade de advogados) — e não trata de 'requerimento em nome de advogado determinado'. Quem cuida do pedido expresso de intimação em nome de advogado indicado é o § 5º ('Constando dos autos pedido expresso para que as comunicações dos atos processuais sejam feitas em nome dos advogados indicados, o seu desatendimento implicará nulidade'). Ambos cominam nulidade. Texto conferido em fonte secundária (legjur/modeloinicial) em 02/09/2026.",
+   "correcao": "O art. 272, § 2º, do CPC exige, sob pena de nulidade, que da publicação constem os nomes das partes e de seus advogados, com o respectivo número de inscrição na Ordem dos Advogados do Brasil. O § 5º do mesmo artigo dispõe que, constando dos autos pedido expresso para que as comunicações dos atos processuais sejam feitas em nome dos advogados indicados, o seu desatendimento implicará nulidade. Renova-se, por isso, perante este grau, o requerimento já formulado nos autos de origem."
+  },
+  {
+   "severidade": "media",
+   "trecho": "A renúncia ao mandato, comunicada ao mandante, produz efeitos após o decêndio do art. 112, § 1º, do Código de Processo Civil.",
+   "problema": "Leitura imprecisa do § 1º do art. 112. O dispositivo não diz que a renúncia 'produz efeitos após o decêndio'; diz que, durante os 10 dias seguintes, o advogado 'continuará a representar o mandante, DESDE QUE necessário para lhe evitar prejuízo'. A renúncia se consuma com a prova da comunicação ao mandante (caput); a continuidade decenal é condicional e protetiva do mandante. Na redação atual, o relator pode ler a peça como afirmando que a renúncia só se aperfeiçoa depois de dez dias, o que não é o texto legal.",
+   "correcao": "A renúncia ao mandato consuma-se com a prova de que foi comunicada ao mandante (CPC, art. 112, caput); o advogado renunciante permanece vinculado apenas nos dez dias seguintes, e somente se necessário para evitar prejuízo ao mandante (art. 112, § 1º). Decorrido há muito esse interregno, as renunciantes não representam a apelante, e a manutenção de seus nomes no cadastro só gera o risco de intimações dirigidas a quem não é mais procurador."
+  },
+  {
+   "severidade": "media",
+   "trecho": "Ambas renunciaram ao mandato em 01/08/2023 (Evento 211 dos autos de origem), com prova da comunicação à mandante (notificação de 11/07/2023 e mensagem eletrônica de 31/07/2023)",
+   "problema": "Data imprecisa. Segundo o dossiê (itens 1 e 7), 01/08/2023 é a data da PETIÇÃO de renúncia juntada aos autos (Ev. 211, PET1); a renúncia foi comunicada à mandante em 11/07/2023 (notificação extrajudicial) e 31/07/2023 (e-mail). Como o § 1º do art. 112 conta o decêndio a partir da comunicação, a peça deve distinguir a data da comunicação da data da notícia nos autos. Registre-se também, como fato favorável ao pedido e com origem no dossiê, que o próprio Ministério Público requereu a intimação da ré para constituir novo procurador (Ev. 213, 04/08/2023), sem apreciação.",
+   "correcao": "Ambas comunicaram a renúncia ao mandato à mandante em 11/07/2023 (notificação extrajudicial) e 31/07/2023 (mensagem eletrônica) e a noticiaram nos autos em 01/08/2023 (Evento 211 dos autos de origem), reiterando o pedido de desabilitação em 22/01/2025 (Evento 256). O próprio Ministério Público requereu a intimação da ré para constituir novo procurador (Evento 213, de 04/08/2023). Nenhum desses requerimentos foi apreciado, e as renunciantes permanecem habilitadas nos dois graus."
+  },
+  {
+   "severidade": "media",
+   "trecho": "e há registros de publicações em nome de inscrição diversa da sua (\"OAB 14870/MS\"). [CONFERIR NO EPROC: eventos e datas das publicações com a inscrição errada]",
+   "problema": "Fato sem coordenada processual (evento/data) e desnecessário ao pedido. O dossiê registra o episódio apenas de forma genérica ('publicações saíram em nome de OAB 14870/MS'; Ev. 90/97, 2020, em nome de advogado revogado), sem indicar os eventos das publicações com a inscrição de MS. Além disso, o laudo de representação recomenda que esta peça não detalhe o histórico de falhas de intimação nem prepare arguição de nulidade (CPC 272, § 8º) — basta uma frase sobre a renúncia e o pedido de exclusividade. A alegação, se mantida com marcador [CONFERIR], não pode ir a protocolo; se suprimida, nada se perde para o pedido b).",
+   "correcao": "A apelante já requereu, por duas vezes, nos autos de origem, que as publicações fossem feitas exclusivamente em nome do subscritor (Evento 40, de 04/09/2018, e Evento 65, de 26/08/2019), sem que o requerimento tenha sido anotado."
+  },
+  {
+   "severidade": "media",
+   "trecho": "A representação atual da apelante está documentada na procuração e no ato constitutivo juntados com a petição de cumprimento do despacho do Evento 25 (Docs. 2 e 3 daquela petição), protocolada nesta data.",
+   "problema": "Referência sem coordenada verificável. A peça remete a documentos 'protocolados nesta data' sem indicar o evento em que a petição principal foi juntada; o laudo de representação orienta que esta peça seja protocolada DEPOIS da principal e se refira à 'procuração juntada no evento __'. Sem o número do evento, o servidor/gabinete não localiza a procuração para anotar a exclusividade, e o pedido b) fica sem lastro imediato. Idem no item 10.",
+   "correcao": "A representação atual da apelante está documentada na procuração e no ato constitutivo juntados com a petição de cumprimento do despacho do Evento 25 (Docs. 2 e 3 daquela petição), protocolada no Evento [CONFERIR NO EPROC: número do evento da petição principal] destes autos."
+  },
+  {
+   "severidade": "media",
+   "trecho": "São José/SC, 2 de setembro de 2026.",
+   "problema": "Data potencialmente incoerente com a ordem de protocolo fixada nos laudos: a petição principal deve ser protocolada preferencialmente em 03/09/2026 e esta peça DEPOIS dela. Se a data for mantida em 02/09 e a principal sair em 03/09, a expressão 'protocolada nesta data' (itens 4 e 10) torna-se falsa. A data deve ser a do protocolo efetivo desta peça, posterior ou igual ao da principal.",
+   "correcao": "São José/SC, [dia] de setembro de 2026 [preencher com a data do protocolo, igual ou posterior à da petição principal]."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "como consta do ato constitutivo juntado e do próprio despacho do Evento 25.",
+   "problema": "A afirmação de que o despacho do Ev. 25 grafa 'Ltda.' tem origem no dossiê (item 1), mas o mesmo dossiê declara que o teor integral do Ev. 25 não foi lido pela banca (item 10). A afirmação é provável (a grafia consta do cabeçalho do despacho), mas deve ser conferida no eproc antes da assinatura; sugere-se marcador.",
+   "correcao": "como consta do ato constitutivo juntado e do próprio despacho do Evento 25 [CONFERIR NO EPROC: grafia 'Ltda.' no texto do Ev. 25, DESPADEC1]."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ Apelado: Ministério Público do Estado de Santa Catarina",
+   "problema": "Cabeçalho incompleto quanto às partes: o Município de São José/SC é litisconsorte passivo e também apelante (Ev. 288, 12/06/2026, dossiê itens 1 e 2). A omissão não é erro de fato, mas o cadastro do recurso o inclui e a peça trata justamente de cadastro/intimações.",
+   "correcao": "@@ Apelado: Ministério Público do Estado de Santa Catarina\n@@ Litisconsorte passivo e também apelante: Município de São José/SC"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ **Gabriel Fabrízio do Espírito Santo**\n@@ OAB/SC 53.040",
+   "problema": "Assinatura sem o endereço profissional completo e o e-mail, embora a peça peça intimação exclusiva em nome do subscritor e o CPC 105, § 2º, exija endereço completo do advogado no instrumento; o laudo do preparo recomenda assinatura com endereço do escritório e e-mail (dados do dossiê, item 1). Não mencionar a sociedade individual de advocacia.",
+   "correcao": "@@ **Gabriel Fabrízio do Espírito Santo**\n@@ OAB/SC 53.040\n@@ Rua Angelita Figueiredo, n. 1.596, Sala 1004, Torre B, Bairro Areias, São José/SC, CEP 88.113-710\n@@ gfdoes@gmail.com — (48) 98421-6664"
+  }
+ ]
+}

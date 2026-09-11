@@ -1,0 +1,13 @@
+{
+  "name": "gfes-casa",
+  "owner": { "name": "Gabriel Fabrízio do Espírito Santo — OAB/SC 53.040" },
+  "metadata": { "description": "A casa do Gabriel: o plugin gfes servido direto da fonte única do vault (Advocacia/02 - SKILLS E AGENTES)." },
+  "plugins": [
+    {
+      "name": "gfes",
+      "source": "./02 - SKILLS E AGENTES",
+      "description": "Os seis agentes e as vinte e uma skills do escritório Espírito Santo Advocacia e do Residencial Sagrada Família, com os códigos do Planalto, os geradores de PDF e os oito gates.",
+      "version": "1.4.0"
+    }
+  ]
+}

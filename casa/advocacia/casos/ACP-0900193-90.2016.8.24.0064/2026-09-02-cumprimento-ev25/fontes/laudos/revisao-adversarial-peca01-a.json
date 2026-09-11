@@ -1,0 +1,65 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "media",
+   "trecho": "a apelante desiste expressamente do requerimento incidental de gratuidade da justiça formulado no Evento 280 e requer que seja declarado prejudicado, sem qualquer reflexo sobre o conhecimento da apelação, cujo preparo está integralmente recolhido.",
+   "problema": "A peça é protocolada no caderno da Apelação Cível (numeração própria: Ev. 15, 17, 25, 27, 31...). \"Evento 280\" é numeração dos autos de origem, mas a peça o cita sem essa indicação em três passagens decisivas (§ 6, § 8 e pedido \"b\"), ao passo que no § 11 distingue corretamente (\"Evento 293 dos autos de origem\"). Em um ato de desistência, cuja eficácia depende de identificar com precisão o objeto desistido, a ambiguidade convida o relator ou a PGJ a questionar a que ato se refere a desistência, ou a lê-la como incompleta. É defeito de precisão que atinge justamente o ponto em que a Súmula 51/TJSC exige clareza.",
+   "correcao": "a apelante desiste expressamente do requerimento incidental de gratuidade da justiça formulado nas razões recursais (Evento 280 dos autos de origem, conforme certidão do Evento 23 deste recurso) e requer que seja declarado prejudicado, sem qualquer reflexo sobre o conhecimento da apelação, cujo preparo está integralmente recolhido. [Aplicar a mesma indicação \"dos autos de origem\" no § 6 (\"Evento 280 dos autos de origem; certidão do Evento 23 deste recurso\") e no pedido \"b\" (\"formulado nas razões recursais — Evento 280 dos autos de origem\").]"
+  },
+  {
+   "severidade": "media",
+   "trecho": "13. Em reforço, e para que não paire dúvida quanto à representação da apelante, junta-se procuração atualizada (Doc. 2), outorgada pela sociedade por seu administrador, com poderes gerais e especiais para o foro e com ratificação expressa de todos os atos praticados pelo subscritor em nome da apelante nestes autos, nos autos de origem e no incidente n. 5049926-11.2026.8.24.0000, acompanhada do ato constitutivo vigente — Sétima Alteração do Contrato Social, arquivada na JUCESC em 08/06/2021 (Doc. 3) —, nos termos dos arts. 75, VIII, e 105 do CPC.",
+   "problema": "O capítulo omite o dado que mais protege a apelante e que o relator verá de qualquer modo ao abrir o Doc. 2: outorgante (por seu administrador) e outorgado são a mesma pessoa natural. Se a peça silencia, a coincidência de pessoas aparece ao julgador como surpresa e convida ao exame do art. 117 do CC e da cadeia de mandato; se a peça a declara como fato descritivo, ela vira prova de que a vontade recursal da sociedade nunca foi duvidosa e de que a ratificação é ato inequívoco. Omite também que a Sétima Alteração já está nos autos de origem (Ev. 257, CONTRSOCIAL9), o que mostra que o Doc. 3 é mera reapresentação de documento conhecido, e não regularização tardia. Ambos os pontos foram recomendados pelo laudo de representação (achado 6) e estão dentro da estratégia fixada (sem CPC 76/104, sem revogação/renúncia).",
+   "correcao": "13. A apelante é sociedade limitada unipessoal. Seu sócio único e administrador, com poderes de representação judicial ativa e passiva (Cláusula Quinta), é o advogado que subscreve esta petição, conforme a Sétima Alteração do Contrato Social arquivada na JUCESC em 08/06/2021, já constante dos autos de origem (Evento 257, CONTRSOCIAL9).\n\n13-A. Em reforço, e para que não paire dúvida quanto à representação da apelante, junta-se procuração atualizada (Doc. 2), outorgada pela sociedade por seu administrador na forma do art. 75, VIII, do CPC, com poderes gerais e especiais para o foro (CPC, art. 105) e com ratificação expressa de todos os atos praticados pelo subscritor em nome da apelante nestes autos, nos autos de origem e no incidente n. 5049926-11.2026.8.24.0000, acompanhada de cópia do ato constitutivo vigente (Doc. 3). Requer-se a anotação dos instrumentos."
+  },
+  {
+   "severidade": "media",
+   "trecho": "b) a homologação da desistência do requerimento de gratuidade da justiça formulado nas razões recursais (Evento 280), declarando-o prejudicado, com a anotação correspondente no cadastro deste grau e comunicação ao juízo de origem para o mesmo fim;",
+   "problema": "O pedido de anotação cadastral e de comunicação ao juízo de origem é supérfluo e cria problema novo. O histórico do feito mostra que cada intervenção no cadastro de gratuidade gerou erro em cascata (Ev. 293/1º grau, Ev. 3-4/2º grau, capa \"Parcialmente Deferida\", tarja que bloqueou a guia); a DCDP acabou de fixar a tarja em \"Não requerida\" para permitir a emissão da guia (Ev. 31). Pedir nova anotação (\"prejudicada\" não é status conhecido do sistema) pode fazer o cartório reverter para \"Requerida\", o que re-tarja itens e gera comunicações erradas. A comunicação ao juízo de origem, enquanto os autos estão no TJSC, é diligência sem utilidade imediata, e a retificação cadastral ampla foi reservada, pela estratégia, à peça separada. Basta a declaração de prejudicialidade; o cadastro segue a decisão. \"Homologação\" também é desnecessária para desistência de requerimento incidental, mas é inofensiva.",
+   "correcao": "b) que se declare prejudicado, ante a desistência expressa manifestada no capítulo III, o requerimento de gratuidade da justiça formulado nas razões recursais (Evento 280 dos autos de origem);"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "3. Entre as duas alternativas abertas pelo despacho, a apelante optou por recolher o preparo, em vez de produzir a demonstração exigida pela Súmula 481 do STJ.",
+   "problema": "\"Em vez de produzir a demonstração\" pode ser lido, pela PGJ ou em fase futura (cumprimento de sentença, custas finais, eventual novo pedido de gratuidade), como admissão de que a apelante não teria como demonstrar a hipossuficiência. A menção à Súmula 481 como razão da opção é aceitável, mas a redação deve ser neutra: a opção pelo pagamento torna a demonstração desnecessária, sem sugerir incapacidade de produzi-la.",
+   "correcao": "3. Entre as duas alternativas abertas pelo despacho, a apelante optou pela segunda — o recolhimento do preparo —, o que torna desnecessária a demonstração a que se refere a Súmula 481 do STJ."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "De todo modo, a consequência prevista naquele enunciado limita-se ao ponto — o pedido de gratuidade —, que a apelante desde já abandona.",
+   "problema": "\"Abandona\" é vocábulo estranho ao regime da desistência e carrega conotação de \"abandono\" (da causa, do recurso). Num capítulo cuja função é deixar inequívoco que a desistência atinge só o requerimento incidental, o verbo deve ser o mesmo usado no § 8 (\"desiste\"), para que não haja duas qualificações jurídicas para o mesmo ato.",
+   "correcao": "De todo modo, a consequência prevista naquele enunciado limita-se ao ponto — o requerimento de gratuidade —, do qual a apelante desiste expressamente, mantido integralmente o recurso."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "9. Pela mesma razão, fica sem objeto o item \"b\" dos memoriais do Evento 17, que partia da anotação cadastral de gratuidade \"deferida\", posteriormente retificada (Eventos 22 e 23).",
+   "problema": "Ao declarar sem objeto um item dos memoriais sem ressalvar os demais, a peça deixa margem para leitura de recuo parcial em relação ao Ev. 17 (que também pediu intimação da pauta) e não reafirma, neste ponto, a manutenção do recurso. Uma oração de ressalva fecha qualquer leitura de desistência mais ampla (CPC, art. 998) e dispensa o relator de indagar o alcance.",
+   "correcao": "9. Pela mesma razão, fica sem objeto apenas o item \"b\" dos memoriais do Evento 17, que partia da anotação cadastral de gratuidade \"deferida\", posteriormente retificada (Eventos 22 e 23). Ficam mantidos, no mais, o recurso de apelação e os demais requerimentos dos memoriais."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "com sede na Rua Vergilino Domingos da Silva, n. 1.003, Bairro Serraria, São José/SC, CEP 88.115-170",
+   "problema": "A peça declara sede no n. 1.003, mas o Doc. 3 (Sétima Alteração, JUCESC) e o alvará grafam n. 1.100 (dossiê, seção 1). Juntar no mesmo protocolo um contrato social com endereço diverso do declarado na qualificação cria divergência visível ao cartório e pode motivar exigência de esclarecimento cadastral justamente na peça que se quer enxuta. A retificação de endereço foi reservada à peça separada.",
+   "correcao": "com sede na Rua Vergilino Domingos da Silva, n. 1.100 (registro na JUCESC), e estabelecimento na mesma via, n. 1.003, Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "correspondente ao item de recolhimento n. 51010131, calculado pelo sistema com base no Anexo Único da Lei estadual n. 17.654/2018, na tabela vigente para 2026 (Circular CGJ n. 643/2025).",
+   "problema": "O número 51010131 é o ID do item exibido na tela \"Custas\" do 1º grau (print de 02/09), não necessariamente o número da guia emitida no Ev. 31. Se a guia do Doc. 1 trouxer numeração diversa, a divergência entre o afirmado e o documento é exatamente o tipo de \"dúvida quanto à vinculação\" que o § 7 tenta prevenir, e pode ser explorada pela PGJ. Além disso, a auditoria não viu a guia; a afirmação da base legal e da tabela deve ser prudente.",
+   "correcao": "identificada no sistema sob o n. 51010131 [CONFERIR NO EPROC: número da guia constante do Evento 31 e coincidência com o Doc. 1], calculada pelo próprio sistema do Tribunal com base no Anexo Único da Lei estadual n. 17.654/2018, na tabela vigente para 2026 [CONFERIR: Circular CGJ n. 643/2025]."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "- Doc. 4 — Captura da tela \"Custas\" de 02/09/2026 e mensagens trocadas com a Seção de Custas Judiciais em 02/09/2026.",
+   "problema": "A peça junta documentos digitalizados ou reproduzidos (procuração possivelmente assinada de punho e digitalizada, contrato social, prints, e-mails) sem a declaração de autenticidade do advogado. A ausência abre flanco para impugnação formal do Doc. 2 (procuração) — o documento mais sensível do protocolo — e da prova do impedimento sistêmico (Doc. 4).",
+   "correcao": "- Doc. 4 — Captura da tela \"Custas\" de 02/09/2026 e mensagens trocadas com a Seção de Custas Judiciais em 02/09/2026.\n\n16. O subscritor declara autênticas as reproduções digitalizadas que acompanham esta petição (Lei n. 11.419/2006, art. 11, § 1º; CPC, art. 425, VI)."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ São José/SC, 2 de setembro de 2026.",
+   "problema": "O checklist prevê protocolo em 03/09/2026 (após conferir a compensação do pagamento e a situação da guia). Peça datada de 02/09 e protocolada em 03/09 gera descompasso inofensivo, mas evitável; mais relevante, se o comprovante ou o extrato só puderem ser obtidos em 03/09, a data de 02/09 contradiz o conteúdo do Doc. 1.",
+   "correcao": "@@ São José/SC, [data do protocolo: 3 de setembro de 2026]."
+  }
+ ]
+}

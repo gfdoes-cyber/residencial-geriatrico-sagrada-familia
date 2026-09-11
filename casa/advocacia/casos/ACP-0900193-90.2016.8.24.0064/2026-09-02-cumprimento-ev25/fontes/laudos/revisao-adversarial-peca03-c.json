@@ -1,0 +1,107 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "alta",
+   "trecho": "o § 4º impõe que a grafia do nome do advogado corresponda à da procuração ou do registro na OAB;",
+   "problema": "Dispositivo errado. No art. 272 do CPC, a regra sobre a grafia do nome do ADVOGADO (nome completo, igual ao da procuração ou ao registro na OAB) é o § 3º; o § 4º trata da grafia dos nomes das PARTES (vedação de abreviaturas). Citar parágrafo errado em peça que pede intimação exclusiva sob invocação do próprio art. 272 compromete a credibilidade técnica do pedido.",
+   "correcao": "o § 3º impõe que a grafia do nome do advogado corresponda ao nome completo e seja a mesma que constar da procuração ou do registro na OAB;"
+  },
+  {
+   "severidade": "media",
+   "trecho": "indicando-se o nome, a inscrição e o endereço para as intimações (CPC, art. 106, I):",
+   "problema": "O art. 106, I, do CPC rege o advogado que postula EM CAUSA PRÓPRIA (declarar endereço, OAB e sociedade na inicial ou contestação). Aqui a parte é a pessoa jurídica e o advogado atua por mandato; o fundamento para declinar endereço de intimação é o art. 77, V, do CPC (dever das partes e procuradores). A citação, além de imprópria, toca sem necessidade na ideia de 'causa própria', que a estratégia manda evitar.",
+   "correcao": "indicando-se o nome, a inscrição e o endereço profissional para as intimações (CPC, art. 77, V):"
+  },
+  {
+   "severidade": "media",
+   "trecho": "(Evento 40, de 04/09/2018, e Eventos 65/71, de 2019, dos autos de origem)",
+   "problema": "O 'Evento 71' não consta do dossiê; a fonte registra apenas Ev. 40 (04/09/2018, INF586) e Ev. 65 (26/08/2019, INF615, item VIII). Fato sem origem documentada. A marcação [CONFERIR] que segue fica genérica demais; deve ser restrita ao que efetivamente falta conferir (eventos/datas das publicações com inscrição errada).",
+   "correcao": "(Evento 40, de 04/09/2018, e Evento 65, de 26/08/2019, item VIII, dos autos de origem), e há registros de publicações em nome de inscrição diversa da do subscritor (\"OAB 14870/MS\"). [CONFERIR NO EPROC: eventos e datas das publicações com a inscrição errada]"
+  },
+  {
+   "severidade": "media",
+   "trecho": "5. Desde a renúncia, a apelante atua por meio do subscritor: manifestação do Evento 257 dos autos de origem (22/01/2025), subscrita por ele na dupla condição de sócio administrador e advogado, com o contrato social;",
+   "problema": "'Desde a renúncia' (08/2023) afirma continuidade que os autos não sustentam: o primeiro ato do subscritor é de 22/01/2025 (Ev. 257). A imprecisão, além de factual, chama atenção justamente para o intervalo sem procurador (08/2023–01/2025), que o laudo de auditoria recomenda não realçar. O dossiê registra a qualificação do Ev. 257 como 'sócio gerente e advogado'.",
+   "correcao": "5. A apelante atua nos autos por meio do subscritor, que firmou: a manifestação do Evento 257 dos autos de origem (22/01/2025), na condição de sócio administrador e advogado, acompanhada do contrato social;"
+  },
+  {
+   "severidade": "media",
+   "trecho": "3. Ambas renunciaram ao mandato em 01/08/2023 (Evento 211 dos autos de origem), com prova da comunicação à mandante (notificação de 11/07/2023 e mensagem eletrônica de 31/07/2023),",
+   "problema": "Imprecisão cronológica: 01/08/2023 é a data da petição que noticiou a renúncia aos autos (Ev. 211); a renúncia foi comunicada à mandante antes (notificação extrajudicial de 11/07/2023 e e-mail de 31/07/2023). O texto sugere que a renúncia ocorreu em 01/08 e que a comunicação anterior é 'prova' de algo posterior, o que é incoerente.",
+   "correcao": "3. Ambas comunicaram aos autos a renúncia ao mandato em 01/08/2023 (Evento 211 dos autos de origem), com prova da prévia comunicação à mandante (notificação extrajudicial de 11/07/2023 e mensagem eletrônica de 31/07/2023),"
+  },
+  {
+   "severidade": "media",
+   "trecho": "A procuração atual da apelante e a Sétima Alteração do Contrato Social já foram juntadas com aquela manifestação (Docs. 2 e 3), aos quais a apelante se reporta.",
+   "problema": "A remissão 'protocolada nesta data' é insuficiente para localizar a peça no caderno recursal; como esta petição será protocolada DEPOIS da principal, o número do evento já será conhecido e deve ser indicado (o laudo de auditoria recomenda 'procuração juntada no evento __'). O mesmo vale para os parágrafos 5 e 11.",
+   "correcao": "A procuração atual da apelante e a Sétima Alteração do Contrato Social já foram juntadas com aquela manifestação (Evento [CONFERIR NO EPROC: número do evento da petição de cumprimento do Evento 25], Docs. 2 e 3), aos quais a apelante se reporta."
+  },
+  {
+   "severidade": "media",
+   "trecho": "@@ São José/SC, 2 de setembro de 2026.",
+   "problema": "A data deve coincidir com a do protocolo, que os laudos recomendam para 03/09/2026 (após a peça principal); o texto repete 'protocolada nesta data' três vezes, de modo que qualquer descompasso gera contradição interna. Além disso, a norma forense grafa o dia com dois algarismos, em coerência com as demais datas da peça (01/08/2023, 22/01/2025).",
+   "correcao": "@@ São José/SC, [CONFERIR: data do protocolo — 03 de setembro de 2026]."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "11. A procuração e o ato constitutivo da apelante constam dos Docs. 2 e 3 da petição de cumprimento do despacho do Evento 25, protocolada nesta data, aos quais se reporta; se necessário, serão reapresentados.",
+   "problema": "Redundante com o parágrafo 1, que já contém a mesma informação e a mesma remissão. A repetição alonga a peça sem acrescentar nada; basta manter a ressalva de reapresentação.",
+   "correcao": "11. Os instrumentos referidos no item 1 (procuração e ato constitutivo) serão reapresentados, se assim se entender necessário."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "## II — Os fatos",
+   "problema": "Inconsistência na titulação dos capítulos: I usa 'Do objeto...', II e III usam 'Os fatos' / 'O direito' (sem 'Do/Dos'), IV usa 'Pedidos'. O padrão forense e a coerência interna pedem forma única.",
+   "correcao": "## II — Dos fatos"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "## III — O direito",
+   "problema": "Mesma inconsistência de titulação (ver achado anterior).",
+   "correcao": "## III — Do direito"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "## IV — Pedidos",
+   "problema": "Mesma inconsistência de titulação.",
+   "correcao": "## IV — Dos pedidos"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "6. O cadastro deste grau grafa a apelante como \"EIRELI\". A forma societária é \"Ltda.\" desde a Sétima Alteração Contratual (JUCESC, 08/06/2021),",
+   "problema": "O ato é nomeado de duas formas na peça ('Sétima Alteração do Contrato Social' no item 1 e 'Sétima Alteração Contratual' aqui). Uniformizar pela denominação usada no dossiê e nas demais peças (Doc. 3).",
+   "correcao": "6. O cadastro deste grau grafa a apelante como \"EIRELI\". A forma societária é \"Ltda.\" desde a Sétima Alteração do Contrato Social (JUCESC, 08/06/2021),"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "c) a retificação do cadastro da apelante para a razão social \"Antunelli e Antunelli Instituição de Idosos Ltda.\", CNPJ 02.145.891/0001-08.",
+   "problema": "A linha 'Ref.' do cabeçalho fala em 'denominação da apelante' e o pedido fala em 'razão social'; para sociedade limitada o termo técnico é 'denominação social' (CC, art. 1.158). Uniformizar. Falta também a alínea de comunicação à origem, já que a grafia 'EIRELI' pode constar dos dois registros.",
+   "correcao": "c) a retificação do cadastro da apelante para a denominação social \"Antunelli e Antunelli Instituição de Idosos Ltda.\", CNPJ 02.145.891/0001-08, com comunicação ao juízo de origem para igual anotação."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda.",
+   "problema": "O cabeçalho não traz o CNPJ da apelante, que só aparece na alínea 'c'. Como a peça pede exatamente a correção da identificação da parte no cadastro, convém que a identificação completa conste desde a autuação da petição.",
+   "correcao": "@@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda. (CNPJ 02.145.891/0001-08)"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "1. Esta petição não tem prazo e não se confunde com a manifestação de cumprimento do despacho do Evento 25, protocolada nesta data.",
+   "problema": "'Não tem prazo' é registro coloquial; a forma culta é 'não está sujeita a prazo'. A remissão 'protocolada nesta data' deve indicar o evento (ver achado sobre o parágrafo 1).",
+   "correcao": "1. Esta petição não está sujeita a prazo e não se confunde com a manifestação de cumprimento do despacho do Evento 25, protocolada nesta data (Evento [CONFERIR NO EPROC])."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "o subscritor está habilitado nos dois graus, subscreveu todos os atos da apelante desde o Evento 257 e tem procuração atual nos autos, juntada nesta data.",
+   "problema": "Repetição sonora 'subscritor ... subscreveu' e afirmação absoluta ('todos os atos') que não precisa ser feita; basta indicar que os atos praticados desde o Ev. 257 foram firmados por ele.",
+   "correcao": "o subscritor está habilitado nos dois graus, firmou os atos praticados pela apelante desde o Evento 257 e tem procuração atual nos autos, juntada nesta data (Evento [CONFERIR NO EPROC])."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ **Gabriel Fabrízio do Espírito Santo**\n@@ OAB/SC 53.040",
+   "problema": "O bloco de assinatura traz apenas nome e OAB; embora o endereço e o e-mail constem do parágrafo 8, a praxe forense e o próprio objeto da peça (intimação exclusiva) recomendam repetir e-mail e referência ao instrumento de mandato no fecho.",
+   "correcao": "@@ **Gabriel Fabrízio do Espírito Santo**\n@@ OAB/SC 53.040 — gfdoes@gmail.com\n@@ Procuração: Doc. 2 do Evento [CONFERIR NO EPROC]"
+  }
+ ]
+}

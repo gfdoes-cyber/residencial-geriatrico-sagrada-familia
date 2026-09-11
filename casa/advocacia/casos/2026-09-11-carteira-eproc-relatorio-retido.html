@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Carteira de processos — relatório retido — Espírito Santo Advocacia</title>
+<style>
+@page { size: A4; margin: 2.3cm 3cm 1.8cm 3cm; }
+* { box-sizing: border-box; }
+body, div, li, td { orphans: 2; widows: 2; }
+
+body { font-family: 'Times New Roman', Times, serif; font-size: 12pt;
+       line-height: 1.35; text-align: justify; color: #000; margin: 0;
+       hyphens: auto; -webkit-hyphens: auto; }
+
+/* parágrafo: recuo de 1ª linha, sem espaço entre parágrafos */
+p { text-indent: 2cm; margin: 0; orphans: 2; widows: 2; }
+p.flush { text-indent: 0; margin: 0; }
+p.center { text-align: center; text-indent: 0; margin: 0; }
+/* parágrafo de até 3 linhas não se quebra: ou cabe, ou vai inteiro */
+p.curto, li.curto { page-break-inside: avoid; break-inside: avoid; }
+/* "Nestes termos", data e assinatura colam no texto que os precede */
+p.fecho { page-break-before: avoid; page-break-after: avoid; }
+
+/* títulos — nunca no pé da página */
+h1.sec { font-size: 12pt; font-weight: bold; text-align: left; text-indent: 0;
+         margin: 18pt 0 10pt 0; color: #1F3864;
+         border-bottom: 0.6pt solid #B8C4D4; padding-bottom: 2pt;
+         page-break-after: avoid; page-break-inside: avoid; }
+h2.sub { font-size: 12pt; font-weight: bold; text-align: left; text-indent: 0;
+         margin: 15pt 0 8pt 0; color: #2E5077;
+         page-break-after: avoid; page-break-inside: avoid; }
+h3.subsub { font-size: 12pt; font-weight: bold; font-style: italic; text-align: left;
+            text-indent: 0; margin: 13pt 0 7pt 0;
+            page-break-after: avoid; page-break-inside: avoid; }
+
+/* citação em bloco — as ÚNICAS marcas são recuo e fonte menor */
+p.cit { font-family: Charter, 'Bitstream Charter', Georgia, serif; font-size: 11pt;
+        line-height: 1.3; margin: 10pt 0 10pt 3cm; text-indent: 0;
+        orphans: 2; widows: 2; }
+
+ul { margin: 0; padding-left: 2cm; }
+li { margin: 0 0 2pt 0; text-align: justify; }
+
+/* JANELAS SUSPENSAS — sóbrias, sem saturação. Nunca marca-texto. */
+.jan { border: 0.6pt solid; border-left-width: 3pt; border-radius: 2pt;
+       padding: 7pt 10pt 6pt 10pt; margin: 10pt 0 12pt 0; text-align: justify;
+       page-break-inside: avoid; text-indent: 0; }
+.jan p { text-indent: 0; margin: 0 0 4pt 0; }
+.jan p:last-child { margin: 0; }
+.jan .jrot { display: block; font-size: 10pt; font-weight: bold; letter-spacing: 0.3pt;
+             text-transform: uppercase; margin: 0 0 4pt 0; }
+.jan.qualif { background: #F4F6FA; border-color: #C3CDDE; border-left-color: #1F3864;
+              margin-left: 2.55cm; }
+.jan.qualif .jrot { color: #1F3864; }
+.jan.cita { background: #F7F7F4; border-color: #DCDCD4; border-left-color: #6E6E62;
+            margin-left: 2.55cm; font-family: Charter, Georgia, serif; font-size: 11pt; }
+.jan.cita .jrot { color: #1F3864; }
+.jan.tempo { background: #F5F7FA; border-color: #CBD4E0; border-left-color: #2E5077; }
+.jan.tempo .jrot { color: #2E5077; }
+.jan.calc { background: #FBF7F0; border-color: #E0D5C0; border-left-color: #8A6D3B; }
+.jan.calc .jrot { color: #8A6D3B; }
+.jan.dout { background: #F4F7F1; border-color: #CDD9C4; border-left-color: #4A6B3A; }
+.jan.dout .jrot { color: #4A6B3A; }
+/* janela longa: pode partir entre páginas, mas nunca no meio de um parágrafo */
+.jan.longa { page-break-inside: auto; }
+.jan.longa > p, .jan.longa li { page-break-inside: avoid; }
+
+/* quadros */
+table.q { width: 100%; border-collapse: collapse; margin: 10pt 0 12pt 0;
+          font-size: 11pt; line-height: 1.3; page-break-inside: avoid; }
+table.q th { background: #EDF0F5; color: #1F3864; font-weight: bold; text-align: left;
+             border: 0.6pt solid #B8C4D4; padding: 4pt 6pt; }
+table.q td { border: 0.6pt solid #D5DCE6; padding: 4pt 6pt; text-align: left;
+             vertical-align: top; }
+
+/* prova recortada — imagem nunca vem sozinha: sempre com legenda */
+figure.prova { margin: 10pt 0 12pt 0; padding: 0; text-align: center;
+               page-break-inside: avoid; }
+figure.prova img { max-width: 100%; height: auto; border: 0.6pt solid #B8B8B0; }
+figure.prova figcaption { font-size: 9pt; line-height: 1.3; color: #3A3A34;
+                          text-align: left; text-indent: 0; margin: 4pt 0 0 0; }
+figure.prova figcaption .fig { font-weight: bold; color: #1F3864; }
+
+/* assinatura */
+.assin { margin: 26pt 0 0 0; text-align: center; page-break-inside: avoid; }
+.assin p { text-indent: 0; margin: 0; text-align: center; line-height: 1.35; }
+</style>
+<style>
+/* adendo desta peça: quadro longo pode partir entre linhas (nunca no meio de uma), com cabeçalho repetido; rótulo de janela longa cola no primeiro item */
+table.q.longa { page-break-inside: auto; }
+table.q.longa tr { page-break-inside: avoid; break-inside: avoid; }
+table.q.longa thead { display: table-header-group; }
+.jan.longa .jrot { page-break-after: avoid; break-after: avoid; }
+</style>
+</head>
+<body>
+
+<p class="center"><b>ESPÍRITO SANTO ADVOCACIA</b></p>
+<p class="center">Relatório retido e pedido ao cliente</p>
+<p class="center"><b>Carteira de processos do procurador no eproc/TJSC</b></p>
+<p class="center">Estado em 11/09/2026 — registro interno da casa</p>
+<p class="flush">&nbsp;</p>
+
+<p>O pedido foi analisar <b>todos os processos do escritório</b>, a partir do relatório de processos do procurador no eproc de 1º grau do TJSC. O relatório <b>não pôde ser aberto</b> nesta sessão, e nenhum dos autos foi lido. Por isso este documento é <b>retido</b>: não contém parecer de mérito sobre processo algum. O que ele faz é o primeiro artefato que a casa exige de todo caso, pela regra do portador: a ficha do que já se sabe, com as coordenadas de onde cada dado foi lido, os campos que ficam vazios e a lista do que o cliente precisa entregar para que a análise saia.</p>
+
+<h1 class="sec">I. Por que o relatório está retido</h1>
+
+<p>A rota até o eproc está fechada por decisão da própria casa, em três camadas. A política de rede do ambiente da nuvem bloqueia o domínio <i>eproc1g.tjsc.jus.br</i> na saída, como registra o mapa da sessão. As permissões da sessão negam expressamente as chamadas ao eproc por curl e wget, para que ninguém gaste turno redescobrindo o bloqueio. E, mesmo com a rede aberta, o relatório de processos do procurador só existe dentro da sessão autenticada do advogado: o link traz um <i>hash</i> de sessão e exige o login pessoal do Gabriel, com senha e segundo fator, ato que a assistente nunca pratica.</p>
+
+<p>Há um detalhe que muda o alcance do pedido. O link informado é do <b>1º grau</b>. A apelação da ACP e o processo 5026537-50 vivem no <b>2º grau</b>, que tem relatório próprio. "Todos os processos do escritório" exige, portanto, <b>dois relatórios</b>, um de cada grau, e não um só.</p>
+
+<p>Sem os autos, a leitura integral não acontece, e leitura parcial não é análise. Nada do que segue é parecer: é o inventário do que a casa já registrou, para que o trabalho comece do ponto em que parou, e não do zero.</p>
+
+<h1 class="sec">II. O que a casa já sabe da carteira</h1>
+
+<p>Foi feita uma varredura de todos os números no padrão CNJ em todos os arquivos do repositório reunido em 06/09/2026. Onze números apareceram. Quatro são processos em que o escritório atua ou atuou; sete são precedentes citados em referências de forma da peça, e <b>não</b> são processos da casa. A distinção importa para que ninguém os confunda ao cruzar com o relatório do eproc.</p>
+
+<table class="q longa">
+<thead><tr><th>Processo</th><th>Vetor</th><th>Órgão e fase</th><th>Estado em 11/09/2026</th><th>Onde foi lido</th></tr></thead>
+<tbody>
+<tr><td>0900193-90.2016.8.24.0064 (ACP)</td><td>Antunelli e Antunelli</td><td>TJSC, 2ª Câmara de Direito Público, Gab. 03, Des. Carlos Adilson Silva; apelação distribuída em 15/07/2026</td><td>Prazo do Ev. 25/27 venceu em 04/09/2026; protocolo do cumprimento <b>VAZIO</b></td><td>Auditoria de 02/09/2026, seção 1; dossiê, item 1</td></tr>
+<tr><td>5049926-11.2026.8.24.0000 (incidente)</td><td>Antunelli e Antunelli</td><td>TJSC, mesmo gabinete; pedido de efeito suspensivo</td><td><b>Encerrado</b>: não conhecido em 09/06/2026, trânsito em 04/08/2026</td><td>Dossiê, item 2; auditoria, seção 1</td></tr>
+<tr><td>5026537-50.2020.8.24.0018</td><td><b>VAZIO</b></td><td>2º grau (inferido do link); câmara <b>VAZIO</b></td><td>Parecer <b>retido</b> desde 04/09/2026; número diverge do "5001125" da branch de trabalho</td><td>Parecer retido de 04/09/2026</td></tr>
+<tr><td>5007704-35.2023.8.24.0064</td><td>Gabriel, pessoa física (causa própria, segundo o acervo de julho)</td><td>Unidade 0064, a mesma da ACP; grau atual <b>VAZIO</b></td><td>Apelação do Ev. 118 protocolada em 26/08/2025; janela de recurso especial e extraordinário estimada para 20 e 21/07/2026 no estado de 24/07; nada apurado depois: <b>VAZIO</b></td><td>Acervo de 30/07 (superado): CLAUDE.md, linha 10; STATUS.md, linha 12; referência tipográfica de 20/08/2026, linha 76</td></tr>
+</tbody>
+</table>
+
+<p class="flush"><b>Não são processos da casa</b> (precedentes citados nas referências de forma): 5052490-98.2020.8.24.0023, 5010774-94.2022.8.24.0064, 5008328-65.2023.8.24.0038, 0301033-63.2016.8.24.0028, 0020701-42.2005.8.24.0008, 5034526-34.2025.8.24.0018 e 5051465-51.2022.8.24.0000. Os dois últimos aparecem no dossiê da ACP como jurisprudência, não como autos do escritório.</p>
+
+<p>O acervo de 30/07/2026 registra ainda duas demandas extrajudiciais de consumo. Não são processos do eproc e ficam fora deste relatório. E o próprio acervo está superado pelas regras posteriores da casa: serve aqui como história do que se sabia, não como fonte de estado atual.</p>
+
+<h1 class="sec">III. Estado de cada processo</h1>
+
+<h2 class="sub">III.1 ACP 0900193-90.2016.8.24.0064 — o processo com prazo vencido e desfecho desconhecido</h2>
+
+<p>É o único processo com dossiê, auditoria e peças na casa. Apelante: Antunelli e Antunelli Instituição de Idosos Ltda. Apelado: Ministério Público de Santa Catarina. Litisconsorte: Município de São José, que também apelou (1º grau, Ev. 288). A sentença de 21/04/2026 impôs 65 obrigações de fazer com multa diária, e a apelação da Antunelli suspende sua eficácia enquanto pende, como o próprio incidente encerrado reconheceu.</p>
+
+<div class="jan tempo longa">
+  <span class="jrot">Linha do tempo — do despacho do Ev. 25 ao estado de hoje</span>
+  <p><b>26/08/2026</b> — despacho do relator: 5 dias para comprovar os pressupostos da gratuidade ou recolher o preparo, sob pena de deserção (2º grau, Ev. 25); intimação expedida com termo final 04/09/2026, 23h59min59s (Ev. 27).</p>
+  <p><b>28/08/2026</b> — publicação no DJEN (Ev. 29); prazo corre de 31/08 a 04/09/2026 (dossiê, item 6).</p>
+  <p><b>02/09/2026</b> — a Seção de Custas altera a tarja e gera a guia de preparo (Ev. 31) e o link de pagamento (Ev. 32); pagamento de R$ 720,00 informado pelo advogado, comprovante não visto por nenhuma sessão (dossiê, item 5).</p>
+  <p><b>02/09/2026</b> — três peças preparadas: cumprimento do Ev. 25, procuração com ratificação e regularização do cadastro (pasta do caso, README).</p>
+  <p><b>04/09/2026</b> — termo final do prazo. Protocolo: <b>VAZIO</b>. Nenhum registro de evento ou comprovante em lugar nenhum da casa (casa/README.md, item 1.1).</p>
+  <p><b>06/09/2026</b> — conferência das peças: oito marcações internas "[CONFERIR …]" visíveis no DOCX e no PDF, metadado de produção automatizada não limpo, tipografia revogada (casa/README.md, item 1.2).</p>
+  <p><b>11/09/2026</b> — este relatório. Eproc inalcançável; o estado do protocolo continua VAZIO.</p>
+</div>
+
+<p>O campo que decide tudo neste processo é um só: <b>houve protocolo até 04/09/2026?</b> Se houve, o próximo marco é o despacho do relator sobre o preparo e a pauta, e cabe ver qual versão das peças subiu, porque as marcações internas não foram retiradas. Se não houve, o prazo é perdido e não se apaga: o dano a medir é a deserção anunciada no despacho, e o remédio se levanta sobre os autos, a partir de dois fatos já documentados: o pagamento dentro do prazo em 02/09 e o impedimento sistêmico da guia tarjada, provado pelos e-mails com a Seção de Custas.</p>
+
+<h2 class="sub">III.2 Incidente 5049926-11.2026.8.24.0000 — encerrado</h2>
+
+<p>Pedido de efeito suspensivo não conhecido em 09/06/2026, porque a apelação já suspende a sentença por força de lei; trânsito em julgado em 04/08/2026 e custas do incidente baixadas em R$ 0,00 (dossiê, item 2). Não há ato pendente. Deve constar no relatório do eproc como baixado; se aparecer com prazo aberto, é anomalia a apurar.</p>
+
+<h2 class="sub">III.3 Processo 5026537-50.2020.8.24.0018 — retido desde 04/09/2026, com o número em dúvida</h2>
+
+<p>O link informado em 04/09 era da árvore de documentos do 2º grau. Nenhum campo da ficha foi preenchido: comarca de origem, classe, partes, vetor, câmara, decisão a impugnar, intimação e prazo estão todos <b>VAZIOS</b>. A branch de trabalho aberta para essa demanda citava o número <b>5001125</b>, que é outro processo. Qual dos dois é o alvo continua sem resposta há uma semana. Tratando-se de 2º grau, há risco concreto de prazo recursal em curso, e prazo não apurado não é prazo inexistente.</p>
+
+<h2 class="sub">III.4 Processo 5007704-35.2023.8.24.0064 — o processo de que a casa menos sabe</h2>
+
+<p>O acervo de julho o classifica como causa própria do Gabriel, pessoa física. O estado de 24/07/2026 estimava a janela de recurso especial e extraordinário para 20 e 21/07/2026 e mandava conferir "só no eproc logado". A referência tipográfica de 20/08/2026 registra uma apelação no Ev. 118, protocolada em 26/08/2025 e subscrita pelo dr. Gabriel Cilos Vargas, OAB/SC 68.053, sem dizer de que lado. Depois disso, nada. Fase, grau, órgão, prazos e desfecho da janela de julho: <b>VAZIOS</b>. É o processo em que a distância entre "nada a fazer" e "prazo perdido" é maior, e a casa não sabe qual dos dois é o caso.</p>
+
+<h1 class="sec">IV. Prazos — itens abertos</h1>
+
+<p>Todo ato com prazo entra como item aberto, com a data-fonte e a peça devida. Prazo não apurável entra vazio com a pendência escrita, nunca chutado.</p>
+
+<table class="q longa">
+<thead><tr><th>Processo</th><th>Ato</th><th>Data-fonte</th><th>Prazo final</th><th>Peça devida</th><th>Responsável</th></tr></thead>
+<tbody>
+<tr><td>ACP 0900193-90</td><td>Cumprimento do Ev. 25 (comprovar ou recolher)</td><td>DJEN 28/08/2026 (Ev. 29); Ev. 27</td><td><b>04/09/2026, vencido</b></td><td>Petição de cumprimento com guia e comprovante (peça 01)</td><td>Gabriel: informar se protocolou e o número do evento</td></tr>
+<tr><td>ACP 0900193-90</td><td>Baixa das renunciantes, intimação exclusiva e razão social</td><td>Sem prazo legal; data interna 08/09/2026 (auditoria, Apêndice C)</td><td>VAZIO — não apurável se foi feita</td><td>Peça 03</td><td>Gabriel</td></tr>
+<tr><td>ACP 0900193-90</td><td>Vigilância do DJEN e do painel: despacho sobre o preparo; pauta; intimação para sanar</td><td>Permanente desde 08/09/2026</td><td>Pauta: objeção ou sustentação até 2 dias úteis antes da sessão; sanar: 5 dias úteis</td><td>Conforme o ato</td><td>Gabriel (radar no Mac)</td></tr>
+<tr><td>5026537-50</td><td>Eventual recurso no 2º grau</td><td>VAZIO</td><td><b>VAZIO</b> — pendência: os autos e a intimação</td><td>VAZIO</td><td>Gabriel: confirmar o número e entregar o ZIP</td></tr>
+<tr><td>5007704-35</td><td>Recurso especial e extraordinário (janela estimada em julho)</td><td>VAZIO</td><td><b>VAZIO</b> — pendência: estado atual do processo</td><td>VAZIO</td><td>Gabriel: informar o desfecho da janela de julho</td></tr>
+<tr><td>Carteira inteira</td><td>Todo prazo aberto nos demais processos</td><td>VAZIO</td><td><b>VAZIO</b> — pendência: relatórios do 1º e do 2º grau</td><td>VAZIO</td><td>Gabriel</td></tr>
+</tbody>
+</table>
+
+<h1 class="sec">V. Pedido ao cliente — o que precisa chegar para a análise sair</h1>
+
+<p>A lista abaixo é o pedido, na ordem em que cada item destrava o trabalho.</p>
+
+<div class="jan calc longa">
+  <span class="jrot">Ordem de atos — o que entregar e como</span>
+  <p><b>1. Os dois relatórios do eproc, em arquivo.</b> Logado, abrir o relatório do 1º grau (o link informado) e o do 2º grau e salvar cada um em PDF pela impressão do navegador, com a lista completa e as colunas de situação e prazo. Anexar os dois nesta conversa: sem eles, "todos os processos" não tem conteúdo verificável.</p>
+  <p><b>2. O vetor de cada processo.</b> Ao lado de cada número, dizer se é pessoa física, advocacia ou Antunelli e Antunelli. A casa não cruza registros das duas empresas nem da pessoa física, e essa separação começa na ficha.</p>
+  <p><b>3. Os autos integrais dos processos a analisar.</b> Em cada um: Download Completo → Baixar Todas as Partes (ZIP); o link expira em 72 horas. Anexar o ZIP ou o PDF integral. Processo sem autos fica retido, como os dois de hoje.</p>
+  <p><b>4. Os prazos abertos.</b> A tela de prazos do eproc, ou a lista de intimações pendentes com a data-limite de cada uma. Decisão só do Gabriel: abrir uma intimação pendente dá ciência e dispara a contagem.</p>
+  <p><b>5. ACP 0900193-90:</b> o número do evento do protocolo da peça 01 e o comprovante, ou a confirmação de que não houve protocolo; a situação da guia do Ev. 31 na aba Custas; e se a peça 03 subiu.</p>
+  <p><b>6. Processo 5026537-50:</b> confirmar se o alvo é ele ou o 5001125, e entregar o ZIP do correto.</p>
+  <p><b>7. Processo 5007704-35:</b> dizer o que aconteceu na janela de julho e em que fase o processo está hoje.</p>
+</div>
+
+<p>Há uma rota que dispensa anexar arquivo por arquivo: a sessão que roda no Mac e aparece no app por Remote Control. Ali o eproc, o Chrome logado, os gates e o radar funcionam, e a leitura integral se faz direto do vault. Abre-se com duplo clique em <i>scripts/assumir-o-mac.command</i>, ou com o comando registrado no mapa da sessão. Abrir a política de rede ao eproc é decisão do Gabriel, mas não resolve sozinha: o relatório e os autos continuam atrás da credencial dele.</p>
+
+<h1 class="sec">VI. O que foi conferido e o que não foi</h1>
+
+<table class="q longa">
+<thead><tr><th>O que</th><th>Como</th><th>Resultado</th></tr></thead>
+<tbody>
+<tr><td>Alcance do eproc a partir desta sessão</td><td>Mapa da sessão e permissões do ambiente</td><td>Bloqueado por política e por permissão negada de propósito; não se tentou contornar</td></tr>
+<tr><td>Inventário de números CNJ</td><td>Varredura de todos os arquivos do repositório</td><td>Onze números: quatro processos da casa, sete precedentes citados</td></tr>
+<tr><td>Estado dos quatro processos</td><td>Dossiê, auditoria e checklist da ACP; mapa de 06/09; parecer retido de 04/09; acervo de 30/07</td><td>Reproduzido com as coordenadas; nada relido na fonte; o resto é VAZIO</td></tr>
+<tr><td>Se a ACP foi protocolada; teor dos Ev. 18, 23, 25, 31 e 32; comprovante do preparo</td><td>—</td><td><b>Não conferido</b>: exige o eproc e a credencial do Gabriel</td></tr>
+<tr><td>Dispositivos e súmulas mencionados nos registros da casa</td><td>—</td><td><b>Não conferidos</b> na fonte oficial; por isso não entram como fundamento</td></tr>
+<tr><td>Lista real de processos do procurador</td><td>—</td><td><b>Não conferida</b>: é o objeto do pedido do item V</td></tr>
+</tbody>
+</table>
+
+<div style="page-break-inside: avoid; break-inside: avoid;">
+<p>Conferido o escopo contra a entrega: a análise <b>não</b> saiu, porque nenhum relatório e nenhum auto chegou. Saíram o inventário, os campos vazios visíveis, os prazos abertos e o pedido ao cliente. O trabalho recomeça com os arquivos do item V, ou com a sessão do Mac aberta.</p>
+
+<p class="fecho center">São José/SC, 11 de setembro de 2026.</p>
+</div>
+
+</body>
+</html>

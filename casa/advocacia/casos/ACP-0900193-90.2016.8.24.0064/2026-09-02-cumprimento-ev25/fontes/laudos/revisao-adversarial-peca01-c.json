@@ -1,0 +1,107 @@
+{
+ "veredito": "corrigir",
+ "findings": [
+  {
+   "severidade": "alta",
+   "trecho": "d) a juntada da procuração (Doc. 2) e do ato constitutivo (Doc. 3), com a anotação do mandato e a atualização do cadastro da apelante quanto à denominação (Antunelli e Antunelli Instituição de Idosos Ltda.), bem como a juntada dos documentos do Doc. 4;",
+   "problema": "Incoerência entre as peças. A estratégia fixada reserva a retificação da razão social (\"EIRELI\" → \"Ltda.\") à peça separada (03-regularizacao-cadastro-intimacao-exclusiva.md, alínea \"c\"), e o laudo a9e1bfdd lista, entre o que a peça principal NÃO deve conter, \"pedidos de retificação cadastral ampla\". A alínea \"d\" repete o mesmo pedido que será protocolado, no mesmo dia, na outra petição — duplicidade que desvia o foco (preparo e mandato) e pode gerar decisões sobrepostas ou contraditórias sobre o cadastro. A alínea também acumula três objetos distintos (Docs. 2/3, cadastro, Doc. 4) numa só frase.",
+   "correcao": "d) a juntada da procuração (Doc. 2) e do ato constitutivo da apelante (Doc. 3), com a anotação do mandato no cadastro de procuradores, e a juntada dos documentos que compõem o Doc. 4;"
+  },
+  {
+   "severidade": "media",
+   "trecho": "17. O subscritor declara autênticas as cópias digitalizadas que acompanham esta petição (Lei n. 11.419/2006, art. 11, § 1º; CPC, art. 425, IV).",
+   "problema": "Inciso errado. O art. 425, IV, do CPC trata de \"cópias reprográficas de peças do próprio processo judicial declaradas autênticas pelo advogado\"; as reproduções digitalizadas de documentos públicos ou particulares juntadas por advogado estão no inciso VI do mesmo artigo (\"ressalvada a alegação motivada e fundamentada de adulteração\"). A guia, o comprovante, o contrato social e os e-mails não são peças do próprio processo. Citação incorreta de dispositivo em peça dirigida ao relator.",
+   "correcao": "17. O subscritor declara autênticas as reproduções digitalizadas que acompanham esta petição, cujos originais permanecem sob sua guarda (Lei n. 11.419/2006, art. 11, § 1º; CPC, art. 425, VI, e § 1º)."
+  },
+  {
+   "severidade": "media",
+   "trecho": "6. O recolhimento é tempestivo e singelo. Formulado o requerimento de gratuidade nas razões recursais (Evento 280; certidão do Evento 23), a apelante estava dispensada",
+   "problema": "Referência ambígua a eventos de cadernos distintos. \"Evento 280\" pertence aos autos de origem (1º grau), enquanto \"Evento 23\" pertence ao caderno recursal (cuja árvore vai só até o Ev. 32). A peça distingue os cadernos nos itens 11 e 13 (\"dos autos de origem\"; \"deste recurso\"), mas não nos itens 6 e 8 nem na alínea \"b\", onde o leitor pode procurar um Evento 280 inexistente neste grau. O mesmo vale para o item 8 (\"formulado no Evento 280\") e para a alínea \"b\" (\"(Evento 280)\").",
+   "correcao": "6. O recolhimento é tempestivo e singelo. Formulado o requerimento de gratuidade nas razões recursais (Evento 280 dos autos de origem; certidão do Evento 23 deste recurso), a apelante estava dispensada de comprovar o preparo no ato da interposição, cabendo ao relator, se o caso, fixar prazo para o recolhimento — que é exatamente o que fez o despacho do Evento 25 (CPC, art. 99, § 7º). Não incide, portanto, o § 4º do art. 1.007 do CPC, que pressupõe recorrente que nada recolheu nem requereu no ato da interposição. Recolhido o preparo no prazo assinado por Vossa Excelência, está afastada a deserção (CPC, art. 1.007, caput).\n\n[No item 8, substituir \"formulado no Evento 280\" por \"formulado no Evento 280 dos autos de origem\"; na alínea \"b\", substituir \"(Evento 280)\" por \"(Evento 280 dos autos de origem)\".]"
+  },
+  {
+   "severidade": "media",
+   "trecho": "com sede na Rua Vergilino Domingos da Silva, n. 1.003, Bairro Serraria, São José/SC, CEP 88.115-170,",
+   "problema": "Qualificação divergente dos documentos que a acompanham. A procuração (Doc. 2) grafa \"n. 1.003 (n. 1.100 no registro da JUCESC), Loteamento Canaã, Bairro Serraria\"; a Sétima Alteração (Doc. 3) e o alvará grafam n. 1.100. A peça principal traz só o n. 1.003, sem o loteamento. Três documentos protocolados juntos com três grafias do mesmo endereço convidam a exame desnecessário da qualificação.",
+   "correcao": "com sede na Rua Vergilino Domingos da Silva, n. 1.003 (n. 1.100 no registro da JUCESC), Loteamento Canaã, Bairro Serraria, São José/SC, CEP 88.115-170,"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "com fundamento no art. 99, § 2º, do Código de Processo Civil e na Súmula 481 do Superior Tribunal de Justiça,",
+   "problema": "As siglas \"CPC\" (a partir do item 2) e \"STJ\" (a partir do item 3) são usadas sem terem sido introduzidas na primeira menção por extenso. Norma culta forense: definir a sigla na primeira ocorrência.",
+   "correcao": "com fundamento no art. 99, § 2º, do Código de Processo Civil (CPC) e na Súmula 481 do Superior Tribunal de Justiça (STJ),"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "## I — O despacho do Evento 25 e a tempestividade desta manifestação",
+   "problema": "Títulos de capítulo sem uniformidade: II, III e V usam a forma \"Da/Do ...\"; I e IV (\"Registro da cronologia\") não. Padronizar.",
+   "correcao": "## I — Do despacho do Evento 25 e da tempestividade desta manifestação\n\n[e, no capítulo IV:] ## IV — Do registro da cronologia"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "4. A guia de preparo recursal de apelação foi emitida pela Seção de Custas Judiciais da Diretoria de Cadastro e Distribuição Processual deste Tribunal em 02/09/2026 (Evento 31), no valor de R$ 720,00 (setecentos e vinte reais), correspondente ao item de recolhimento n. 51010131, calculado pelo sistema com base no Anexo Único da Lei estadual n. 17.654/2018, na tabela vigente para 2026 (Circular CGJ n. 643/2025). Tratando-se de autos eletrônicos, não há porte de remessa e retorno.",
+   "problema": "A afirmação sobre o porte de remessa e retorno é a única do parágrafo sem base legal indicada, embora o CPC a preveja expressamente (art. 1.007, § 3º). Acrescentar a remissão fecha o ponto.",
+   "correcao": "4. A guia de preparo recursal de apelação foi emitida pela Seção de Custas Judiciais da Diretoria de Cadastro e Distribuição Processual deste Tribunal em 02/09/2026 (Evento 31), no valor de R$ 720,00 (setecentos e vinte reais), correspondente ao item de recolhimento n. 51010131, calculado pelo sistema com base no Anexo Único da Lei estadual n. 17.654/2018, na tabela vigente para 2026 (Circular CGJ n. 643/2025). Tratando-se de autos eletrônicos, não há porte de remessa e de retorno a recolher (CPC, art. 1.007, § 3º)."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "7. Se, por qualquer razão, se entender haver dúvida quanto ao valor, à vinculação da guia ao recurso ou à compensação do pagamento, a apelante requer, desde logo,",
+   "problema": "Cacofonia \"Se ... se entender\" (conjunção condicional seguida do pronome apassivador). Redação mais limpa com \"Caso ... se entenda\".",
+   "correcao": "7. Caso, por qualquer razão, se entenda haver dúvida quanto ao valor, à vinculação da guia ao recurso ou à compensação do pagamento, a apelante requer, desde logo, a intimação para complementação ou saneamento no prazo de cinco dias, na forma do art. 1.007, §§ 2º e 7º, do CPC, antes de qualquer consequência processual."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "8. O recolhimento do preparo substituiu, por opção exercida no prazo aberto pelo relator, o requerimento de gratuidade formulado nas razões recursais.",
+   "problema": "Alternância de tratamento: a peça dirige-se ao relator como \"Vossa Excelência\" (itens 1 e 6) e aqui passa à terceira pessoa (\"pelo relator\"). Uniformizar.",
+   "correcao": "8. O recolhimento do preparo substituiu, por opção exercida no prazo assinado por Vossa Excelência, o requerimento de gratuidade formulado nas razões recursais (Evento 280 dos autos de origem)."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "De todo modo, a consequência prevista naquele enunciado limita-se ao ponto — o pedido de gratuidade —, que a apelante desde já abandona.",
+   "problema": "\"Abandona\" é vocábulo coloquial para ato processual, e \"desde já\" contradiz o item 8, em que a desistência já foi manifestada. Registro culto e coerência interna pedem remissão ao ato já praticado.",
+   "correcao": "De todo modo, a consequência prevista naquele enunciado limita-se ao ponto — o requerimento de gratuidade —, de que a apelante já desistiu expressamente (item 8)."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "o sistema ainda tarjava os itens de preparo da apelante, impedindo a emissão da guia, que só foi gerada pela Seção de Custas Judiciais no mesmo dia, após solicitação do subscritor (Eventos 31 e 32; Doc. 4).",
+   "problema": "\"Tarjava\" é jargão da Cartilha de Custas, opaco para quem não a conhece; \"só\" é coloquial em registro forense. Explicitar o sentido e substituir por \"somente\".",
+   "correcao": "o sistema ainda exibia tarjados — isto é, indisponíveis para emissão — os itens de preparo da apelante, e a guia somente foi gerada pela Seção de Custas Judiciais no mesmo dia, após solicitação do subscritor (Eventos 31 e 32; Doc. 4)."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "A vontade da apelante de recorrer e de defender-se nestes autos nunca foi duvidosa.",
+   "problema": "Frase defensiva que sugere ter havido dúvida sobre a vontade de recorrer, justamente o que a estratégia \"em reforço\" quer evitar sinalizar; é também redundante com \"para que não paire dúvida\" do item 14. O dado útil (sócio único e administrador subscreve) já está na frase anterior. Recomenda-se suprimir ou converter em constatação neutra.",
+   "correcao": "O subscritor atua, portanto, na dupla condição de administrador e de advogado da apelante."
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "14. Em reforço, e para que não paire dúvida quanto à representação da apelante, junta-se procuração atualizada (Doc. 2), outorgada pela sociedade por seu administrador, na forma do art. 75, VIII, do CPC,",
+   "problema": "Pontuação: \"outorgada pela sociedade por seu administrador\" pede vírgulas para separar o agente (sociedade) de quem a presenta (administrador); sem elas, a leitura é ambígua.",
+   "correcao": "14. Em reforço, e para que não paire dúvida quanto à representação da apelante, junta-se procuração atualizada (Doc. 2), outorgada pela sociedade, por seu administrador, na forma do art. 75, VIII, do CPC,"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "a) o recebimento da guia e do comprovante de pagamento (Doc. 1), reconhecendo-se cumprido o despacho do Evento 25 pelo recolhimento tempestivo e integral do preparo, afastada a deserção;",
+   "problema": "O rol de documentos e o item 5 descrevem o Doc. 1 como guia + comprovante + extrato da guia; a alínea \"a\" omite o extrato. Alinhar descrição do pedido com a do documento.",
+   "correcao": "a) o recebimento da guia de preparo, do comprovante de pagamento e do extrato da guia (Doc. 1), reconhecendo-se cumprido o despacho do Evento 25 pelo recolhimento tempestivo e integral do preparo, afastada a deserção;"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda.\n@@ Apelado: Ministério Público do Estado de Santa Catarina",
+   "problema": "Identificação incompleta das partes: o Município de São José é litisconsorte passivo e também apelante (Ev. 288 dos autos de origem); o cabeçalho sugere apelante única. Os laudos recomendam ainda a referência ao relator e ao gabinete (Des. Carlos Adilson Silva, Gab. 03), útil para o encaminhamento interno da petição.",
+   "correcao": "@@ Apelante: Antunelli e Antunelli Instituição de Idosos Ltda.\n@@ Apelante (litisconsorte passivo): Município de São José\n@@ Apelado: Ministério Público do Estado de Santa Catarina\n@@ Relator: Des. Carlos Adilson Silva — Gabinete 03"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "- Doc. 2 — Procuração ad judicia et extra, com cláusula de ratificação;",
+   "problema": "Expressão latina sem itálico, ao contrário do Doc. 2 (\"*ad judicia et extra*\"). Uniformizar a tipografia entre as peças protocoladas juntas.",
+   "correcao": "- Doc. 2 — Procuração *ad judicia et extra*, com cláusula de ratificação;"
+  },
+  {
+   "severidade": "baixa",
+   "trecho": "@@ São José/SC, 2 de setembro de 2026.",
+   "problema": "A data precisa coincidir com a do protocolo efetivo. Os laudos recomendam protocolar em 03/09/2026, e a petição 03 afirma que esta foi \"protocolada nesta data\"; a procuração (Doc. 2) também está datada de 02/09. Se o protocolo ocorrer em 03/09, as três peças devem ser redatadas em conjunto.",
+   "correcao": "@@ São José/SC, 2 de setembro de 2026. [CONFERIR: data do protocolo efetivo — se for 03/09/2026, ajustar também a data da procuração (Doc. 2) e da petição de cadastro, que se reporta a \"nesta data\"]"
+  }
+ ]
+}
