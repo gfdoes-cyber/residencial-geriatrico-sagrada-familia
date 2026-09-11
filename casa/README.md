@@ -132,10 +132,16 @@ credencial dele. O parecer ficou **retido** e saiu o primeiro artefato da regra 
 
 O que ele registra: o inventário dos quatro processos que a casa conhece (ACP 0900193-90 com o
 protocolo de 04/09 ainda VAZIO; incidente 5049926-11 encerrado; 5026537-50 retido e com o número
-em dúvida; 5007704-35 sem estado desde julho), os sete números que são precedentes e não processos
+em dúvida; 5007704-35 com o estado atualizado pelo registro do vigia que chegou no merge de
+11/09), os sete números que são precedentes e não processos
 da casa, os prazos como itens abertos e a lista do que entregar: os relatórios do **1º e do 2º
 grau** em PDF, o vetor de cada processo, o ZIP integral de cada um, a tela de prazos e as três
-respostas pendentes (protocolo da ACP, 5026537 × 5001125, desfecho do 5007704).
+respostas pendentes (protocolo da ACP, 5026537 × 5001125, o ato aguardado do 5007704).
+
+⚠️ O registro `advocacia/rotinas/vigia-djen-5007704.md` traz dados de um processo reservado, e
+este repositório é público (item 1.3). Entra na lista do que a decisão do item 1.3 precisa cobrir.
+Por isso a versão atualizada do relatório de 11/09 e o parecer retido dos dois processos pedidos
+no mesmo dia ficaram fora do repositório, entregues em privado ao Gabriel.
 
 **Próximo ato do Gabriel:** anexar os arquivos do item V do relatório, ou abrir a sessão de
 Remote Control no Mac, onde o eproc responde.
